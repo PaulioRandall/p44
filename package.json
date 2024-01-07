@@ -4,7 +4,7 @@
 	"description": "Svelte package exposing SVG icons crafted using P45.",
 	"type": "module",
 	"license": "MIT",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"keywords": [
 		"svg",
 		"icons",
@@ -19,8 +19,7 @@
 	},
 	"files": [
 		"./index.js",
-		"icons",
-		"!icons/shared"
+		"icons"
 	],
 	"engines": {
 		"node": ">=18",
