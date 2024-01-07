@@ -1,0 +1,47 @@
+{
+	"author": "Paul Williams",
+	"name": "p44",
+	"description": "Svelte package exposing SVG icons crafted using P45.",
+	"type": "module",
+	"license": "MIT",
+	"version": "0.1.0",
+	"keywords": [
+		"svg",
+		"icons",
+		"svelte",
+		"plunder"
+	],
+	"exports": {
+		"./package.json": "./package.json",
+		".": {
+			"svelte": "./index.js"
+		}
+	},
+	"files": [
+		"icons",
+		"!icons/shared"
+	],
+	"engines": {
+		"node": ">=18",
+		"npm": ">=9.8"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/PaulioRandall/p44.git"
+	},
+	"scripts": {
+		"fmt": "prettier --plugin prettier-plugin-svelte --log-level warn --write .",
+		"test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --passWithNoTests",
+		"debug": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand",
+		"commit": "npm run fmt && npm run test && cat ./scripts/ready-to-ship.txt"
+	},
+	"devDependencies": {
+		"jest": "^29.7.0",
+		"p45": "^0.7.0",
+		"prettier": "^3.0.0",
+		"prettier-plugin-svelte": "^3.0.0"
+	},
+	"peerDependencies": {
+		"svelte": "4.x"
+	}
+}
