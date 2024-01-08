@@ -1,7 +1,3 @@
-<script context="module">
-	export const keywords = ['lines', 'chopsticks', 'diverging']
-</script>
-
 <script>
 	import { Line } from 'p45'
 	import { grid, SVG } from './shared'

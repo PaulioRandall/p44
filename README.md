@@ -43,7 +43,7 @@ A separate file containing icon component names mapped to their keywords is avai
 ```js
 import docs from 'p44/docs'
 
-// All exported icon component names.
+// To get icon component names.
 console.log(Object.keys(docs))
 /*
 [
@@ -55,6 +55,7 @@ console.log(Object.keys(docs))
 ]
 */
 
+// All metadata.
 console.log(docs)
 /*
 {
@@ -113,64 +114,76 @@ import { Circle } from 'p44'
 ```svelte
 import { Clock } from 'p44'
 ```
+- **Name**: Clock
+- **Description**: A clock set to approximately ten past ten.
+- **Keywords**: clock, time
 
 ### ConicalFlask
 
 ```svelte
 import { ConicalFlask } from 'p44'
 ```
+- **Name**: Conical Flask
+- **Description**: Conical flask like those used in chemistry.
+- **Keywords**: conical flask, erlenmeyer flask, science, chemistry
 
 ### Crucifix
 
 ```svelte
 import { Crucifix } from 'p44'
 ```
+- **Name**: Crucifix
+- **Keywords**: crucifix, cross, religion
 
 ### Cup
 
 ```svelte
 import { Cup } from 'p44'
 ```
+- **Name**: Cup
+- **Description**: Abstract cup shape without a handle.
+- **Keywords**: cup
 
-### Diagonal
-
-```svelte
-import { Diagonal } from 'p44'
-```
-
-### Diamond
+### DivergingLines
 
 ```svelte
-import { Diamond } from 'p44'
+import { DivergingLines } from 'p44'
 ```
-
-### Diverge
-
-```svelte
-import { Diverge } from 'p44'
-```
+- **Name**: Diverging Lines
+- **Description**: Two diverging or converging lines; dependent on your perspective.
+- **Keywords**: lines, converging, diverging
 
 ### DynamicCircle
 
 ```svelte
 import { DynamicCircle } from 'p44'
 ```
-- **Name**: Circle
+- **Name**: Dymanic Circle
 - **Keywords**: geometry, circle, dot, round
 - **Props**:
-  - **radius:** Any positive number, grid radius is 8
+  - **radius:** Any positive number (grid radius is 8)
 
 ### DynamicHiraShuriken
 
 ```svelte
 import { DynamicHiraShuriken } from 'p44'
 ```
+- **Name**: Dymanic Hira Shuriken
+- **Description**: Hira Shuriken is a type of Japanese throwing star.
+- **Keywords**: geometry, polygon, hirashuriken, star, ninja, weapon, throw
+- **Props**:
+  - **legs:** Any whole number 3 or above (default is 4)
+  - **indent:** Distance up the leg to form inner corner (default is 0.3)
 
 ### DynamicParallelogram
 
 ```svelte
 import { DynamicParallelogram } from 'p44'
 ```
+- **Name**: Dymanic Parallelogram
+- **Keywords**: geometry, polygon, parallelogram, quadrilateral
+- **Props**:
+  - **slope:** Slope angle as a whole number between -8 (left leaning) and 8 (right leaning) (default is 4)
 
 ### DynamicRectangle
 
@@ -189,6 +202,15 @@ import { DynamicRegularPolygon } from 'p44'
 ```svelte
 import { DynamicStar } from 'p44'
 ```
+
+### EdgedDiamond
+
+```svelte
+import { EdgedDiamond } from 'p44'
+```
+- **Name**: Edged Diamond
+- **Description**: Diamond shape without curves.
+- **Keywords**: geometry, polygon, diamond
 
 ### Heart
 

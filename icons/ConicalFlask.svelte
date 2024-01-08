@@ -1,16 +1,10 @@
-<script context="module">
-	export const keywords = [
-		'geometry',
-		'lines',
-		'erlenmeyer flask',
-		'conical',
-		'science',
-	]
-</script>
-
 <script>
 	import { Path, M, L } from 'p45'
 	import { grid, SVG } from './shared'
+
+	//[doc:name] Conical Flask
+	//[doc:alt] Conical flask like those used in chemistry.
+	//[doc:keywords] conical flask, erlenmeyer flask, science, chemistry
 </script>
 
 <SVG {...$$restProps} {grid}>

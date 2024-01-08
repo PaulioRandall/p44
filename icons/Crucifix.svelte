@@ -1,10 +1,9 @@
-<script context="module">
-	export const keywords = ['lines', 'crucifix', 'religion', 'cross']
-</script>
-
 <script>
 	import { Line } from 'p45'
 	import { grid, SVG } from './shared'
+
+	//[doc:name] Crucifix
+	//[doc:keywords] crucifix, cross, religion
 </script>
 
 <SVG {...$$restProps} {grid}>

@@ -1,16 +1,11 @@
-<script context="module">
-	export const keywords = [
-		'geometry',
-		'polygon',
-		'parallelogram',
-		'quadrilateral',
-	]
-</script>
-
 <script>
 	import { Polygon, P45Util } from 'p45'
 	import { grid, SVG } from './shared'
 
+	//[doc:name] Dymanic Parallelogram
+	//[doc:keywords] geometry, polygon, parallelogram, quadrilateral
+
+	//[doc:prop] slope = Slope angle as a whole number between -8 (left leaning) and 8 (right leaning) (default is 4)
 	export let slope = 4
 
 	slope = P45Util.parseNumber(slope)

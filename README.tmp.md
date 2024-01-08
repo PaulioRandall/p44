@@ -43,7 +43,7 @@ A separate file containing icon component names mapped to their keywords is avai
 ```js
 import docs from 'p44/docs'
 
-// All exported icon component names.
+// To get icon component names.
 console.log(Object.keys(docs))
 /*
 [
@@ -55,6 +55,7 @@ console.log(Object.keys(docs))
 ]
 */
 
+// All metadata.
 console.log(docs)
 /*
 {

@@ -1,20 +1,15 @@
-<script context="module">
-	export const keywords = [
-		'geometry',
-		'polygon',
-		'hirashuriken',
-		'star',
-		'ninja',
-		'weapon',
-		'throw',
-	]
-</script>
-
 <script>
 	import { Polygon, Transform, P45Util, P45RegPoly } from 'p45'
 	import { grid, SVG, zipArrays, offsetRegPoly } from './shared'
 
+	//[doc:name] Dymanic Hira Shuriken
+	//[doc:alt] Hira Shuriken is a type of Japanese throwing star.
+	//[doc:keywords] geometry, polygon, hirashuriken, star, ninja, weapon, throw
+
+	//[doc:prop] legs = Any whole number 3 or above (default is 4)
 	export let legs = 4
+
+	//[doc:prop] indent = Distance up the leg to form inner corner (default is 0.3)
 	export let indent = 0.3
 
 	legs = P45Util.parseNumber(legs)

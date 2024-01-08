@@ -1,10 +1,10 @@
-<script context="module">
-	export const keywords = ['geometry', 'lines', 'converging', 'diverging']
-</script>
-
 <script>
 	import { Line } from 'p45'
 	import { grid, SVG } from './shared'
+
+	//[doc:name] Diverging Lines
+	//[doc:alt] Two diverging or converging lines; dependent on your perspective.
+	//[doc:keywords] lines, converging, diverging
 </script>
 
 <SVG {...$$restProps} {grid}>
