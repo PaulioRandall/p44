@@ -4,7 +4,7 @@
 	"description": "Svelte package exposing SVG icons crafted using P45.",
 	"type": "module",
 	"license": "MIT",
-	"version": "0.1.2",
+	"version": "0.2.0",
 	"keywords": [
 		"svg",
 		"icons",
@@ -13,12 +13,15 @@
 	],
 	"exports": {
 		"./package.json": "./package.json",
+		"./keywords.js": "./keywords.js",
+		"./keywords": "./keywords.js",
 		".": {
 			"svelte": "./index.js"
 		}
 	},
 	"files": [
 		"./index.js",
+		"./keywords.js",
 		"icons"
 	],
 	"engines": {
@@ -30,13 +33,14 @@
 		"url": "https://github.com/PaulioRandall/p44.git"
 	},
 	"scripts": {
+		"keywords": "node ./scripts/generate-keywords.js",
 		"fmt": "prettier --plugin prettier-plugin-svelte --log-level warn --write .",
-		"commit": "npm run fmt && cat ./scripts/ready-to-ship.txt"
+		"commit": "npm run fmt && npm run keywords && cat ./scripts/ready-to-ship.txt"
 	},
 	"devDependencies": {
-		"p45": "^0.7.0",
-		"prettier": "^3.0.0",
-		"prettier-plugin-svelte": "^3.0.0"
+		"p45": "0.7.0",
+		"prettier": "3.1.1",
+		"prettier-plugin-svelte": "3.1.2"
 	},
 	"peerDependencies": {
 		"svelte": "4.x"
