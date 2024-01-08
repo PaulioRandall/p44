@@ -1,6 +1,7 @@
 <script context="module">
 	export const keywords = [
 		'media control',
+		'iso',
 		'video',
 		'audio',
 		'rewind',

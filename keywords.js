@@ -183,36 +183,42 @@ export default {
   ],
   "MediaControlEject": [
     "media control",
+    "iso",
     "video",
     "audio",
     "eject"
   ],
   "MediaControlPause": [
     "media control",
+    "iso",
     "video",
     "audio",
     "pause"
   ],
   "MediaControlPlay": [
     "media control",
+    "iso",
     "video",
     "audio",
     "play"
   ],
   "MediaControlRecord": [
     "media control",
+    "iso",
     "video",
     "audio",
     "record"
   ],
   "MediaControlRepeat": [
     "media control",
+    "iso",
     "video",
     "audio",
     "repeat"
   ],
   "MediaControlRewind": [
     "media control",
+    "iso",
     "video",
     "audio",
     "rewind",
@@ -220,18 +226,21 @@ export default {
   ],
   "MediaControlShuffle": [
     "media control",
+    "iso",
     "video",
     "audio",
     "shuffle"
   ],
   "MediaControlSkip": [
     "media control",
+    "iso",
     "video",
     "audio",
     "skip"
   ],
   "MediaControlStop": [
     "media control",
+    "iso",
     "video",
     "audio",
     "stop"

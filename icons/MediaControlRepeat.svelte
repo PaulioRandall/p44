@@ -1,5 +1,5 @@
 <script context="module">
-	export const keywords = ['media control', 'video', 'audio', 'repeat']
+	export const keywords = ['media control', 'iso', 'video', 'audio', 'repeat']
 </script>
 
 <script>
