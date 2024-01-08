@@ -1,10 +1,10 @@
-<script context="module">
-	export const keywords = ['geometry', 'lines', 'triangle']
-</script>
-
 <script>
 	import { Path, M, L } from 'p45'
 	import { grid, SVG } from './shared'
+
+	//[doc:name] Broken Triangle
+	//[doc:alt] A simple triangle broken at the top.
+	//[doc:keywords] broken, triangle, musical instrument
 </script>
 
 <SVG {...$$restProps} {grid}>

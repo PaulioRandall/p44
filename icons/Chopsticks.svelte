@@ -1,10 +1,14 @@
 <script context="module">
-	export const keywords = ['geometry', 'lines', 'chopsticks', 'diverging']
+	export const keywords = ['lines', 'chopsticks', 'diverging']
 </script>
 
 <script>
 	import { Line } from 'p45'
 	import { grid, SVG } from './shared'
+
+	//[doc:name] Chopsticks
+	//[doc:alt] Two lines crossing to form an image of chopsticks.
+	//[doc:keywords] chopsticks, crossing lines
 </script>
 
 <SVG {...$$restProps} {grid}>

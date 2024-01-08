@@ -5,8 +5,11 @@
 <script>
 	import { Circle } from 'p45'
 	import { grid, SVG } from './shared'
+
+	//[doc:name] Circle
+	//[doc:keywords] geometry, circle, dot, round
 </script>
 
 <SVG {...$$restProps} {grid}>
-	<Circle radius="7" ref="P44:Circle" />
+	<Circle radius="7" />
 </SVG>

@@ -1,19 +1,53 @@
 import fs from 'fs'
 import path from 'path'
 
-// Not perfect but does the job.
+// docs.js - Not perfect but does the job.
 
-const listIconFiles = () => {
+let docsMap = {}
+
+for (const f of listIconFiles()) {
+	const { filename, absFilename } = f
+	const name = filename.slice(0, -7)
+	docsMap[name] = parseDocs(filename, absFilename)
+}
+
+// index.js
+
+createOrReplaceFile(
+	'index.js',
+	Object.keys(docsMap)
+		.map((k) => `export { default as ${k} } from './icons/${k}.svelte'`)
+		.join('\n')
+)
+
+// docs.js
+
+createOrReplaceFile(
+	'docs.js',
+	`export default ` + JSON.stringify(docsMap, null, 2)
+)
+
+// README.md
+
+const stringDocs = stringifyDocs(docsMap)
+const readmeFile = path.resolve('./README.tmp.md')
+const tmpReadme = readWholeFile('README.tmp.md', readmeFile)
+const readme = tmpReadme.replace('+++(components)+++', stringDocs)
+createOrReplaceFile('README.md', readme)
+
+// Functions
+
+function listIconFiles() {
 	try {
 		const files = fs.readdirSync('icons')
-		return cleanSvelteIconFiles('icons', files)
+		return listSvelteIconFiles('icons', files)
 	} catch (err) {
 		console.error(err)
 		throw new Error(`'./icons' dir could not be read`)
 	}
 }
 
-const cleanSvelteIconFiles = (dir, files) => {
+function listSvelteIconFiles(dir, files) {
 	return files
 		.filter((filename) => filename.endsWith('.svelte')) //
 		.map((filename) => {
@@ -25,17 +59,78 @@ const cleanSvelteIconFiles = (dir, files) => {
 		})
 }
 
-const readKeywords = (filename, absFilename) => {
+function parseDocs(filename, absFilename) {
+	// For example:
+	//[docs:name] Abc
+	//[docs:alt] Xyz
+	//[docs:keywords] alpha, beta, charlie
+	//[docs:prop] name = description
+	//[docs:slot] name = description
+
+	const docRegex = /\/\/\[doc:([a-z:]+)\](.*)/g
 	const text = readWholeFile(filename, absFilename)
-	const ctxScript = getContextModuleScript(filename, text)
-	return getKeywordExport(filename, ctxScript)
-		.slice(1, -1) //
-		.split(',') //
-		.map((kw) => kw.trim().slice(1, -1).trim()) //
-		.filter((kw) => !!kw) //
+	const docs = {}
+
+	while (true) {
+		const next = docRegex.exec(text)
+		if (!next) {
+			break
+		}
+
+		parseDocString(filename, docs, next[1], next[2])
+	}
+
+	return docs
 }
 
-const readWholeFile = (filename, absFilename) => {
+function parseDocString(filename, docs, name, value) {
+	value = value.trim()
+
+	switch (name) {
+		case 'name':
+			//[docs:name] Abc
+			docs.name = value
+			return
+
+		case 'alt':
+			//[docs:alt] Abc
+			docs.alt = value
+			return
+
+		case 'keywords':
+			//[docs:keywords] alpha, beta, charlie
+			docs.keywords = splitTrimFilter(value, ',')
+			return
+
+		case 'prop':
+			//[docs:prop] name = description
+			const [pName, pDesc] = splitTrimFilter(value, '=')
+			docs.props = docs.props || {}
+			docs.props[pName] = pDesc
+			return
+
+		case 'slot':
+			//[docs:slot] name = description
+			const [sName, sDesc] = splitTrimFilter(value, '=')
+			docs.slots = docs.slots || {}
+			docs.slots[sName] = sDesc
+			return
+
+		default:
+			throw new Error(
+				`${filename}:\n\tI ain't never heard no "${name}" doc property.`
+			)
+	}
+}
+
+function splitTrimFilter(s, delim) {
+	return s
+		.split(delim) //
+		.map((v) => v.trim()) //
+		.filter((v) => !!v)
+}
+
+function readWholeFile(filename, absFilename) {
 	try {
 		return fs.readFileSync(absFilename, { encoding: 'utf-8' })
 	} catch (err) {
@@ -44,41 +139,7 @@ const readWholeFile = (filename, absFilename) => {
 	}
 }
 
-const getContextModuleScript = (filename, text) => {
-	const ctxScript = text.match(
-		/<script\s+context="module"\s*>[\s\S]*?<\/script\s*>/gm //
-	)
-
-	if (!ctxScript || ctxScript.length === 0) {
-		throw new Error(`'${filename}' is missing context='module' script`)
-	}
-
-	return ctxScript[0]
-}
-
-const getKeywordExport = (name, text) => {
-	const keywordExport = text
-		.replace(/[\n\r\t]/g, ' ') //
-		.match(/export\s+const\s+keywords\s*=\s*\[.*\]/gm) //
-
-	if (!keywordExport || !keywordExport[0]) {
-		throw new Error(
-			`'${name}.svelte' is missing 'export const keywords' in context="module"`
-		)
-	}
-
-	const keywordArray = keywordExport[0].match(/\[.*\]?/m)
-
-	if (!keywordArray || !keywordArray[0]) {
-		throw new Error(
-			`'${name}.svelte' has invalid 'export const keywords' in context="module"`
-		)
-	}
-
-	return keywordArray[0]
-}
-
-const createOrReplaceFile = (filename, content) => {
+function createOrReplaceFile(filename, content) {
 	try {
 		fs.writeFileSync(filename, content, { encoding: 'utf-8' })
 	} catch (err) {
@@ -87,27 +148,49 @@ const createOrReplaceFile = (filename, content) => {
 	}
 }
 
-// Map all keywords to their component names
+function stringifyDocs(docs) {
+	return Object.entries(docs) //
+		.map(([name, d]) => {
+			const lines = [`### ${name}`]
+			lines.push('')
 
-let keywordMap = {}
+			stringifyDocsImport(lines, name)
 
-for (const f of listIconFiles()) {
-	const { filename, absFilename } = f
-	const keywords = readKeywords(filename, absFilename)
-	const name = filename.slice(0, -7)
-	keywordMap[name] = keywords
+			if (d.name) {
+				lines.push(`- **Name**: ${d.name}`)
+			}
+
+			if (d.alt) {
+				lines.push(`- **Description**: ${d.alt}`)
+			}
+
+			if (d.keywords) {
+				lines.push(`- **Keywords**: ${d.keywords.join(', ')}`)
+			}
+
+			if (d.props) {
+				stringifyDocsObject(lines, 'Props', d.props)
+			}
+
+			if (d.slots) {
+				stringifyDocsObject(lines, 'Slots', d.slots)
+			}
+
+			lines.push('')
+			return lines.join('\n')
+		}) //
+		.join('\n')
 }
 
-// index.js
+function stringifyDocsImport(lines, name) {
+	lines.push('```svelte')
+	lines.push(`import { ${name} } from 'p44'`)
+	lines.push('```')
+}
 
-const indexContent = Object.keys(keywordMap)
-	.map((name) => {
-		return `export { default as ${name} } from './icons/${name}.svelte'`
+function stringifyDocsObject(lines, name, obj) {
+	lines.push(`- **${name}**:`)
+	Object.entries(obj).forEach(([name, value]) => {
+		lines.push(`  - **${name}:** ${value}`)
 	})
-	.join('\n')
-createOrReplaceFile('index.js', indexContent)
-
-// keyword.js
-
-const keywordsContent = `export default ` + JSON.stringify(keywordMap, null, 2)
-createOrReplaceFile('keywords.js', keywordsContent)
+}
