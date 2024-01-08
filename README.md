@@ -5,3 +5,11 @@
 # P44
 
 Svelte package exposing SVG icons crafted using P45.
+
+**Requires Svelte version 4.**
+
+## Quick Start
+
+```js
+import 
+```

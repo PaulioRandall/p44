@@ -87,7 +87,7 @@ const createOrReplaceFile = (filename, content) => {
 	}
 }
 
-// *** Main ***
+// Map all keywords to their component names
 
 let keywordMap = {}
 
@@ -98,5 +98,16 @@ for (const f of listIconFiles()) {
 	keywordMap[name] = keywords
 }
 
-const content = `export default ` + JSON.stringify(keywordMap, null, 2)
-createOrReplaceFile('keywords.js', content)
+// index.js
+
+const indexContent = Object.keys(keywordMap)
+	.map((name) => {
+		return `export { default as ${name} } from './icons/${name}.svelte'`
+	})
+	.join('\n')
+createOrReplaceFile('index.js', indexContent)
+
+// keyword.js
+
+const keywordsContent = `export default ` + JSON.stringify(keywordMap, null, 2)
+createOrReplaceFile('keywords.js', keywordsContent)

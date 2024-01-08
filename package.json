@@ -33,9 +33,9 @@
 		"url": "https://github.com/PaulioRandall/p44.git"
 	},
 	"scripts": {
-		"keywords": "node ./scripts/generate-keywords.js",
+		"exports": "node ./scripts/generate-exports.js",
 		"fmt": "prettier --plugin prettier-plugin-svelte --log-level warn --write .",
-		"commit": "npm run fmt && npm run keywords && cat ./scripts/ready-to-ship.txt"
+		"commit": "npm run fmt && npm run exports && cat ./scripts/ready-to-ship.txt"
 	},
 	"devDependencies": {
 		"p45": "0.7.0",
