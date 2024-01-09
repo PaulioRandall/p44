@@ -23,7 +23,10 @@ export default {
       "circle",
       "dot",
       "round"
-    ]
+    ],
+    "props": {
+      "radius": "Radius from the center, defaults to 7"
+    }
   },
   "Clock": {
     "name": "Clock",
@@ -68,89 +71,6 @@ export default {
       "diverging"
     ]
   },
-  "DynamicCircle": {
-    "name": "Dymanic Circle",
-    "keywords": [
-      "geometry",
-      "circle",
-      "dot",
-      "round"
-    ],
-    "props": {
-      "radius": "Any positive number, defaults to 7"
-    }
-  },
-  "DynamicHiraShuriken": {
-    "name": "Dymanic Hira Shuriken",
-    "alt": "Hira Shuriken is a type of Japanese throwing star.",
-    "keywords": [
-      "geometry",
-      "polygon",
-      "hirashuriken",
-      "star",
-      "ninja",
-      "weapon",
-      "throw"
-    ],
-    "props": {
-      "legs": "Any whole number 3 or above, defaults to 4",
-      "indent": "Distance up the leg to form inner corner between 0 and 1, defaults to 0.3",
-      "offset": "amount to offset x & y by, defaults to calulated based on number of legs"
-    }
-  },
-  "DynamicParallelogram": {
-    "name": "Dymanic Parallelogram",
-    "keywords": [
-      "geometry",
-      "polygon",
-      "parallelogram",
-      "quadrilateral"
-    ],
-    "props": {
-      "slope": "Slope angle as a whole number between -8 (left leaning) and 8 (right leaning), defaults to 4"
-    }
-  },
-  "DynamicRectangle": {
-    "name": "Dymanic Rectangle",
-    "keywords": [
-      "geometry",
-      "polygon",
-      "rect",
-      "rectangle",
-      "square",
-      "quadrilateral"
-    ],
-    "props": {
-      "wr": "Width Radius between 0 and 8, defaults to 8",
-      "hr": "Height Radius between 0 and 8, defaults to 5"
-    }
-  },
-  "DynamicRegularPolygon": {
-    "name": "Dymanic Regular Polygon",
-    "keywords": [
-      "geometry",
-      "polygon",
-      "regular"
-    ],
-    "props": {
-      "sides": "number of sides as positive integer, defaults to 5",
-      "offset": "amount to offset x & y by, defaults to calulated based on number of sides"
-    }
-  },
-  "DynamicStar": {
-    "name": "Dymanic Star",
-    "alt": "Star shape with the number of legs set by the programmer.",
-    "keywords": [
-      "geometry",
-      "polygon",
-      "star"
-    ],
-    "props": {
-      "legs": "Any whole number 3 or above, defaults to 5",
-      "indent": "Distance up the leg to form inner corner between 0 and 1, defaults to 0.33",
-      "offset": "amount to offset x & y by, defaults to calulated based on number of legs"
-    }
-  },
   "EdgedDiamond": {
     "name": "Edged Diamond",
     "alt": "Diamond shape without curves.",
@@ -180,6 +100,24 @@ export default {
       "regular",
       "hexagon"
     ]
+  },
+  "HiraShuriken": {
+    "name": "Hira Shuriken",
+    "alt": "Hira Shuriken is a type of Japanese throwing star.",
+    "keywords": [
+      "geometry",
+      "polygon",
+      "hira shuriken",
+      "star",
+      "ninja",
+      "weapon",
+      "throw"
+    ],
+    "props": {
+      "legs": "Any whole number 3 or above, defaults to 4",
+      "indent": "Distance up the leg to form inner corner between 0 and 1, defaults to 0.3",
+      "offset": "amount to offset {x,y} by, defaults to calulated based on number of legs"
+    }
   },
   "HorseShoe": {
     "name": "Horseshoe",
@@ -223,13 +161,62 @@ export default {
   "Moon": {},
   "Parabola": {},
   "Parabola2": {},
-  "Parallelogram": {},
-  "Rectangle": {},
-  "RightAngleConcave": {},
+  "Parallelogram": {
+    "name": "Parallelogram",
+    "keywords": [
+      "geometry",
+      "polygon",
+      "parallelogram",
+      "quadrilateral"
+    ],
+    "props": {
+      "slope": "Slope angle as a whole number between -8 (left leaning) and 8 (right leaning), defaults to 4"
+    }
+  },
+  "Rectangle": {
+    "name": "Rectangle",
+    "keywords": [
+      "geometry",
+      "polygon",
+      "rect",
+      "rectangle",
+      "square",
+      "quadrilateral"
+    ],
+    "props": {
+      "wr": "Width Radius (apothem), defaults to 8",
+      "hr": "Height Radius (apothem), defaults to 5"
+    }
+  },
+  "RegularPolygon": {
+    "name": "Regular Polygon",
+    "keywords": [
+      "geometry",
+      "polygon",
+      "regular"
+    ],
+    "props": {
+      "sides": "number of sides as positive integer greater than 2, defaults to 5",
+      "offset": "amount to offset {x,y} by, defaults to calulated based on number of sides"
+    }
+  },
   "RightTriangle": {},
   "Smiley": {},
   "Square": {},
-  "Star": {},
+  "Star": {
+    "name": "Star",
+    "alt": "Star shape with a programmed number of legs and indent.",
+    "keywords": [
+      "geometry",
+      "polygon",
+      "star"
+    ],
+    "props": {
+      "legs": "Any whole number 3 or above, defaults to 5",
+      "indent": "Distance up the leg to form inner corner between 0 and 1, defaults to 0.33",
+      "offset": "amount to offset {x,y} by, defaults to calulated based on number of legs"
+    }
+  },
   "StarOfDavid": {},
   "TeePee": {},
   "Trapezium": {}

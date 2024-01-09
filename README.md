@@ -108,6 +108,8 @@ import { Circle } from 'p44'
 ```
 - **Name**: Circle
 - **Keywords**: geometry, circle, dot, round
+- **Props**:
+  - **radius:** Radius from the center, defaults to 7
 
 ### Clock
 
@@ -153,74 +155,6 @@ import { DivergingLines } from 'p44'
 - **Description**: Two diverging or converging lines; dependent on your perspective.
 - **Keywords**: lines, converging, diverging
 
-### DynamicCircle
-
-```svelte
-import { DynamicCircle } from 'p44'
-```
-- **Name**: Dymanic Circle
-- **Keywords**: geometry, circle, dot, round
-- **Props**:
-  - **radius:** Any positive number, defaults to 7
-
-### DynamicHiraShuriken
-
-```svelte
-import { DynamicHiraShuriken } from 'p44'
-```
-- **Name**: Dymanic Hira Shuriken
-- **Description**: Hira Shuriken is a type of Japanese throwing star.
-- **Keywords**: geometry, polygon, hirashuriken, star, ninja, weapon, throw
-- **Props**:
-  - **legs:** Any whole number 3 or above, defaults to 4
-  - **indent:** Distance up the leg to form inner corner between 0 and 1, defaults to 0.3
-  - **offset:** amount to offset x & y by, defaults to calulated based on number of legs
-
-### DynamicParallelogram
-
-```svelte
-import { DynamicParallelogram } from 'p44'
-```
-- **Name**: Dymanic Parallelogram
-- **Keywords**: geometry, polygon, parallelogram, quadrilateral
-- **Props**:
-  - **slope:** Slope angle as a whole number between -8 (left leaning) and 8 (right leaning), defaults to 4
-
-### DynamicRectangle
-
-```svelte
-import { DynamicRectangle } from 'p44'
-```
-- **Name**: Dymanic Rectangle
-- **Keywords**: geometry, polygon, rect, rectangle, square, quadrilateral
-- **Props**:
-  - **wr:** Width Radius between 0 and 8, defaults to 8
-  - **hr:** Height Radius between 0 and 8, defaults to 5
-
-### DynamicRegularPolygon
-
-```svelte
-import { DynamicRegularPolygon } from 'p44'
-```
-- **Name**: Dymanic Regular Polygon
-- **Keywords**: geometry, polygon, regular
-- **Props**:
-  - **sides:** number of sides as positive integer, defaults to 5
-  - **offset:** amount to offset x & y by, defaults to calulated based on number of sides
-
-### DynamicStar
-
-```svelte
-import { DynamicStar } from 'p44'
-```
-- **Name**: Dymanic Star
-- **Description**: Star shape with the number of legs set by the programmer.
-- **Keywords**: geometry, polygon, star
-- **Props**:
-  - **legs:** Any whole number 3 or above, defaults to 5
-  - **indent:** Distance up the leg to form inner corner between 0 and 1, defaults to 0.33
-  - **offset:** amount to offset x & y by, defaults to calulated based on number of legs
-
 ### EdgedDiamond
 
 ```svelte
@@ -247,6 +181,19 @@ import { Hexagon } from 'p44'
 - **Name**: Hexagon
 - **Description**: Six sided regular polygon.
 - **Keywords**: geometry, polygon, regular, hexagon
+
+### HiraShuriken
+
+```svelte
+import { HiraShuriken } from 'p44'
+```
+- **Name**: Hira Shuriken
+- **Description**: Hira Shuriken is a type of Japanese throwing star.
+- **Keywords**: geometry, polygon, hira shuriken, star, ninja, weapon, throw
+- **Props**:
+  - **legs:** Any whole number 3 or above, defaults to 4
+  - **indent:** Distance up the leg to form inner corner between 0 and 1, defaults to 0.3
+  - **offset:** amount to offset {x,y} by, defaults to calulated based on number of legs
 
 ### HorseShoe
 
@@ -409,18 +356,32 @@ import { Parabola2 } from 'p44'
 ```svelte
 import { Parallelogram } from 'p44'
 ```
+- **Name**: Parallelogram
+- **Keywords**: geometry, polygon, parallelogram, quadrilateral
+- **Props**:
+  - **slope:** Slope angle as a whole number between -8 (left leaning) and 8 (right leaning), defaults to 4
 
 ### Rectangle
 
 ```svelte
 import { Rectangle } from 'p44'
 ```
+- **Name**: Rectangle
+- **Keywords**: geometry, polygon, rect, rectangle, square, quadrilateral
+- **Props**:
+  - **wr:** Width Radius (apothem), defaults to 8
+  - **hr:** Height Radius (apothem), defaults to 5
 
-### RightAngleConcave
+### RegularPolygon
 
 ```svelte
-import { RightAngleConcave } from 'p44'
+import { RegularPolygon } from 'p44'
 ```
+- **Name**: Regular Polygon
+- **Keywords**: geometry, polygon, regular
+- **Props**:
+  - **sides:** number of sides as positive integer greater than 2, defaults to 5
+  - **offset:** amount to offset {x,y} by, defaults to calulated based on number of sides
 
 ### RightTriangle
 
@@ -445,6 +406,13 @@ import { Square } from 'p44'
 ```svelte
 import { Star } from 'p44'
 ```
+- **Name**: Star
+- **Description**: Star shape with a programmed number of legs and indent.
+- **Keywords**: geometry, polygon, star
+- **Props**:
+  - **legs:** Any whole number 3 or above, defaults to 5
+  - **indent:** Distance up the leg to form inner corner between 0 and 1, defaults to 0.33
+  - **offset:** amount to offset {x,y} by, defaults to calulated based on number of legs
 
 ### StarOfDavid
 

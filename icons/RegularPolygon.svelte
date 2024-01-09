@@ -2,13 +2,13 @@
 	import { RegularPolygon, Transform } from 'p45'
 	import { grid, SVG, offsetRegPoly } from './shared'
 
-	//[doc:name] Dymanic Regular Polygon
+	//[doc:name] Regular Polygon
 	//[doc:keywords] geometry, polygon, regular
 
-	//[doc:prop] sides = number of sides as positive integer, defaults to 5
+	//[doc:prop] sides = number of sides as positive integer greater than 2, defaults to 5
 	export let sides = 5
 
-	//[doc:prop] offset = amount to offset x & y by, defaults to calulated based on number of sides
+	//[doc:prop] offset = amount to offset {x,y} by, defaults to calulated based on number of sides
 	export let offset = null
 
 	$: s = Math.round(sides)

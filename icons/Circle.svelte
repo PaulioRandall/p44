@@ -4,8 +4,11 @@
 
 	//[doc:name] Circle
 	//[doc:keywords] geometry, circle, dot, round
+
+	//[doc:prop] radius = Radius from the center, defaults to 7
+	export let radius = 7
 </script>
 
-<SVG {...$$props} {grid}>
-	<Circle radius="7" />
+<SVG {...$$restProps} {grid}>
+	<Circle {radius} />
 </SVG>
