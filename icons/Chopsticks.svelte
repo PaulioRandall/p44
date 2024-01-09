@@ -7,7 +7,7 @@
 	//[doc:keywords] chopsticks, crossing lines
 </script>
 
-<SVG {...$$restProps} {grid}>
+<SVG {...$$props} {grid}>
 	<Line from={grid.n(5, 1, grid.HALF)} to={grid.n(9, 15)} />
 	<Line from={grid.n(11, 1, grid.HALF)} to={grid.n(6, 15)} />
 </SVG>

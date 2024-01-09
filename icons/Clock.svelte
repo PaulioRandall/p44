@@ -7,7 +7,7 @@
 	//[doc:keywords] clock, time
 </script>
 
-<SVG stroke-linecap="round" {...$$restProps} {grid}>
+<SVG stroke-linecap="round" {...$$props} {grid}>
 	<Circle radius="7" />
 	<Line from={grid.center} to={grid.n(5, 5)} />
 	<Line from={grid.center} to={grid.n(12, 4)} />

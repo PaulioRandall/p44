@@ -5,29 +5,21 @@
 	//[doc:name] Dymanic Parallelogram
 	//[doc:keywords] geometry, polygon, parallelogram, quadrilateral
 
-	//[doc:prop] slope = Slope angle as a whole number between -8 (left leaning) and 8 (right leaning) (default is 4)
+	//[doc:prop] slope = Slope angle as a whole number between -8 (left leaning) and 8 (right leaning), defaults to 4
 	export let slope = 4
 
-	slope = P45Util.parseNumber(slope)
-	if (!P45Util.within(slope, -8, 8)) {
-		throw new Error(
-			`[P44:DynamicParallelogram] slope out of bounds: -8 <= ${slope} <= 8`
-		)
-	}
-
-	slope = Math.round(slope)
-
-	const getCell = (col, row, top) => {
-		let s = slope * 2
+	const getCell = (slope, col, row, top) => {
+		let s = P45Util.parseNumber(slope)
+		s = Math.round(s) * 2
 		const off = top ? +Math.floor(s) : -Math.ceil(s)
 		return grid.n(col, row, off)
 	}
 
 	$: points = [
-		getCell(2, 2, true), //
-		getCell(14, 2, true), //
-		getCell(14, 14, false), //
-		getCell(2, 14, false), //
+		getCell(slope, 2, 2, true), //
+		getCell(slope, 14, 2, true), //
+		getCell(slope, 14, 14, false), //
+		getCell(slope, 2, 14, false), //
 	]
 </script>
 

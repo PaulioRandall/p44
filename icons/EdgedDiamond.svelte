@@ -4,10 +4,10 @@
 
 	//[doc:name] Edged Diamond
 	//[doc:alt] Diamond shape without curves.
-	//[doc:keywords] geometry, polygon, diamond
+	//[doc:keywords] geometry, polygon, diamond, edged
 </script>
 
-<SVG {...$$restProps} {grid}>
+<SVG {...$$props} {grid}>
 	<Polygon
 		points={[
 			grid.n(1, 4),

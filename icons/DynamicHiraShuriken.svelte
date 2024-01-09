@@ -6,40 +6,43 @@
 	//[doc:alt] Hira Shuriken is a type of Japanese throwing star.
 	//[doc:keywords] geometry, polygon, hirashuriken, star, ninja, weapon, throw
 
-	//[doc:prop] legs = Any whole number 3 or above (default is 4)
+	//[doc:prop] legs = Any whole number 3 or above, defaults to 4
 	export let legs = 4
 
-	//[doc:prop] indent = Distance up the leg to form inner corner (default is 0.3)
+	//[doc:prop] indent = Distance up the leg to form inner corner between 0 and 1, defaults to 0.3
 	export let indent = 0.3
 
-	legs = P45Util.parseNumber(legs)
-	if (legs < 3) {
-		throw new Error(`[P44:DynamicHiraShuriken] need more legs: 3 <= ${legs}`)
+	//[doc:prop] offset = amount to offset x & y by, defaults to calulated based on number of legs
+	export let offset = null
+
+	const makePoints = () => {
+		let _legs = P45Util.parseNumber(legs)
+		_legs = Math.round(_legs)
+
+		let _ind = P45Util.parseNumber(indent)
+		_ind = !!_ind && P45Util.within(_ind, 0, 1) ? _ind : 0.3
+
+		const _off = offset || offsetRegPoly('[P44:DynamicHiraShuriken]', _legs)
+
+		const len = grid.center.x
+		const tipCoords = P45RegPoly.points(_legs, len, {
+			origin: grid.center,
+			rotate: 180 / _legs,
+		})
+
+		const baseCoords = P45RegPoly.points(_legs, len * _ind, {
+			origin: grid.center,
+			rotate: 135 / _legs,
+		})
+
+		return [zipArrays(tipCoords, baseCoords), off]
 	}
 
-	indent = P45Util.parseNumber(indent)
-	if (!P45Util.within(indent, 0, 1)) {
-		throw new Error(
-			`[P44:DynamicHiraShuriken] indent out of bounds: 0 <= ${legs} <= 1`
-		)
-	}
-
-	export let offset = offsetRegPoly('[P44:DynamicHiraShuriken]', legs)
-
-	const len = grid.center.x
-	const tipCoords = P45RegPoly.points(legs, len, {
-		origin: grid.center,
-		rotate: 180 / legs,
-	})
-	const baseCoords = P45RegPoly.points(legs, len * indent, {
-		origin: grid.center,
-		rotate: 135 / legs,
-	})
-	const points = zipArrays(tipCoords, baseCoords)
+	$: [points, off] = makePoints(legs, indent, offset)
 </script>
 
 <SVG {...$$restProps} {grid}>
-	<Transform {offset}>
+	<Transform offset={off}>
 		<Polygon {points} />
 	</Transform>
 </SVG>

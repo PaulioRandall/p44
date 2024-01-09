@@ -7,7 +7,7 @@
 	//[doc:keywords] lines, converging, diverging
 </script>
 
-<SVG {...$$restProps} {grid}>
+<SVG {...$$props} {grid}>
 	<Line from={grid.n(3, 15)} to={grid.n(7, 1)} />
 	<Line from={grid.n(13, 15)} to={grid.n(9, 1)} />
 </SVG>

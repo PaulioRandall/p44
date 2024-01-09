@@ -7,7 +7,7 @@
 	//[doc:keywords] broken, triangle, musical instrument
 </script>
 
-<SVG {...$$restProps} {grid}>
+<SVG {...$$props} {grid}>
 	<Path
 		d={[
 			M(grid.n(6, 1, grid.HALF)), //

@@ -142,7 +142,7 @@ import { Cup } from 'p44'
 ```
 - **Name**: Cup
 - **Description**: Abstract cup shape without a handle.
-- **Keywords**: cup
+- **Keywords**: U shape, cup
 
 ### DivergingLines
 
@@ -161,7 +161,7 @@ import { DynamicCircle } from 'p44'
 - **Name**: Dymanic Circle
 - **Keywords**: geometry, circle, dot, round
 - **Props**:
-  - **radius:** Any positive number (grid radius is 8)
+  - **radius:** Any positive number, defaults to 7
 
 ### DynamicHiraShuriken
 
@@ -172,8 +172,9 @@ import { DynamicHiraShuriken } from 'p44'
 - **Description**: Hira Shuriken is a type of Japanese throwing star.
 - **Keywords**: geometry, polygon, hirashuriken, star, ninja, weapon, throw
 - **Props**:
-  - **legs:** Any whole number 3 or above (default is 4)
-  - **indent:** Distance up the leg to form inner corner (default is 0.3)
+  - **legs:** Any whole number 3 or above, defaults to 4
+  - **indent:** Distance up the leg to form inner corner between 0 and 1, defaults to 0.3
+  - **offset:** amount to offset x & y by, defaults to calulated based on number of legs
 
 ### DynamicParallelogram
 
@@ -183,25 +184,42 @@ import { DynamicParallelogram } from 'p44'
 - **Name**: Dymanic Parallelogram
 - **Keywords**: geometry, polygon, parallelogram, quadrilateral
 - **Props**:
-  - **slope:** Slope angle as a whole number between -8 (left leaning) and 8 (right leaning) (default is 4)
+  - **slope:** Slope angle as a whole number between -8 (left leaning) and 8 (right leaning), defaults to 4
 
 ### DynamicRectangle
 
 ```svelte
 import { DynamicRectangle } from 'p44'
 ```
+- **Name**: Dymanic Rectangle
+- **Keywords**: geometry, polygon, rect, rectangle, square, quadrilateral
+- **Props**:
+  - **wr:** Width Radius between 0 and 8, defaults to 8
+  - **hr:** Height Radius between 0 and 8, defaults to 5
 
 ### DynamicRegularPolygon
 
 ```svelte
 import { DynamicRegularPolygon } from 'p44'
 ```
+- **Name**: Dymanic Regular Polygon
+- **Keywords**: geometry, polygon, regular
+- **Props**:
+  - **sides:** number of sides as positive integer, defaults to 5
+  - **offset:** amount to offset x & y by, defaults to calulated based on number of sides
 
 ### DynamicStar
 
 ```svelte
 import { DynamicStar } from 'p44'
 ```
+- **Name**: Dymanic Star
+- **Description**: Star shape with the number of legs set by the programmer.
+- **Keywords**: geometry, polygon, star
+- **Props**:
+  - **legs:** Any whole number 3 or above, defaults to 5
+  - **indent:** Distance up the leg to form inner corner between 0 and 1, defaults to 0.33
+  - **offset:** amount to offset x & y by, defaults to calulated based on number of legs
 
 ### EdgedDiamond
 
@@ -210,31 +228,43 @@ import { EdgedDiamond } from 'p44'
 ```
 - **Name**: Edged Diamond
 - **Description**: Diamond shape without curves.
-- **Keywords**: geometry, polygon, diamond
+- **Keywords**: geometry, polygon, diamond, edged
 
-### Heart
+### EdgedHeart
 
 ```svelte
-import { Heart } from 'p44'
+import { EdgedHeart } from 'p44'
 ```
+- **Name**: Edged Heart
+- **Description**: Heart shape without curves.
+- **Keywords**: geometry, polygon, heart, edged
 
 ### Hexagon
 
 ```svelte
 import { Hexagon } from 'p44'
 ```
+- **Name**: Hexagon
+- **Description**: Six sided regular polygon.
+- **Keywords**: geometry, polygon, regular, hexagon
 
 ### HorseShoe
 
 ```svelte
 import { HorseShoe } from 'p44'
 ```
+- **Name**: Horseshoe
+- **Description**: Horseshoe curve using a single line.
+- **Keywords**: horseshoe, curve, line
 
 ### Kite
 
 ```svelte
 import { Kite } from 'p44'
 ```
+- **Name**: Kite
+- **Description**: Kite shape using a single polygon.
+- **Keywords**: geometry, polygon, kite, quadrilateral
 
 ### MathAdd
 
@@ -396,12 +426,6 @@ import { RightAngleConcave } from 'p44'
 
 ```svelte
 import { RightTriangle } from 'p44'
-```
-
-### Slanted
-
-```svelte
-import { Slanted } from 'p44'
 ```
 
 ### Smiley

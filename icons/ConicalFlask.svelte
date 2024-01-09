@@ -7,7 +7,7 @@
 	//[doc:keywords] conical flask, erlenmeyer flask, science, chemistry
 </script>
 
-<SVG {...$$restProps} {grid}>
+<SVG {...$$props} {grid}>
 	<Path
 		d={[
 			M(grid.n(6, 1, grid.HALF)), //

@@ -6,6 +6,6 @@
 	//[doc:keywords] geometry, circle, dot, round
 </script>
 
-<SVG {...$$restProps} {grid}>
+<SVG {...$$props} {grid}>
 	<Circle radius="7" />
 </SVG>

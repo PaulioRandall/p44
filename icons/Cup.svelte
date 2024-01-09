@@ -4,10 +4,10 @@
 
 	//[doc:name] Cup
 	//[doc:alt] Abstract cup shape without a handle.
-	//[doc:keywords] cup
+	//[doc:keywords] U shape, cup
 </script>
 
-<SVG {...$$restProps} {grid}>
+<SVG {...$$props} {grid}>
 	<Path
 		d={[
 			M(grid.n(3, 1)), //

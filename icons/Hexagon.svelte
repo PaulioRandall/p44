@@ -1,12 +1,12 @@
-<script context="module">
-	export const keywords = ['geometry', 'polygon', 'hexagon']
-</script>
-
 <script>
-	import { RegularPolygon, P45Util, P45RegPoly } from 'p45'
+	import { RegularPolygon } from 'p45'
 	import { grid, SVG } from './shared'
+
+	//[doc:name] Hexagon
+	//[doc:alt] Six sided regular polygon.
+	//[doc:keywords] geometry, polygon, regular, hexagon
 </script>
 
-<SVG {...$$restProps} {grid}>
+<SVG {...$$props} {grid}>
 	<RegularPolygon sides={6} />
 </SVG>
