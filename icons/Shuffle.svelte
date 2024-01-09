@@ -1,13 +1,12 @@
-<script context="module">
-	export const keywords = ['media control', 'iso', 'video', 'audio', 'shuffle']
-</script>
-
 <script>
 	import { Polygon, Path, M, L, C, S } from 'p45'
 	import { grid, SVG } from './shared'
+
+	//[doc:name] Media Control Shuffle
+	//[doc:keywords] media control, iso, video, audio, shuffle
 </script>
 
-<SVG {...$$restProps} {grid}>
+<SVG {...$$props} {grid}>
 	<Path
 		d={[
 			M(grid.n(1, 3)),

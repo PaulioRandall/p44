@@ -1,13 +1,12 @@
-<script context="module">
-	export const keywords = ['media control', 'iso', 'video', 'audio', 'repeat']
-</script>
-
 <script>
 	import { Polygon, Path, M, L, C } from 'p45'
 	import { grid, SVG } from './shared'
+
+	//[doc:name] Media Control Repeat
+	//[doc:keywords] media control, iso, video, audio, repeat
 </script>
 
-<SVG {...$$restProps} {grid}>
+<SVG {...$$props} {grid}>
 	<Path
 		d={[
 			M(grid.n(5, 13)),
@@ -45,9 +44,9 @@
 				grid.n(13, 13) //
 			),
 			L(grid.n(10, 13)),
-			L(grid.n(10, 11)), //
-			L(grid.n(7, 13)), //
-			L(grid.n(10, 15)), //
-			L(grid.n(10, 13)), //
+			L(grid.n(10, 11)),
+			L(grid.n(7, 13)),
+			L(grid.n(10, 15)),
+			L(grid.n(10, 13)),
 		]} />
 </SVG>

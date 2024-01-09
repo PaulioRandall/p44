@@ -121,6 +121,16 @@ export default {
       "edged"
     ]
   },
+  "Eject": {
+    "name": "Media Control Eject",
+    "keywords": [
+      "media control",
+      "iso",
+      "video",
+      "audio",
+      "eject"
+    ]
+  },
   "Equal": {
     "name": "Equal",
     "keywords": [
@@ -187,15 +197,6 @@ export default {
       "quadrilateral"
     ]
   },
-  "MediaControlEject": {},
-  "MediaControlPause": {},
-  "MediaControlPlay": {},
-  "MediaControlRecord": {},
-  "MediaControlRepeat": {},
-  "MediaControlRewind": {},
-  "MediaControlShuffle": {},
-  "MediaControlSkip": {},
-  "MediaControlStop": {},
   "Minus": {
     "name": "Minus",
     "keywords": [
@@ -228,6 +229,26 @@ export default {
       "round brackets"
     ]
   },
+  "Pause": {
+    "name": "Media Control Pause",
+    "keywords": [
+      "media control",
+      "iso",
+      "video",
+      "audio",
+      "pause"
+    ]
+  },
+  "Play": {
+    "name": "Media Control Play",
+    "keywords": [
+      "media control",
+      "iso",
+      "video",
+      "audio",
+      "play"
+    ]
+  },
   "Plus": {
     "name": "Plus",
     "keywords": [
@@ -235,6 +256,16 @@ export default {
       "cross",
       "plus",
       "addition"
+    ]
+  },
+  "Record": {
+    "name": "Media Control Record",
+    "keywords": [
+      "media control",
+      "iso",
+      "video",
+      "audio",
+      "record"
     ]
   },
   "Rectangle": {
@@ -264,6 +295,27 @@ export default {
       "offset": "amount to offset {x,y} by, defaults to calulated based on number of sides"
     }
   },
+  "Repeat": {
+    "name": "Media Control Repeat",
+    "keywords": [
+      "media control",
+      "iso",
+      "video",
+      "audio",
+      "repeat"
+    ]
+  },
+  "Rewind": {
+    "name": "Media Control Rewind",
+    "keywords": [
+      "media control",
+      "iso",
+      "video",
+      "audio",
+      "rewind",
+      "fast forward"
+    ]
+  },
   "RightTriangle": {},
   "Root": {
     "name": "Exponent",
@@ -276,8 +328,27 @@ export default {
       "base": "Base value, defaults to 'n'"
     }
   },
+  "Shuffle": {
+    "name": "Media Control Shuffle",
+    "keywords": [
+      "media control",
+      "iso",
+      "video",
+      "audio",
+      "shuffle"
+    ]
+  },
+  "Skip": {
+    "name": "Media Control Skip",
+    "keywords": [
+      "media control",
+      "iso",
+      "video",
+      "audio",
+      "skip"
+    ]
+  },
   "Smiley": {},
-  "Square": {},
   "SquareBrackets": {
     "name": "Square Brackets",
     "alt": "Pair of square brackets used in maths and programming.",
@@ -303,6 +374,16 @@ export default {
     }
   },
   "StarOfDavid": {},
+  "Stop": {
+    "name": "Media Control Stop",
+    "keywords": [
+      "media control",
+      "iso",
+      "video",
+      "audio",
+      "stop"
+    ]
+  },
   "TeePee": {},
   "Trapezium": {}
 }

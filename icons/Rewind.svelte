@@ -1,20 +1,12 @@
-<script context="module">
-	export const keywords = [
-		'media control',
-		'iso',
-		'video',
-		'audio',
-		'rewind',
-		'fast forward',
-	]
-</script>
-
 <script>
 	import { Polygon } from 'p45'
 	import { grid, SVG } from './shared'
+
+	//[doc:name] Media Control Rewind
+	//[doc:keywords] media control, iso, video, audio, rewind, fast forward
 </script>
 
-<SVG {...$$restProps} {grid}>
+<SVG {...$$props} {grid}>
 	<Polygon
 		points={[
 			grid.n(1, 8, grid.HALF), //
