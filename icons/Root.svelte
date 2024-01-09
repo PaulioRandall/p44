@@ -2,8 +2,8 @@
 	import { Text, Path, M, L } from 'p45'
 	import { grid, SVG } from './shared'
 
-	//[doc:name] Exponent
-	//[doc:keywords] math, root
+	//[doc:name] Root
+	//[doc:keywords] maths, root
 
 	//[doc:prop] power = Exponent or power, defaults to 2
 	export let power = 2

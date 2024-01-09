@@ -6,6 +6,8 @@
 
 Svelte package exposing SVG icons crafted using P45.
 
+The implementation of each icon is not part of the API. Although I'm unlikely to make major changes it's important to keep in mind when applying styles via CSS selectors.
+
 **Requires Svelte version 4.**
 
 ## Usage
@@ -89,7 +91,7 @@ console.log(docs)
 import { Asterisk } from 'p44'
 ```
 - **Name**: Asterisk
-- **Keywords**: math, multiply, asterisk, star, snow, snowflake
+- **Keywords**: maths, multiply, asterisk, star, snow, snowflake
 
 ### BrokenTriangle
 
@@ -178,7 +180,7 @@ import { DivergingLines } from 'p44'
 import { Divide } from 'p44'
 ```
 - **Name**: Divide
-- **Keywords**: math, divide, percentage
+- **Keywords**: maths, divide, percentage
 
 ### EdgedDiamond
 
@@ -198,21 +200,13 @@ import { EdgedHeart } from 'p44'
 - **Description**: Heart shape without curves.
 - **Keywords**: geometry, polygon, heart, edged
 
-### Eject
-
-```svelte
-import { Eject } from 'p44'
-```
-- **Name**: Media Control Eject
-- **Keywords**: media control, iso, video, audio, eject
-
 ### Equal
 
 ```svelte
 import { Equal } from 'p44'
 ```
 - **Name**: Equal
-- **Keywords**: math, equals
+- **Keywords**: maths, equals
 
 ### Exponent
 
@@ -220,7 +214,7 @@ import { Equal } from 'p44'
 import { Exponent } from 'p44'
 ```
 - **Name**: Exponent
-- **Keywords**: math, power, exponentiation
+- **Keywords**: maths, power, exponentiation
 - **Props**:
   - **power:** Exponent or power, defaults to 2
   - **base:** Base value, defaults to 'n'
@@ -265,13 +259,85 @@ import { Kite } from 'p44'
 - **Description**: Kite shape using a single polygon.
 - **Keywords**: geometry, polygon, kite, quadrilateral
 
+### MediaControlEject
+
+```svelte
+import { MediaControlEject } from 'p44'
+```
+- **Name**: Media Control Eject
+- **Keywords**: media control, iso, video, audio, eject
+
+### MediaControlPause
+
+```svelte
+import { MediaControlPause } from 'p44'
+```
+- **Name**: Media Control Pause
+- **Keywords**: media control, iso, video, audio, pause
+
+### MediaControlPlay
+
+```svelte
+import { MediaControlPlay } from 'p44'
+```
+- **Name**: Media Control Play
+- **Keywords**: media control, iso, video, audio, play
+
+### MediaControlRecord
+
+```svelte
+import { MediaControlRecord } from 'p44'
+```
+- **Name**: Media Control Record
+- **Keywords**: media control, iso, video, audio, record
+
+### MediaControlRepeat
+
+```svelte
+import { MediaControlRepeat } from 'p44'
+```
+- **Name**: Media Control Repeat
+- **Keywords**: media control, iso, video, audio, repeat
+
+### MediaControlRewind
+
+```svelte
+import { MediaControlRewind } from 'p44'
+```
+- **Name**: Media Control Rewind
+- **Keywords**: media control, iso, video, audio, rewind, fast forward
+
+### MediaControlShuffle
+
+```svelte
+import { MediaControlShuffle } from 'p44'
+```
+- **Name**: Media Control Shuffle
+- **Keywords**: media control, iso, video, audio, shuffle
+
+### MediaControlSkip
+
+```svelte
+import { MediaControlSkip } from 'p44'
+```
+- **Name**: Media Control Skip
+- **Keywords**: media control, iso, video, audio, skip
+
+### MediaControlStop
+
+```svelte
+import { MediaControlStop } from 'p44'
+```
+- **Name**: Media Control Stop
+- **Keywords**: media control, iso, video, audio, stop
+
 ### Minus
 
 ```svelte
 import { Minus } from 'p44'
 ```
 - **Name**: Minus
-- **Keywords**: math, minus, subtraction, pipe
+- **Keywords**: maths, minus, subtraction, pipe
 
 ### Moon
 
@@ -307,23 +373,7 @@ import { Parallelogram } from 'p44'
 import { Parenthesis } from 'p44'
 ```
 - **Name**: Parenthesis
-- **Keywords**: math, parenthesis, round brackets
-
-### Pause
-
-```svelte
-import { Pause } from 'p44'
-```
-- **Name**: Media Control Pause
-- **Keywords**: media control, iso, video, audio, pause
-
-### Play
-
-```svelte
-import { Play } from 'p44'
-```
-- **Name**: Media Control Play
-- **Keywords**: media control, iso, video, audio, play
+- **Keywords**: maths, parenthesis, round brackets
 
 ### Plus
 
@@ -331,15 +381,7 @@ import { Play } from 'p44'
 import { Plus } from 'p44'
 ```
 - **Name**: Plus
-- **Keywords**: math, cross, plus, addition
-
-### Record
-
-```svelte
-import { Record } from 'p44'
-```
-- **Name**: Media Control Record
-- **Keywords**: media control, iso, video, audio, record
+- **Keywords**: maths, cross, plus, addition
 
 ### Rectangle
 
@@ -363,22 +405,6 @@ import { RegularPolygon } from 'p44'
   - **sides:** number of sides as positive integer greater than 2, defaults to 5
   - **offset:** amount to offset {x,y} by, defaults to calulated based on number of sides
 
-### Repeat
-
-```svelte
-import { Repeat } from 'p44'
-```
-- **Name**: Media Control Repeat
-- **Keywords**: media control, iso, video, audio, repeat
-
-### Rewind
-
-```svelte
-import { Rewind } from 'p44'
-```
-- **Name**: Media Control Rewind
-- **Keywords**: media control, iso, video, audio, rewind, fast forward
-
 ### RightTriangle
 
 ```svelte
@@ -390,27 +416,11 @@ import { RightTriangle } from 'p44'
 ```svelte
 import { Root } from 'p44'
 ```
-- **Name**: Exponent
-- **Keywords**: math, root
+- **Name**: Root
+- **Keywords**: maths, root
 - **Props**:
   - **power:** Exponent or power, defaults to 2
   - **base:** Base value, defaults to 'n'
-
-### Shuffle
-
-```svelte
-import { Shuffle } from 'p44'
-```
-- **Name**: Media Control Shuffle
-- **Keywords**: media control, iso, video, audio, shuffle
-
-### Skip
-
-```svelte
-import { Skip } from 'p44'
-```
-- **Name**: Media Control Skip
-- **Keywords**: media control, iso, video, audio, skip
 
 ### Smiley
 
@@ -445,14 +455,6 @@ import { Star } from 'p44'
 ```svelte
 import { StarOfDavid } from 'p44'
 ```
-
-### Stop
-
-```svelte
-import { Stop } from 'p44'
-```
-- **Name**: Media Control Stop
-- **Keywords**: media control, iso, video, audio, stop
 
 ### TeePee
 

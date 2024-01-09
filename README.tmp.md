@@ -6,6 +6,8 @@
 
 Svelte package exposing SVG icons crafted using P45.
 
+The implementation of each icon is not part of the API. Although I'm unlikely to make major changes it's important to keep in mind when applying styles via CSS selectors.
+
 **Requires Svelte version 4.**
 
 ## Usage

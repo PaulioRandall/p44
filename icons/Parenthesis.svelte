@@ -3,7 +3,7 @@
 	import { grid, SVG } from './shared'
 
 	//[doc:name] Parenthesis
-	//[doc:keywords] math, parenthesis, round brackets
+	//[doc:keywords] maths, parenthesis, round brackets
 </script>
 
 <SVG {...$$props} {grid}>

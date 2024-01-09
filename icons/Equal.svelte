@@ -3,7 +3,7 @@
 	import { grid, SVG } from './shared'
 
 	//[doc:name] Equal
-	//[doc:keywords] math, equals
+	//[doc:keywords] maths, equals
 </script>
 
 <SVG {...$$props} {grid}>

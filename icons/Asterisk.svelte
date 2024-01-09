@@ -3,7 +3,7 @@
 	import { grid, SVG } from './shared'
 
 	//[doc:name] Asterisk
-	//[doc:keywords] math, multiply, asterisk, star, snow, snowflake
+	//[doc:keywords] maths, multiply, asterisk, star, snow, snowflake
 
 	const cx = grid.center.x
 	const cy = grid.center.y

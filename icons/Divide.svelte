@@ -3,7 +3,7 @@
 	import { grid, SVG } from './shared'
 
 	//[doc:name] Divide
-	//[doc:keywords] math, divide, percentage
+	//[doc:keywords] maths, divide, percentage
 
 	const radius = grid.HALF * 0.75
 </script>

@@ -3,7 +3,7 @@
 	import { grid, SVG } from './shared'
 
 	//[doc:name] Minus
-	//[doc:keywords] math, minus, subtraction, pipe
+	//[doc:keywords] maths, minus, subtraction, pipe
 </script>
 
 <SVG {...$$props} {grid}>

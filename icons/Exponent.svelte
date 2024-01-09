@@ -3,7 +3,7 @@
 	import { grid, SVG } from './shared'
 
 	//[doc:name] Exponent
-	//[doc:keywords] math, power, exponentiation
+	//[doc:keywords] maths, power, exponentiation
 
 	//[doc:prop] power = Exponent or power, defaults to 2
 	export let power = 2

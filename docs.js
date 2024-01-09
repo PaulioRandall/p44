@@ -2,7 +2,7 @@ export default {
   "Asterisk": {
     "name": "Asterisk",
     "keywords": [
-      "math",
+      "maths",
       "multiply",
       "asterisk",
       "star",
@@ -96,7 +96,7 @@ export default {
   "Divide": {
     "name": "Divide",
     "keywords": [
-      "math",
+      "maths",
       "divide",
       "percentage"
     ]
@@ -121,27 +121,17 @@ export default {
       "edged"
     ]
   },
-  "Eject": {
-    "name": "Media Control Eject",
-    "keywords": [
-      "media control",
-      "iso",
-      "video",
-      "audio",
-      "eject"
-    ]
-  },
   "Equal": {
     "name": "Equal",
     "keywords": [
-      "math",
+      "maths",
       "equals"
     ]
   },
   "Exponent": {
     "name": "Exponent",
     "keywords": [
-      "math",
+      "maths",
       "power",
       "exponentiation"
     ],
@@ -197,10 +187,101 @@ export default {
       "quadrilateral"
     ]
   },
+  "MediaControlEject": {
+    "name": "Media Control Eject",
+    "keywords": [
+      "media control",
+      "iso",
+      "video",
+      "audio",
+      "eject"
+    ]
+  },
+  "MediaControlPause": {
+    "name": "Media Control Pause",
+    "keywords": [
+      "media control",
+      "iso",
+      "video",
+      "audio",
+      "pause"
+    ]
+  },
+  "MediaControlPlay": {
+    "name": "Media Control Play",
+    "keywords": [
+      "media control",
+      "iso",
+      "video",
+      "audio",
+      "play"
+    ]
+  },
+  "MediaControlRecord": {
+    "name": "Media Control Record",
+    "keywords": [
+      "media control",
+      "iso",
+      "video",
+      "audio",
+      "record"
+    ]
+  },
+  "MediaControlRepeat": {
+    "name": "Media Control Repeat",
+    "keywords": [
+      "media control",
+      "iso",
+      "video",
+      "audio",
+      "repeat"
+    ]
+  },
+  "MediaControlRewind": {
+    "name": "Media Control Rewind",
+    "keywords": [
+      "media control",
+      "iso",
+      "video",
+      "audio",
+      "rewind",
+      "fast forward"
+    ]
+  },
+  "MediaControlShuffle": {
+    "name": "Media Control Shuffle",
+    "keywords": [
+      "media control",
+      "iso",
+      "video",
+      "audio",
+      "shuffle"
+    ]
+  },
+  "MediaControlSkip": {
+    "name": "Media Control Skip",
+    "keywords": [
+      "media control",
+      "iso",
+      "video",
+      "audio",
+      "skip"
+    ]
+  },
+  "MediaControlStop": {
+    "name": "Media Control Stop",
+    "keywords": [
+      "media control",
+      "iso",
+      "video",
+      "audio",
+      "stop"
+    ]
+  },
   "Minus": {
     "name": "Minus",
     "keywords": [
-      "math",
+      "maths",
       "minus",
       "subtraction",
       "pipe"
@@ -224,48 +305,18 @@ export default {
   "Parenthesis": {
     "name": "Parenthesis",
     "keywords": [
-      "math",
+      "maths",
       "parenthesis",
       "round brackets"
-    ]
-  },
-  "Pause": {
-    "name": "Media Control Pause",
-    "keywords": [
-      "media control",
-      "iso",
-      "video",
-      "audio",
-      "pause"
-    ]
-  },
-  "Play": {
-    "name": "Media Control Play",
-    "keywords": [
-      "media control",
-      "iso",
-      "video",
-      "audio",
-      "play"
     ]
   },
   "Plus": {
     "name": "Plus",
     "keywords": [
-      "math",
+      "maths",
       "cross",
       "plus",
       "addition"
-    ]
-  },
-  "Record": {
-    "name": "Media Control Record",
-    "keywords": [
-      "media control",
-      "iso",
-      "video",
-      "audio",
-      "record"
     ]
   },
   "Rectangle": {
@@ -295,58 +346,17 @@ export default {
       "offset": "amount to offset {x,y} by, defaults to calulated based on number of sides"
     }
   },
-  "Repeat": {
-    "name": "Media Control Repeat",
-    "keywords": [
-      "media control",
-      "iso",
-      "video",
-      "audio",
-      "repeat"
-    ]
-  },
-  "Rewind": {
-    "name": "Media Control Rewind",
-    "keywords": [
-      "media control",
-      "iso",
-      "video",
-      "audio",
-      "rewind",
-      "fast forward"
-    ]
-  },
   "RightTriangle": {},
   "Root": {
-    "name": "Exponent",
+    "name": "Root",
     "keywords": [
-      "math",
+      "maths",
       "root"
     ],
     "props": {
       "power": "Exponent or power, defaults to 2",
       "base": "Base value, defaults to 'n'"
     }
-  },
-  "Shuffle": {
-    "name": "Media Control Shuffle",
-    "keywords": [
-      "media control",
-      "iso",
-      "video",
-      "audio",
-      "shuffle"
-    ]
-  },
-  "Skip": {
-    "name": "Media Control Skip",
-    "keywords": [
-      "media control",
-      "iso",
-      "video",
-      "audio",
-      "skip"
-    ]
   },
   "Smiley": {},
   "SquareBrackets": {
@@ -374,16 +384,6 @@ export default {
     }
   },
   "StarOfDavid": {},
-  "Stop": {
-    "name": "Media Control Stop",
-    "keywords": [
-      "media control",
-      "iso",
-      "video",
-      "audio",
-      "stop"
-    ]
-  },
   "TeePee": {},
   "Trapezium": {}
 }
