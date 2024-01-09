@@ -1,13 +1,12 @@
-<script context="module">
-	export const keywords = ['maths', 'parenthesis', 'round brackets']
-</script>
-
 <script>
 	import { Path, J, M, A } from 'p45'
 	import { grid, SVG } from './shared'
+
+	//[doc:name] Parenthesis
+	//[doc:keywords] math, parenthesis, round brackets
 </script>
 
-<SVG {...$$restProps} {grid}>
+<SVG {...$$props} {grid}>
 	<Path
 		d={J(
 			M(grid.n(6, 1)),

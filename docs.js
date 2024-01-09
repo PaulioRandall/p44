@@ -1,4 +1,15 @@
 export default {
+  "Asterisk": {
+    "name": "Asterisk",
+    "keywords": [
+      "math",
+      "multiply",
+      "asterisk",
+      "star",
+      "snow",
+      "snowflake"
+    ]
+  },
   "BrokenTriangle": {
     "name": "Broken Triangle",
     "alt": "A simple triangle broken at the top.",
@@ -62,6 +73,17 @@ export default {
       "cup"
     ]
   },
+  "CurlyBraces": {
+    "name": "Curly Braces",
+    "alt": "Pair of curly braces used in maths and programming.",
+    "keywords": [
+      "maths",
+      "programming",
+      "braces",
+      "brackets",
+      "object"
+    ]
+  },
   "DivergingLines": {
     "name": "Diverging Lines",
     "alt": "Two diverging or converging lines; dependent on your perspective.",
@@ -69,6 +91,14 @@ export default {
       "lines",
       "converging",
       "diverging"
+    ]
+  },
+  "Divide": {
+    "name": "Divide",
+    "keywords": [
+      "math",
+      "divide",
+      "percentage"
     ]
   },
   "EdgedDiamond": {
@@ -90,6 +120,25 @@ export default {
       "heart",
       "edged"
     ]
+  },
+  "Equal": {
+    "name": "Equal",
+    "keywords": [
+      "math",
+      "equals"
+    ]
+  },
+  "Exponent": {
+    "name": "Exponent",
+    "keywords": [
+      "math",
+      "power",
+      "exponentiation"
+    ],
+    "props": {
+      "power": "Exponent or power, defaults to 2",
+      "base": "Base value, defaults to 'n'"
+    }
   },
   "Hexagon": {
     "name": "Hexagon",
@@ -138,17 +187,6 @@ export default {
       "quadrilateral"
     ]
   },
-  "MathAdd": {},
-  "MathBraces": {},
-  "MathBrackets": {},
-  "MathDiv": {},
-  "MathDivSlash": {},
-  "MathEqual": {},
-  "MathMulAsterisk": {},
-  "MathParen": {},
-  "MathPow": {},
-  "MathSqrt": {},
-  "MathSub": {},
   "MediaControlEject": {},
   "MediaControlPause": {},
   "MediaControlPlay": {},
@@ -158,6 +196,15 @@ export default {
   "MediaControlShuffle": {},
   "MediaControlSkip": {},
   "MediaControlStop": {},
+  "Minus": {
+    "name": "Minus",
+    "keywords": [
+      "math",
+      "minus",
+      "subtraction",
+      "pipe"
+    ]
+  },
   "Moon": {},
   "Parabola": {},
   "Parabola2": {},
@@ -172,6 +219,23 @@ export default {
     "props": {
       "slope": "Slope angle as a whole number between -8 (left leaning) and 8 (right leaning), defaults to 4"
     }
+  },
+  "Parenthesis": {
+    "name": "Parenthesis",
+    "keywords": [
+      "math",
+      "parenthesis",
+      "round brackets"
+    ]
+  },
+  "Plus": {
+    "name": "Plus",
+    "keywords": [
+      "math",
+      "cross",
+      "plus",
+      "addition"
+    ]
   },
   "Rectangle": {
     "name": "Rectangle",
@@ -201,8 +265,29 @@ export default {
     }
   },
   "RightTriangle": {},
+  "Root": {
+    "name": "Exponent",
+    "keywords": [
+      "math",
+      "root"
+    ],
+    "props": {
+      "power": "Exponent or power, defaults to 2",
+      "base": "Base value, defaults to 'n'"
+    }
+  },
   "Smiley": {},
   "Square": {},
+  "SquareBrackets": {
+    "name": "Square Brackets",
+    "alt": "Pair of square brackets used in maths and programming.",
+    "keywords": [
+      "maths",
+      "programming",
+      "square brackets",
+      "array"
+    ]
+  },
   "Star": {
     "name": "Star",
     "alt": "Star shape with a programmed number of legs and indent.",

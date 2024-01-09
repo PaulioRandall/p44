@@ -83,6 +83,14 @@ console.log(docs)
 
 ## Components
 
+### Asterisk
+
+```svelte
+import { Asterisk } from 'p44'
+```
+- **Name**: Asterisk
+- **Keywords**: math, multiply, asterisk, star, snow, snowflake
+
 ### BrokenTriangle
 
 ```svelte
@@ -146,6 +154,15 @@ import { Cup } from 'p44'
 - **Description**: Abstract cup shape without a handle.
 - **Keywords**: U shape, cup
 
+### CurlyBraces
+
+```svelte
+import { CurlyBraces } from 'p44'
+```
+- **Name**: Curly Braces
+- **Description**: Pair of curly braces used in maths and programming.
+- **Keywords**: maths, programming, braces, brackets, object
+
 ### DivergingLines
 
 ```svelte
@@ -154,6 +171,14 @@ import { DivergingLines } from 'p44'
 - **Name**: Diverging Lines
 - **Description**: Two diverging or converging lines; dependent on your perspective.
 - **Keywords**: lines, converging, diverging
+
+### Divide
+
+```svelte
+import { Divide } from 'p44'
+```
+- **Name**: Divide
+- **Keywords**: math, divide, percentage
 
 ### EdgedDiamond
 
@@ -172,6 +197,25 @@ import { EdgedHeart } from 'p44'
 - **Name**: Edged Heart
 - **Description**: Heart shape without curves.
 - **Keywords**: geometry, polygon, heart, edged
+
+### Equal
+
+```svelte
+import { Equal } from 'p44'
+```
+- **Name**: Equal
+- **Keywords**: math, equals
+
+### Exponent
+
+```svelte
+import { Exponent } from 'p44'
+```
+- **Name**: Exponent
+- **Keywords**: math, power, exponentiation
+- **Props**:
+  - **power:** Exponent or power, defaults to 2
+  - **base:** Base value, defaults to 'n'
 
 ### Hexagon
 
@@ -212,72 +256,6 @@ import { Kite } from 'p44'
 - **Name**: Kite
 - **Description**: Kite shape using a single polygon.
 - **Keywords**: geometry, polygon, kite, quadrilateral
-
-### MathAdd
-
-```svelte
-import { MathAdd } from 'p44'
-```
-
-### MathBraces
-
-```svelte
-import { MathBraces } from 'p44'
-```
-
-### MathBrackets
-
-```svelte
-import { MathBrackets } from 'p44'
-```
-
-### MathDiv
-
-```svelte
-import { MathDiv } from 'p44'
-```
-
-### MathDivSlash
-
-```svelte
-import { MathDivSlash } from 'p44'
-```
-
-### MathEqual
-
-```svelte
-import { MathEqual } from 'p44'
-```
-
-### MathMulAsterisk
-
-```svelte
-import { MathMulAsterisk } from 'p44'
-```
-
-### MathParen
-
-```svelte
-import { MathParen } from 'p44'
-```
-
-### MathPow
-
-```svelte
-import { MathPow } from 'p44'
-```
-
-### MathSqrt
-
-```svelte
-import { MathSqrt } from 'p44'
-```
-
-### MathSub
-
-```svelte
-import { MathSub } from 'p44'
-```
 
 ### MediaControlEject
 
@@ -333,6 +311,14 @@ import { MediaControlSkip } from 'p44'
 import { MediaControlStop } from 'p44'
 ```
 
+### Minus
+
+```svelte
+import { Minus } from 'p44'
+```
+- **Name**: Minus
+- **Keywords**: math, minus, subtraction, pipe
+
 ### Moon
 
 ```svelte
@@ -360,6 +346,22 @@ import { Parallelogram } from 'p44'
 - **Keywords**: geometry, polygon, parallelogram, quadrilateral
 - **Props**:
   - **slope:** Slope angle as a whole number between -8 (left leaning) and 8 (right leaning), defaults to 4
+
+### Parenthesis
+
+```svelte
+import { Parenthesis } from 'p44'
+```
+- **Name**: Parenthesis
+- **Keywords**: math, parenthesis, round brackets
+
+### Plus
+
+```svelte
+import { Plus } from 'p44'
+```
+- **Name**: Plus
+- **Keywords**: math, cross, plus, addition
 
 ### Rectangle
 
@@ -389,6 +391,17 @@ import { RegularPolygon } from 'p44'
 import { RightTriangle } from 'p44'
 ```
 
+### Root
+
+```svelte
+import { Root } from 'p44'
+```
+- **Name**: Exponent
+- **Keywords**: math, root
+- **Props**:
+  - **power:** Exponent or power, defaults to 2
+  - **base:** Base value, defaults to 'n'
+
 ### Smiley
 
 ```svelte
@@ -400,6 +413,15 @@ import { Smiley } from 'p44'
 ```svelte
 import { Square } from 'p44'
 ```
+
+### SquareBrackets
+
+```svelte
+import { SquareBrackets } from 'p44'
+```
+- **Name**: Square Brackets
+- **Description**: Pair of square brackets used in maths and programming.
+- **Keywords**: maths, programming, square brackets, array
 
 ### Star
 

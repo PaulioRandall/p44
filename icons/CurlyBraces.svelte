@@ -1,13 +1,13 @@
-<script context="module">
-	export const keywords = ['maths', 'parenthesis', 'round brackets']
-</script>
-
 <script>
 	import { Path, M, A } from 'p45'
 	import { grid, SVG } from './shared'
+
+	//[doc:name] Curly Braces
+	//[doc:alt] Pair of curly braces used in maths and programming.
+	//[doc:keywords] maths, programming, braces, brackets, object
 </script>
 
-<SVG {...$$restProps} {grid}>
+<SVG {...$$props} {grid}>
 	<Path
 		d={[
 			M(grid.n(7, 1, -grid.HALF)),
