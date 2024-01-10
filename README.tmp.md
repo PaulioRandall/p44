@@ -6,7 +6,7 @@
 
 Svelte package exposing SVG icons crafted using P45.
 
-The implementation of each icon is not part of the API. Although I'm unlikely to make major changes it's important to keep in mind when applying styles via CSS selectors.
+The design some icons will very likely change before the first version so keep that in mind. Apply custom styles via CSS selectors.
 
 **Requires Svelte version 4.**
 
@@ -14,14 +14,14 @@ The implementation of each icon is not part of the API. Although I'm unlikely to
 
 ```svelte
 <script>
-	import { Diamond, DynamicStar } from 'p44'
+	import { Diamond, Star } from 'p44'
 </script>
 
 // Accepts <svg> HTML element attributes.
 <Diamond width="100" height="100" class="classy" />
 
-// Some icons accept optional props to refine the icons shape.
-<DynamicStar leg="6" indent="0.5" class="classy2" />
+// Some icons accept optional props to refine their shape.
+<Star leg="6" indent="0.5" class="classy2" />
 
 <style>
 	:global(.classy) {

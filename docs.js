@@ -187,6 +187,17 @@ export default {
       "quadrilateral"
     ]
   },
+  "LogoNPM": {
+    "name": "Node Package Manager (NPM) Logo",
+    "alt": "Logo for Node Package Manager (NPM).",
+    "keywords": [
+      "logo",
+      "npm",
+      "node",
+      "javascript",
+      "programming"
+    ]
+  },
   "MediaControlEject": {
     "name": "Media Control Eject",
     "keywords": [
@@ -384,6 +395,5 @@ export default {
     }
   },
   "StarOfDavid": {},
-  "TeePee": {},
-  "Trapezium": {}
+  "TeePee": {}
 }
