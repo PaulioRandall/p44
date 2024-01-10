@@ -6,7 +6,7 @@
 	//[doc:keywords] media control, iso, video, audio, stop
 </script>
 
-<SVG {...$$props} {grid}>
+<SVG stroke-width="0" fill="currentColor" {...$$props} {grid}>
 	<Polygon
 		points={[
 			grid.n(1, 1), //

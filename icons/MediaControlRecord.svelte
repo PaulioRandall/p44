@@ -6,6 +6,6 @@
 	//[doc:keywords] media control, iso, video, audio, record
 </script>
 
-<SVG {...$$props} {grid}>
-	<Circle radius="7" ref="P44:Circle" />
+<SVG stroke-width="0" fill="crimson" {...$$props} {grid}>
+	<Circle radius="7" />
 </SVG>

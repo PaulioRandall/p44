@@ -1,48 +1,36 @@
 <script>
-	import { Polygon, Path, M, L, C, S } from 'p45'
+	import { Transform, Polygon, Path, M, L, C, S } from 'p45'
 	import { grid, SVG } from './shared'
 
 	//[doc:name] Media Control Shuffle
 	//[doc:keywords] media control, iso, video, audio, shuffle
 </script>
 
-<SVG {...$$props} {grid}>
-	<Path
-		d={[
-			M(grid.n(1, 3)),
-			L(grid.n(2, 3)),
-			C(
-				grid.n(6, 3), //
-				grid.n(6, 8), //
-				grid.n(6, 8) //
-			),
-			S(
-				grid.n(7, 13), //
-				grid.n(10, 13) //
-			),
-			L(grid.n(12, 13)), //
-			L(grid.n(12, 11)), //
-			L(grid.n(15, 13)), //
-			L(grid.n(12, 15)), //
-			L(grid.n(12, 13)), //
-		]} />
-	<Path
-		d={[
-			M(grid.n(1, 13)),
-			L(grid.n(2, 13)),
-			C(
-				grid.n(6, 13), //
-				grid.n(6, 8), //
-				grid.n(6, 8) //
-			),
-			S(
-				grid.n(7, 3), //
-				grid.n(10, 3) //
-			),
-			L(grid.n(12, 3)),
-			L(grid.n(12, 1)), //
-			L(grid.n(15, 3)), //
-			L(grid.n(12, 5)), //
-			L(grid.n(12, 3)), //
-		]} />
+<SVG stroke-width="6" {...$$props} {grid}>
+	<defs>
+		<Path
+			id="p44-media-control-shuffle-arrow"
+			d={[
+				M(grid.n(1, 4)),
+				L(grid.n(3, 4)),
+				C(
+					grid.n(7, 4), //
+					grid.n(7, 9), //
+					grid.n(7, 9) //
+				),
+				S(
+					grid.n(8, 12), //
+					grid.n(10, 12) //
+				),
+				L(grid.n(12, 12)), //
+				L(grid.n(12, 10, 0, grid.HALF)), //
+				L(grid.n(14, 12)), //
+				L(grid.n(12, 14, 0, -grid.HALF)), //
+				L(grid.n(12, 12)), //
+			]} />
+	</defs>
+	<use href="#p44-media-control-shuffle-arrow" />
+	<Transform flipY>
+		<use href="#p44-media-control-shuffle-arrow" />
+	</Transform>
 </SVG>

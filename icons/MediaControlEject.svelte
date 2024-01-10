@@ -6,12 +6,12 @@
 	//[doc:keywords] media control, iso, video, audio, eject
 </script>
 
-<SVG {...$$props} {grid}>
+<SVG stroke-width="0" fill="currentColor" {...$$props} {grid}>
 	<Polygon
 		points={[
 			grid.n(8, 1), //
-			grid.n(1, 8, grid.HALF), //
-			grid.n(14, 8, grid.HALF), //
+			grid.n(1, 9), //
+			grid.n(15, 9), //
 		]} />
 	<Polygon
 		points={[

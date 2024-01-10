@@ -6,18 +6,23 @@
 	//[doc:keywords] media control, iso, video, audio, skip
 </script>
 
-<SVG {...$$props} {grid}>
-	<Polygon
-		points={[grid.n(1, 2), grid.n(3, 2), grid.n(3, 14), grid.n(1, 14)]} />
+<SVG stroke-width="0" fill="currentColor" {...$$props} {grid}>
 	<Polygon
 		points={[
-			grid.n(4, 8), //
+			grid.n(1, 2), //
+			grid.n(3, 2), //
+			grid.n(3, 14), //
+			grid.n(1, 14), //
+		]} />
+	<Polygon
+		points={[
+			grid.n(3, 8), //
 			grid.n(9, 2), //
 			grid.n(9, 14), //
 		]} />
 	<Polygon
 		points={[
-			grid.n(10, 8), //
+			grid.n(9, 8), //
 			grid.n(15, 2), //
 			grid.n(15, 14), //
 		]} />
