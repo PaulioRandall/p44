@@ -57,6 +57,14 @@ export default {
       "chemistry"
     ]
   },
+  "Crescent": {
+    "name": "Crescent",
+    "keywords": [
+      "geometry",
+      "crescent",
+      "moon"
+    ]
+  },
   "Crucifix": {
     "name": "Crucifix",
     "keywords": [
@@ -140,14 +148,11 @@ export default {
       "base": "Base value, defaults to 'n'"
     }
   },
-  "Hexagon": {
-    "name": "Hexagon",
-    "alt": "Six sided regular polygon.",
+  "Hexagram": {
+    "name": "Hexagram",
     "keywords": [
-      "geometry",
-      "polygon",
-      "regular",
-      "hexagon"
+      "hexagram",
+      "star of david"
     ]
   },
   "HiraShuriken": {
@@ -298,9 +303,24 @@ export default {
       "pipe"
     ]
   },
-  "Moon": {},
-  "Parabola": {},
-  "Parabola2": {},
+  "Parabola": {
+    "name": "Parabola",
+    "keywords": [
+      "geometry",
+      "line",
+      "curve",
+      "parabola"
+    ]
+  },
+  "Parabola2": {
+    "name": "Parabola2",
+    "keywords": [
+      "geometry",
+      "line",
+      "curve",
+      "parabola"
+    ]
+  },
   "Parallelogram": {
     "name": "Parallelogram",
     "keywords": [
@@ -357,7 +377,15 @@ export default {
       "offset": "amount to offset {x,y} by, defaults to calulated based on number of sides"
     }
   },
-  "RightTriangle": {},
+  "RightTriangle": {
+    "name": "Right Angle Triangle",
+    "keywords": [
+      "geometry",
+      "polygon",
+      "triangle",
+      "parabola"
+    ]
+  },
   "Root": {
     "name": "Root",
     "keywords": [
@@ -369,7 +397,18 @@ export default {
       "base": "Base value, defaults to 'n'"
     }
   },
-  "Smiley": {},
+  "Smiley": {
+    "name": "Smiley",
+    "keywords": [
+      "smiley",
+      "face",
+      "smile",
+      "frown"
+    ],
+    "props": {
+      "type": "One of [bigsmile, smile, neutral,  frown, bigfrown]"
+    }
+  },
   "SquareBrackets": {
     "name": "Square Brackets",
     "alt": "Pair of square brackets used in maths and programming.",
@@ -394,6 +433,12 @@ export default {
       "offset": "amount to offset {x,y} by, defaults to calulated based on number of legs"
     }
   },
-  "StarOfDavid": {},
-  "TeePee": {}
+  "TiPi": {
+    "name": "TiPi",
+    "keywords": [
+      "tipi",
+      "teepee",
+      "triangle"
+    ]
+  }
 }

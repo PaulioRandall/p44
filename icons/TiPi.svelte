@@ -1,13 +1,12 @@
-<script context="module">
-	export const keywords = ['geometry', 'lines', 'teepee', 'triangle']
-</script>
-
 <script>
 	import { Path, M, L } from 'p45'
 	import { grid, SVG } from './shared'
+
+	//[doc:name] TiPi
+	//[doc:keywords] tipi, teepee, triangle
 </script>
 
-<SVG {...$$restProps} {grid}>
+<SVG {...$$props} {grid}>
 	<Path
 		d={[
 			M(grid.n(9, 1)), //

@@ -139,6 +139,14 @@ import { ConicalFlask } from 'p44'
 - **Description**: Conical flask like those used in chemistry.
 - **Keywords**: conical flask, erlenmeyer flask, science, chemistry
 
+### Crescent
+
+```svelte
+import { Crescent } from 'p44'
+```
+- **Name**: Crescent
+- **Keywords**: geometry, crescent, moon
+
 ### Crucifix
 
 ```svelte
@@ -219,14 +227,13 @@ import { Exponent } from 'p44'
   - **power:** Exponent or power, defaults to 2
   - **base:** Base value, defaults to 'n'
 
-### Hexagon
+### Hexagram
 
 ```svelte
-import { Hexagon } from 'p44'
+import { Hexagram } from 'p44'
 ```
-- **Name**: Hexagon
-- **Description**: Six sided regular polygon.
-- **Keywords**: geometry, polygon, regular, hexagon
+- **Name**: Hexagram
+- **Keywords**: hexagram, star of david
 
 ### HiraShuriken
 
@@ -348,23 +355,21 @@ import { Minus } from 'p44'
 - **Name**: Minus
 - **Keywords**: maths, minus, subtraction, pipe
 
-### Moon
-
-```svelte
-import { Moon } from 'p44'
-```
-
 ### Parabola
 
 ```svelte
 import { Parabola } from 'p44'
 ```
+- **Name**: Parabola
+- **Keywords**: geometry, line, curve, parabola
 
 ### Parabola2
 
 ```svelte
 import { Parabola2 } from 'p44'
 ```
+- **Name**: Parabola2
+- **Keywords**: geometry, line, curve, parabola
 
 ### Parallelogram
 
@@ -419,6 +424,8 @@ import { RegularPolygon } from 'p44'
 ```svelte
 import { RightTriangle } from 'p44'
 ```
+- **Name**: Right Angle Triangle
+- **Keywords**: geometry, polygon, triangle, parabola
 
 ### Root
 
@@ -436,6 +443,10 @@ import { Root } from 'p44'
 ```svelte
 import { Smiley } from 'p44'
 ```
+- **Name**: Smiley
+- **Keywords**: smiley, face, smile, frown
+- **Props**:
+  - **type:** One of [bigsmile, smile, neutral,  frown, bigfrown]
 
 ### SquareBrackets
 
@@ -459,15 +470,11 @@ import { Star } from 'p44'
   - **indent:** Distance up the leg to form inner corner between 0 and 1, defaults to 0.33
   - **offset:** amount to offset {x,y} by, defaults to calulated based on number of legs
 
-### StarOfDavid
+### TiPi
 
 ```svelte
-import { StarOfDavid } from 'p44'
+import { TiPi } from 'p44'
 ```
-
-### TeePee
-
-```svelte
-import { TeePee } from 'p44'
-```
+- **Name**: TiPi
+- **Keywords**: tipi, teepee, triangle
 

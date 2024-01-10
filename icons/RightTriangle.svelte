@@ -1,13 +1,12 @@
-<script context="module">
-	export const keywords = ['geometry', 'polygon', 'triangle', 'quadrilateral']
-</script>
-
 <script>
 	import { Polygon } from 'p45'
 	import { grid, SVG } from './shared'
+
+	//[doc:name] Right Angle Triangle
+	//[doc:keywords] geometry, polygon, triangle, parabola
 </script>
 
-<SVG {...$$restProps} {grid}>
+<SVG {...$$props} {grid}>
 	<Polygon
 		points={[
 			grid.n(1, 1), //

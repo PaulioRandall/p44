@@ -1,10 +1,9 @@
-<script context="module">
-	export const keywords = ['smiley', 'face', 'smile', 'frown']
-</script>
-
 <script>
 	import { Circle, Path, M, C } from 'p45'
 	import { grid, SVG } from './shared'
+
+	//[doc:name] Smiley
+	//[doc:keywords] smiley, face, smile, frown
 
 	const types = {
 		bigsmile: {
@@ -39,6 +38,7 @@
 		},
 	}
 
+	//[doc:prop] type = One of [bigsmile, smile, neutral,  frown, bigfrown]
 	export let type = 'smile'
 	$: t = types[type.toLowerCase()]
 </script>

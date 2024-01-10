@@ -1,13 +1,12 @@
-<script context="module">
-	export const keywords = ['geometry', 'lines', 'parabola', 'cup']
-</script>
-
 <script>
 	import { Arc } from 'p45'
 	import { grid, SVG } from './shared'
+
+	//[doc:name] Parabola
+	//[doc:keywords] geometry, line, curve, parabola
 </script>
 
-<SVG {...$$restProps} {grid}>
+<SVG {...$$props} {grid}>
 	<Arc
 		from={grid.n(2, 3)}
 		to={grid.n(14, 3)}
