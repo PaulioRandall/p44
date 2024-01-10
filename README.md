@@ -280,7 +280,7 @@ import { LogoNPM } from 'p44'
 ```svelte
 import { MediaControlEject } from 'p44'
 ```
-- **Name**: Media Control Eject
+- **Name**: Media control eject icon as defined by ISO 7000 / IEC 60417.
 - **Keywords**: media control, iso, video, audio, eject
 
 ### MediaControlPause
@@ -288,7 +288,7 @@ import { MediaControlEject } from 'p44'
 ```svelte
 import { MediaControlPause } from 'p44'
 ```
-- **Name**: Media Control Pause
+- **Name**: Media control pause icon as defined by ISO 7000 / IEC 60417.
 - **Keywords**: media control, iso, video, audio, pause
 
 ### MediaControlPlay
@@ -296,7 +296,7 @@ import { MediaControlPause } from 'p44'
 ```svelte
 import { MediaControlPlay } from 'p44'
 ```
-- **Name**: Media Control Play
+- **Name**: Media control play icon as defined by ISO 7000 / IEC 60417.
 - **Keywords**: media control, iso, video, audio, play
 
 ### MediaControlRecord
@@ -304,7 +304,7 @@ import { MediaControlPlay } from 'p44'
 ```svelte
 import { MediaControlRecord } from 'p44'
 ```
-- **Name**: Media Control Record
+- **Name**: Media control record icon as defined by ISO 7000 / IEC 60417.
 - **Keywords**: media control, iso, video, audio, record
 
 ### MediaControlRepeat
@@ -312,7 +312,7 @@ import { MediaControlRecord } from 'p44'
 ```svelte
 import { MediaControlRepeat } from 'p44'
 ```
-- **Name**: Media Control Repeat
+- **Name**: Media control repeat icon as defined by ISO 7000 / IEC 60417.
 - **Keywords**: media control, iso, video, audio, repeat
 
 ### MediaControlRewind
@@ -320,7 +320,7 @@ import { MediaControlRepeat } from 'p44'
 ```svelte
 import { MediaControlRewind } from 'p44'
 ```
-- **Name**: Media Control Rewind
+- **Name**: Media control rewind icon as defined by ISO 7000 / IEC 60417.
 - **Keywords**: media control, iso, video, audio, rewind, fast forward
 
 ### MediaControlShuffle
@@ -328,7 +328,7 @@ import { MediaControlRewind } from 'p44'
 ```svelte
 import { MediaControlShuffle } from 'p44'
 ```
-- **Name**: Media Control Shuffle
+- **Name**: Media control shuffle icon as defined by ISO 7000 / IEC 60417.
 - **Keywords**: media control, iso, video, audio, shuffle
 
 ### MediaControlSkip
@@ -336,7 +336,7 @@ import { MediaControlShuffle } from 'p44'
 ```svelte
 import { MediaControlSkip } from 'p44'
 ```
-- **Name**: Media Control Skip
+- **Name**: Media control skip icon as defined by ISO 7000 / IEC 60417.
 - **Keywords**: media control, iso, video, audio, skip
 
 ### MediaControlStop
@@ -344,7 +344,7 @@ import { MediaControlSkip } from 'p44'
 ```svelte
 import { MediaControlStop } from 'p44'
 ```
-- **Name**: Media Control Stop
+- **Name**: Media control stop icon as defined by ISO 7000 / IEC 60417.
 - **Keywords**: media control, iso, video, audio, stop
 
 ### Minus

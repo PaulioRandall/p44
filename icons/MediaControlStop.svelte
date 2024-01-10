@@ -3,6 +3,7 @@
 	import { grid, SVG } from './shared'
 
 	//[doc:name] Media Control Stop
+	//[doc:name] Media control stop icon as defined by ISO 7000 / IEC 60417.
 	//[doc:keywords] media control, iso, video, audio, stop
 </script>
 

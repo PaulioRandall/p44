@@ -3,6 +3,7 @@
 	import { grid, SVG } from './shared'
 
 	//[doc:name] Media Control Pause
+	//[doc:name] Media control pause icon as defined by ISO 7000 / IEC 60417.
 	//[doc:keywords] media control, iso, video, audio, pause
 </script>
 

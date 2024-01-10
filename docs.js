@@ -204,7 +204,7 @@ export default {
     ]
   },
   "MediaControlEject": {
-    "name": "Media Control Eject",
+    "name": "Media control eject icon as defined by ISO 7000 / IEC 60417.",
     "keywords": [
       "media control",
       "iso",
@@ -214,7 +214,7 @@ export default {
     ]
   },
   "MediaControlPause": {
-    "name": "Media Control Pause",
+    "name": "Media control pause icon as defined by ISO 7000 / IEC 60417.",
     "keywords": [
       "media control",
       "iso",
@@ -224,7 +224,7 @@ export default {
     ]
   },
   "MediaControlPlay": {
-    "name": "Media Control Play",
+    "name": "Media control play icon as defined by ISO 7000 / IEC 60417.",
     "keywords": [
       "media control",
       "iso",
@@ -234,7 +234,7 @@ export default {
     ]
   },
   "MediaControlRecord": {
-    "name": "Media Control Record",
+    "name": "Media control record icon as defined by ISO 7000 / IEC 60417.",
     "keywords": [
       "media control",
       "iso",
@@ -244,7 +244,7 @@ export default {
     ]
   },
   "MediaControlRepeat": {
-    "name": "Media Control Repeat",
+    "name": "Media control repeat icon as defined by ISO 7000 / IEC 60417.",
     "keywords": [
       "media control",
       "iso",
@@ -254,7 +254,7 @@ export default {
     ]
   },
   "MediaControlRewind": {
-    "name": "Media Control Rewind",
+    "name": "Media control rewind icon as defined by ISO 7000 / IEC 60417.",
     "keywords": [
       "media control",
       "iso",
@@ -265,7 +265,7 @@ export default {
     ]
   },
   "MediaControlShuffle": {
-    "name": "Media Control Shuffle",
+    "name": "Media control shuffle icon as defined by ISO 7000 / IEC 60417.",
     "keywords": [
       "media control",
       "iso",
@@ -275,7 +275,7 @@ export default {
     ]
   },
   "MediaControlSkip": {
-    "name": "Media Control Skip",
+    "name": "Media control skip icon as defined by ISO 7000 / IEC 60417.",
     "keywords": [
       "media control",
       "iso",
@@ -285,7 +285,7 @@ export default {
     ]
   },
   "MediaControlStop": {
-    "name": "Media Control Stop",
+    "name": "Media control stop icon as defined by ISO 7000 / IEC 60417.",
     "keywords": [
       "media control",
       "iso",
