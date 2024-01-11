@@ -10,15 +10,6 @@ export default {
       "snowflake"
     ]
   },
-  "BrokenTriangle": {
-    "name": "Broken Triangle",
-    "alt": "A simple triangle broken at the top.",
-    "keywords": [
-      "broken",
-      "triangle",
-      "musical instrument"
-    ]
-  },
   "Chopsticks": {
     "name": "Chopsticks",
     "alt": "Two lines crossing to form an image of chopsticks.",
@@ -71,14 +62,6 @@ export default {
       "crucifix",
       "cross",
       "religion"
-    ]
-  },
-  "Cup": {
-    "name": "Cup",
-    "alt": "Abstract cup shape without a handle.",
-    "keywords": [
-      "U shape",
-      "cup"
     ]
   },
   "CurlyBraces": {
@@ -251,6 +234,15 @@ export default {
       "video",
       "audio",
       "repeat"
+    ]
+  },
+  "MediaControlReplay": {
+    "name": "Media control replay icon.",
+    "keywords": [
+      "media control",
+      "video",
+      "audio",
+      "replay"
     ]
   },
   "MediaControlRewind": {

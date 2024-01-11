@@ -93,15 +93,6 @@ import { Asterisk } from 'p44'
 - **Name**: Asterisk
 - **Keywords**: maths, multiply, asterisk, star, snow, snowflake
 
-### BrokenTriangle
-
-```svelte
-import { BrokenTriangle } from 'p44'
-```
-- **Name**: Broken Triangle
-- **Description**: A simple triangle broken at the top.
-- **Keywords**: broken, triangle, musical instrument
-
 ### Chopsticks
 
 ```svelte
@@ -154,15 +145,6 @@ import { Crucifix } from 'p44'
 ```
 - **Name**: Crucifix
 - **Keywords**: crucifix, cross, religion
-
-### Cup
-
-```svelte
-import { Cup } from 'p44'
-```
-- **Name**: Cup
-- **Description**: Abstract cup shape without a handle.
-- **Keywords**: U shape, cup
 
 ### CurlyBraces
 
@@ -314,6 +296,14 @@ import { MediaControlRepeat } from 'p44'
 ```
 - **Name**: Media control repeat icon as defined by ISO 7000 / IEC 60417.
 - **Keywords**: media control, iso, video, audio, repeat
+
+### MediaControlReplay
+
+```svelte
+import { MediaControlReplay } from 'p44'
+```
+- **Name**: Media control replay icon.
+- **Keywords**: media control, video, audio, replay
 
 ### MediaControlRewind
 
