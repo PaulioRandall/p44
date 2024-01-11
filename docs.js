@@ -322,7 +322,7 @@ export default {
       "quadrilateral"
     ],
     "props": {
-      "slope": "Slope angle as a whole number between -8 (left leaning) and 8 (right leaning), defaults to 4"
+      "slope": "Slope angle in degrees, negative for left leaning, defaults to 15"
     }
   },
   "Parenthesis": {
