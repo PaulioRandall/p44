@@ -3,7 +3,6 @@
 	import { grid, SVG } from './shared'
 
 	//[doc:name] Node Package Manager (NPM) Logo
-	//[doc:alt] Logo for Node Package Manager (NPM).
 	//[doc:keywords] logo, npm, node, javascript, programming
 </script>
 

@@ -3,7 +3,7 @@
 	import { grid, SVG } from './shared'
 
 	//[doc:name] Media Control Record
-	//[doc:name] Media control record icon as defined by ISO 7000 / IEC 60417.
+	//[doc:name] Record icon as defined by ISO 7000 / IEC 60417.
 	//[doc:keywords] media control, iso, video, audio, record
 </script>
 

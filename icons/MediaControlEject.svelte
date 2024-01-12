@@ -3,7 +3,7 @@
 	import { grid, SVG } from './shared'
 
 	//[doc:name] Media Control Eject
-	//[doc:name] Media control eject icon as defined by ISO 7000 / IEC 60417.
+	//[doc:alt] Eject icon as defined by ISO 7000 / IEC 60417.
 	//[doc:keywords] media control, iso, video, audio, eject
 </script>
 

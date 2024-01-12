@@ -172,16 +172,17 @@ function stringifyDocs(docs) {
 
 			stringifyDocsImport(lines, name)
 
-			if (d.name) {
-				lines.push(`- **Name**: ${d.name}`)
-			}
-
-			if (d.alt) {
-				lines.push(`- **Description**: ${d.alt}`)
+			if (d.name && d.alt) {
+				lines.push(`**${d.name}**: ${d.alt}`)
+			} else if (d.name) {
+				lines.push(`**${d.name}**`)
+			} else if (d.alt) {
+				lines.push(d.alt)
 			}
 
 			if (d.keywords) {
-				lines.push(`- **Keywords**: ${d.keywords.join(', ')}`)
+				lines.push('')
+				lines.push(`**Keywords**: ${d.keywords.join(', ')}`)
 			}
 
 			if (d.props) {
@@ -205,7 +206,8 @@ function stringifyDocsImport(lines, name) {
 }
 
 function stringifyDocsObject(lines, name, obj) {
-	lines.push(`- **${name}**:`)
+	lines.push('')
+	lines.push(`**${name}**:`)
 	Object.entries(obj).forEach(([name, description]) => {
 		lines.push(`  - _${name}_ ${description}`)
 	})

@@ -3,7 +3,7 @@
 	import { grid, SVG } from './shared'
 
 	//[doc:name] Media Control Replay
-	//[doc:name] Media control replay icon.
+	//[doc:name] Replay icon.
 	//[doc:keywords] media control, video, audio, replay
 
 	const xOffset = 2

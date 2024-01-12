@@ -4,7 +4,7 @@
 	import { BG, TheP, Four } from './parts'
 
 	//[doc:name] P44
-	//[doc:alt] Logo of the P44 Svelte icon library.
+	//[doc:alt] Logo of the P44 icon library.
 	//[doc:keywords] logo, p44
 </script>
 

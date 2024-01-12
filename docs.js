@@ -176,7 +176,6 @@ export default {
   },
   "LogoNPM": {
     "name": "Node Package Manager (NPM) Logo",
-    "alt": "Logo for Node Package Manager (NPM).",
     "keywords": [
       "logo",
       "npm",
@@ -186,7 +185,8 @@ export default {
     ]
   },
   "MediaControlEject": {
-    "name": "Media control eject icon as defined by ISO 7000 / IEC 60417.",
+    "name": "Media Control Eject",
+    "alt": "Eject icon as defined by ISO 7000 / IEC 60417.",
     "keywords": [
       "media control",
       "iso",
@@ -196,7 +196,8 @@ export default {
     ]
   },
   "MediaControlPause": {
-    "name": "Media control pause icon as defined by ISO 7000 / IEC 60417.",
+    "name": "Media Control Pause",
+    "alt": "Pause icon as defined by ISO 7000 / IEC 60417.",
     "keywords": [
       "media control",
       "iso",
@@ -206,7 +207,8 @@ export default {
     ]
   },
   "MediaControlPlay": {
-    "name": "Media control play icon as defined by ISO 7000 / IEC 60417.",
+    "name": "Media Control Play",
+    "alt": "Play icon as defined by ISO 7000 / IEC 60417.",
     "keywords": [
       "media control",
       "iso",
@@ -216,7 +218,7 @@ export default {
     ]
   },
   "MediaControlRecord": {
-    "name": "Media control record icon as defined by ISO 7000 / IEC 60417.",
+    "name": "Record icon as defined by ISO 7000 / IEC 60417.",
     "keywords": [
       "media control",
       "iso",
@@ -226,7 +228,8 @@ export default {
     ]
   },
   "MediaControlRepeat": {
-    "name": "Media control repeat icon as defined by ISO 7000 / IEC 60417.",
+    "name": "Media Control Repeat",
+    "alt": "Repeat icon as defined by ISO 7000 / IEC 60417.",
     "keywords": [
       "media control",
       "iso",
@@ -236,7 +239,7 @@ export default {
     ]
   },
   "MediaControlReplay": {
-    "name": "Media control replay icon.",
+    "name": "Replay icon.",
     "keywords": [
       "media control",
       "video",
@@ -245,7 +248,8 @@ export default {
     ]
   },
   "MediaControlRewind": {
-    "name": "Media control rewind icon as defined by ISO 7000 / IEC 60417.",
+    "name": "Media Control Rewind",
+    "alt": "Rewind icon as defined by ISO 7000 / IEC 60417.",
     "keywords": [
       "media control",
       "iso",
@@ -256,7 +260,8 @@ export default {
     ]
   },
   "MediaControlShuffle": {
-    "name": "Media control shuffle icon as defined by ISO 7000 / IEC 60417.",
+    "name": "Media Control Shuffle",
+    "alt": "Shuffle icon as defined by ISO 7000 / IEC 60417.",
     "keywords": [
       "media control",
       "iso",
@@ -266,7 +271,8 @@ export default {
     ]
   },
   "MediaControlSkip": {
-    "name": "Media control skip icon as defined by ISO 7000 / IEC 60417.",
+    "name": "Media Control Skip",
+    "alt": "Skip icon as defined by ISO 7000 / IEC 60417.",
     "keywords": [
       "media control",
       "iso",
@@ -276,7 +282,8 @@ export default {
     ]
   },
   "MediaControlStop": {
-    "name": "Media control stop icon as defined by ISO 7000 / IEC 60417.",
+    "name": "Media Control Stop",
+    "alt": "Stop icon as defined by ISO 7000 / IEC 60417.",
     "keywords": [
       "media control",
       "iso",
@@ -296,7 +303,7 @@ export default {
   },
   "P44": {
     "name": "P44",
-    "alt": "Logo of the P44 Svelte icon library.",
+    "alt": "Logo of the P44 icon library.",
     "keywords": [
       "logo",
       "p44"

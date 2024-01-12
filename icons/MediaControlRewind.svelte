@@ -3,7 +3,7 @@
 	import { grid, SVG } from './shared'
 
 	//[doc:name] Media Control Rewind
-	//[doc:name] Media control rewind icon as defined by ISO 7000 / IEC 60417.
+	//[doc:alt] Rewind icon as defined by ISO 7000 / IEC 60417.
 	//[doc:keywords] media control, iso, video, audio, rewind, fast forward
 </script>
 

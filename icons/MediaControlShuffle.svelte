@@ -3,7 +3,7 @@
 	import { grid, SVG } from './shared'
 
 	//[doc:name] Media Control Shuffle
-	//[doc:name] Media control shuffle icon as defined by ISO 7000 / IEC 60417.
+	//[doc:alt] Shuffle icon as defined by ISO 7000 / IEC 60417.
 	//[doc:keywords] media control, iso, video, audio, shuffle
 </script>
 

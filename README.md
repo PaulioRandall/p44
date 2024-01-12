@@ -90,26 +90,29 @@ console.log(docs)
 ```svelte
 import { Asterisk } from 'p44'
 ```
-- **Name**: Asterisk
-- **Keywords**: maths, multiply, asterisk, star, snow, snowflake
+**Asterisk**
+
+**Keywords**: maths, multiply, asterisk, star, snow, snowflake
 
 ### Chopsticks
 
 ```svelte
 import { Chopsticks } from 'p44'
 ```
-- **Name**: Chopsticks
-- **Description**: Two lines crossing to form an image of chopsticks.
-- **Keywords**: chopsticks, crossing lines
+**Chopsticks**: Two lines crossing to form an image of chopsticks.
+
+**Keywords**: chopsticks, crossing lines
 
 ### Circle
 
 ```svelte
 import { Circle } from 'p44'
 ```
-- **Name**: Circle
-- **Keywords**: geometry, circle, dot, round
-- **Props**:
+**Circle**
+
+**Keywords**: geometry, circle, dot, round
+
+**Props**:
   - _radius_ from the center, defaults to 7
 
 ### Clock
@@ -117,95 +120,101 @@ import { Circle } from 'p44'
 ```svelte
 import { Clock } from 'p44'
 ```
-- **Name**: Clock
-- **Description**: A clock set to approximately ten past ten.
-- **Keywords**: clock, time
+**Clock**: A clock set to approximately ten past ten.
+
+**Keywords**: clock, time
 
 ### ConicalFlask
 
 ```svelte
 import { ConicalFlask } from 'p44'
 ```
-- **Name**: Conical Flask
-- **Description**: Conical flask like those used in chemistry.
-- **Keywords**: conical flask, erlenmeyer flask, science, chemistry
+**Conical Flask**: Conical flask like those used in chemistry.
+
+**Keywords**: conical flask, erlenmeyer flask, science, chemistry
 
 ### Crescent
 
 ```svelte
 import { Crescent } from 'p44'
 ```
-- **Name**: Crescent
-- **Keywords**: geometry, crescent, moon
+**Crescent**
+
+**Keywords**: geometry, crescent, moon
 
 ### Crucifix
 
 ```svelte
 import { Crucifix } from 'p44'
 ```
-- **Name**: Crucifix
-- **Keywords**: crucifix, cross, religion
+**Crucifix**
+
+**Keywords**: crucifix, cross, religion
 
 ### CurlyBraces
 
 ```svelte
 import { CurlyBraces } from 'p44'
 ```
-- **Name**: Curly Braces
-- **Description**: Pair of curly braces used in maths and programming.
-- **Keywords**: maths, programming, braces, brackets, object
+**Curly Braces**: Pair of curly braces used in maths and programming.
+
+**Keywords**: maths, programming, braces, brackets, object
 
 ### DivergingLines
 
 ```svelte
 import { DivergingLines } from 'p44'
 ```
-- **Name**: Diverging Lines
-- **Description**: Two diverging or converging lines; dependent on your perspective.
-- **Keywords**: lines, converging, diverging
+**Diverging Lines**: Two diverging or converging lines; dependent on your perspective.
+
+**Keywords**: lines, converging, diverging
 
 ### Divide
 
 ```svelte
 import { Divide } from 'p44'
 ```
-- **Name**: Divide
-- **Keywords**: maths, divide, percentage
+**Divide**
+
+**Keywords**: maths, divide, percentage
 
 ### EdgedDiamond
 
 ```svelte
 import { EdgedDiamond } from 'p44'
 ```
-- **Name**: Edged Diamond
-- **Description**: Diamond shape without curves.
-- **Keywords**: geometry, polygon, diamond, edged
+**Edged Diamond**: Diamond shape without curves.
+
+**Keywords**: geometry, polygon, diamond, edged
 
 ### EdgedHeart
 
 ```svelte
 import { EdgedHeart } from 'p44'
 ```
-- **Name**: Edged Heart
-- **Description**: Heart shape without curves.
-- **Keywords**: geometry, polygon, heart, edged
+**Edged Heart**: Heart shape without curves.
+
+**Keywords**: geometry, polygon, heart, edged
 
 ### Equal
 
 ```svelte
 import { Equal } from 'p44'
 ```
-- **Name**: Equal
-- **Keywords**: maths, equals
+**Equal**
+
+**Keywords**: maths, equals
 
 ### Exponent
 
 ```svelte
 import { Exponent } from 'p44'
 ```
-- **Name**: Exponent
-- **Keywords**: maths, power, exponentiation
-- **Props**:
+**Exponent**
+
+**Keywords**: maths, power, exponentiation
+
+**Props**:
   - _power_ is the exponent, defaults to 2
   - _base_ value the exponent is applied too, defaults to 'n'
 
@@ -214,18 +223,20 @@ import { Exponent } from 'p44'
 ```svelte
 import { Hexagram } from 'p44'
 ```
-- **Name**: Hexagram
-- **Keywords**: hexagram, star of david
+**Hexagram**
+
+**Keywords**: hexagram, star of david
 
 ### HiraShuriken
 
 ```svelte
 import { HiraShuriken } from 'p44'
 ```
-- **Name**: Hira Shuriken
-- **Description**: Hira Shuriken is a type of Japanese throwing star.
-- **Keywords**: geometry, polygon, hira shuriken, star, ninja, weapon, throw
-- **Props**:
+**Hira Shuriken**: Hira Shuriken is a type of Japanese throwing star.
+
+**Keywords**: geometry, polygon, hira shuriken, star, ninja, weapon, throw
+
+**Props**:
   - _legs_ as any whole number 3 or above, defaults to 4
   - _indent_ is the distance up the leg to form inner corner between 0 and 1, defaults to 0.3
 
@@ -234,149 +245,164 @@ import { HiraShuriken } from 'p44'
 ```svelte
 import { HorseShoe } from 'p44'
 ```
-- **Name**: Horseshoe
-- **Description**: Horseshoe curve using a single line.
-- **Keywords**: horseshoe, curve, line
+**Horseshoe**: Horseshoe curve using a single line.
+
+**Keywords**: horseshoe, curve, line
 
 ### Kite
 
 ```svelte
 import { Kite } from 'p44'
 ```
-- **Name**: Kite
-- **Description**: Kite shape using a single polygon.
-- **Keywords**: geometry, polygon, kite, quadrilateral
+**Kite**: Kite shape using a single polygon.
+
+**Keywords**: geometry, polygon, kite, quadrilateral
 
 ### LogoNPM
 
 ```svelte
 import { LogoNPM } from 'p44'
 ```
-- **Name**: Node Package Manager (NPM) Logo
-- **Description**: Logo for Node Package Manager (NPM).
-- **Keywords**: logo, npm, node, javascript, programming
+**Node Package Manager (NPM) Logo**
+
+**Keywords**: logo, npm, node, javascript, programming
 
 ### MediaControlEject
 
 ```svelte
 import { MediaControlEject } from 'p44'
 ```
-- **Name**: Media control eject icon as defined by ISO 7000 / IEC 60417.
-- **Keywords**: media control, iso, video, audio, eject
+**Media Control Eject**: Eject icon as defined by ISO 7000 / IEC 60417.
+
+**Keywords**: media control, iso, video, audio, eject
 
 ### MediaControlPause
 
 ```svelte
 import { MediaControlPause } from 'p44'
 ```
-- **Name**: Media control pause icon as defined by ISO 7000 / IEC 60417.
-- **Keywords**: media control, iso, video, audio, pause
+**Media Control Pause**: Pause icon as defined by ISO 7000 / IEC 60417.
+
+**Keywords**: media control, iso, video, audio, pause
 
 ### MediaControlPlay
 
 ```svelte
 import { MediaControlPlay } from 'p44'
 ```
-- **Name**: Media control play icon as defined by ISO 7000 / IEC 60417.
-- **Keywords**: media control, iso, video, audio, play
+**Media Control Play**: Play icon as defined by ISO 7000 / IEC 60417.
+
+**Keywords**: media control, iso, video, audio, play
 
 ### MediaControlRecord
 
 ```svelte
 import { MediaControlRecord } from 'p44'
 ```
-- **Name**: Media control record icon as defined by ISO 7000 / IEC 60417.
-- **Keywords**: media control, iso, video, audio, record
+**Record icon as defined by ISO 7000 / IEC 60417.**
+
+**Keywords**: media control, iso, video, audio, record
 
 ### MediaControlRepeat
 
 ```svelte
 import { MediaControlRepeat } from 'p44'
 ```
-- **Name**: Media control repeat icon as defined by ISO 7000 / IEC 60417.
-- **Keywords**: media control, iso, video, audio, repeat
+**Media Control Repeat**: Repeat icon as defined by ISO 7000 / IEC 60417.
+
+**Keywords**: media control, iso, video, audio, repeat
 
 ### MediaControlReplay
 
 ```svelte
 import { MediaControlReplay } from 'p44'
 ```
-- **Name**: Media control replay icon.
-- **Keywords**: media control, video, audio, replay
+**Replay icon.**
+
+**Keywords**: media control, video, audio, replay
 
 ### MediaControlRewind
 
 ```svelte
 import { MediaControlRewind } from 'p44'
 ```
-- **Name**: Media control rewind icon as defined by ISO 7000 / IEC 60417.
-- **Keywords**: media control, iso, video, audio, rewind, fast forward
+**Media Control Rewind**: Rewind icon as defined by ISO 7000 / IEC 60417.
+
+**Keywords**: media control, iso, video, audio, rewind, fast forward
 
 ### MediaControlShuffle
 
 ```svelte
 import { MediaControlShuffle } from 'p44'
 ```
-- **Name**: Media control shuffle icon as defined by ISO 7000 / IEC 60417.
-- **Keywords**: media control, iso, video, audio, shuffle
+**Media Control Shuffle**: Shuffle icon as defined by ISO 7000 / IEC 60417.
+
+**Keywords**: media control, iso, video, audio, shuffle
 
 ### MediaControlSkip
 
 ```svelte
 import { MediaControlSkip } from 'p44'
 ```
-- **Name**: Media control skip icon as defined by ISO 7000 / IEC 60417.
-- **Keywords**: media control, iso, video, audio, skip
+**Media Control Skip**: Skip icon as defined by ISO 7000 / IEC 60417.
+
+**Keywords**: media control, iso, video, audio, skip
 
 ### MediaControlStop
 
 ```svelte
 import { MediaControlStop } from 'p44'
 ```
-- **Name**: Media control stop icon as defined by ISO 7000 / IEC 60417.
-- **Keywords**: media control, iso, video, audio, stop
+**Media Control Stop**: Stop icon as defined by ISO 7000 / IEC 60417.
+
+**Keywords**: media control, iso, video, audio, stop
 
 ### Minus
 
 ```svelte
 import { Minus } from 'p44'
 ```
-- **Name**: Minus
-- **Keywords**: maths, minus, subtraction, pipe
+**Minus**
+
+**Keywords**: maths, minus, subtraction, pipe
 
 ### P44
 
 ```svelte
 import { P44 } from 'p44'
 ```
-- **Name**: P44
-- **Description**: Logo of the P44 Svelte icon library.
-- **Keywords**: logo, p44
+**P44**: Logo of the P44 icon library.
+
+**Keywords**: logo, p44
 
 ### Parabola
 
 ```svelte
 import { Parabola } from 'p44'
 ```
-- **Name**: Parabola
-- **Keywords**: geometry, line, curve, parabola
+**Parabola**
+
+**Keywords**: geometry, line, curve, parabola
 
 ### Parabola2
 
 ```svelte
 import { Parabola2 } from 'p44'
 ```
-- **Name**: Parabola2
-- **Keywords**: geometry, line, curve, parabola
+**Parabola2**
+
+**Keywords**: geometry, line, curve, parabola
 
 ### Parallelogram
 
 ```svelte
 import { Parallelogram } from 'p44'
 ```
-- **Name**: Parallelogram
-- **Keywords**: geometry, polygon, parallelogram, quadrilateral
-- **Props**:
+**Parallelogram**
+
+**Keywords**: geometry, polygon, parallelogram, quadrilateral
+
+**Props**:
   - _slope_ is the angle in degrees, negative for left leaning, defaults to 15
 
 ### Parenthesis
@@ -384,25 +410,29 @@ import { Parallelogram } from 'p44'
 ```svelte
 import { Parenthesis } from 'p44'
 ```
-- **Name**: Parenthesis
-- **Keywords**: maths, parenthesis, round brackets
+**Parenthesis**
+
+**Keywords**: maths, parenthesis, round brackets
 
 ### Plus
 
 ```svelte
 import { Plus } from 'p44'
 ```
-- **Name**: Plus
-- **Keywords**: maths, cross, plus, addition
+**Plus**
+
+**Keywords**: maths, cross, plus, addition
 
 ### Rectangle
 
 ```svelte
 import { Rectangle } from 'p44'
 ```
-- **Name**: Rectangle
-- **Keywords**: geometry, polygon, rect, rectangle, square, quadrilateral
-- **Props**:
+**Rectangle**
+
+**Keywords**: geometry, polygon, rect, rectangle, square, quadrilateral
+
+**Props**:
   - _wr_ is Width Radius (apothem), defaults to 8
   - _hr_ is Height Radius (apothem), defaults to 5
 
@@ -411,9 +441,11 @@ import { Rectangle } from 'p44'
 ```svelte
 import { RegularPolygon } from 'p44'
 ```
-- **Name**: Regular Polygon
-- **Keywords**: geometry, polygon, regular
-- **Props**:
+**Regular Polygon**
+
+**Keywords**: geometry, polygon, regular
+
+**Props**:
   - _sides_ is the number of sides as positive integer greater than 2, defaults to 5
 
 ### RightTriangle
@@ -421,17 +453,20 @@ import { RegularPolygon } from 'p44'
 ```svelte
 import { RightTriangle } from 'p44'
 ```
-- **Name**: Right Angle Triangle
-- **Keywords**: geometry, polygon, triangle, parabola
+**Right Angle Triangle**
+
+**Keywords**: geometry, polygon, triangle, parabola
 
 ### Root
 
 ```svelte
 import { Root } from 'p44'
 ```
-- **Name**: Root
-- **Keywords**: maths, root
-- **Props**:
+**Root**
+
+**Keywords**: maths, root
+
+**Props**:
   - _power_ is the exponent, defaults to 2
   - _base_ value the exponent is applied too, defaults to 'n'
 
@@ -440,9 +475,11 @@ import { Root } from 'p44'
 ```svelte
 import { Smiley } from 'p44'
 ```
-- **Name**: Smiley
-- **Keywords**: smiley, face, smile, frown
-- **Props**:
+**Smiley**
+
+**Keywords**: smiley, face, smile, frown
+
+**Props**:
   - _type_ must be one of [bigsmile, smile, neutral,  frown, bigfrown]
 
 ### SquareBrackets
@@ -450,19 +487,20 @@ import { Smiley } from 'p44'
 ```svelte
 import { SquareBrackets } from 'p44'
 ```
-- **Name**: Square Brackets
-- **Description**: Pair of square brackets used in maths and programming.
-- **Keywords**: maths, programming, square brackets, array
+**Square Brackets**: Pair of square brackets used in maths and programming.
+
+**Keywords**: maths, programming, square brackets, array
 
 ### Star
 
 ```svelte
 import { Star } from 'p44'
 ```
-- **Name**: Star
-- **Description**: Star shape with a programmed number of legs and indent.
-- **Keywords**: geometry, polygon, star
-- **Props**:
+**Star**: Star shape with a programmed number of legs and indent.
+
+**Keywords**: geometry, polygon, star
+
+**Props**:
   - _legs_ is any whole number 3 or above, defaults to 5
   - _indent_ is the distance up the leg to form inner corner between 0 and 1, defaults to 0.33
 
@@ -471,6 +509,7 @@ import { Star } from 'p44'
 ```svelte
 import { TiPi } from 'p44'
 ```
-- **Name**: TiPi
-- **Keywords**: tipi, teepee, triangle
+**TiPi**
+
+**Keywords**: tipi, teepee, triangle
 
