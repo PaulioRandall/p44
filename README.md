@@ -344,6 +344,15 @@ import { Minus } from 'p44'
 - **Name**: Minus
 - **Keywords**: maths, minus, subtraction, pipe
 
+### P44
+
+```svelte
+import { P44 } from 'p44'
+```
+- **Name**: P44
+- **Description**: Logo of the P44 Svelte icon library.
+- **Keywords**: logo, p44
+
 ### Parabola
 
 ```svelte

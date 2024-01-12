@@ -28,6 +28,7 @@ export { default as MediaControlShuffle } from './icons/MediaControlShuffle.svel
 export { default as MediaControlSkip } from './icons/MediaControlSkip.svelte'
 export { default as MediaControlStop } from './icons/MediaControlStop.svelte'
 export { default as Minus } from './icons/Minus.svelte'
+export { default as P44 } from './icons/P44.svelte'
 export { default as Parabola } from './icons/Parabola.svelte'
 export { default as Parabola2 } from './icons/Parabola2.svelte'
 export { default as Parallelogram } from './icons/Parallelogram.svelte'

@@ -294,6 +294,14 @@ export default {
       "pipe"
     ]
   },
+  "P44": {
+    "name": "P44",
+    "alt": "Logo of the P44 Svelte icon library.",
+    "keywords": [
+      "logo",
+      "p44"
+    ]
+  },
   "Parabola": {
     "name": "Parabola",
     "keywords": [
