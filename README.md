@@ -228,7 +228,6 @@ import { HiraShuriken } from 'p44'
 - **Props**:
   - _legs_ as any whole number 3 or above, defaults to 4
   - _indent_ is the distance up the leg to form inner corner between 0 and 1, defaults to 0.3
-  - _offset_ is the amount to offset {x,y} by, defaults to calculated based on number of legs
 
 ### HorseShoe
 
@@ -407,7 +406,6 @@ import { RegularPolygon } from 'p44'
 - **Keywords**: geometry, polygon, regular
 - **Props**:
   - _sides_ is the number of sides as positive integer greater than 2, defaults to 5
-  - _offset_ is the amount to offset {x,y} by, defaults to calulated based on number of sides
 
 ### RightTriangle
 
@@ -458,7 +456,6 @@ import { Star } from 'p44'
 - **Props**:
   - _legs_ is any whole number 3 or above, defaults to 5
   - _indent_ is the distance up the leg to form inner corner between 0 and 1, defaults to 0.33
-  - _offset_ is the amount to offset by {x,y}, defaults to calulated based on number of legs
 
 ### TiPi
 

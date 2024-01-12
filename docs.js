@@ -152,8 +152,7 @@ export default {
     ],
     "props": {
       "legs": "as any whole number 3 or above, defaults to 4",
-      "indent": "is the distance up the leg to form inner corner between 0 and 1, defaults to 0.3",
-      "offset": "is the amount to offset {x,y} by, defaults to calculated based on number of legs"
+      "indent": "is the distance up the leg to form inner corner between 0 and 1, defaults to 0.3"
     }
   },
   "HorseShoe": {
@@ -365,8 +364,7 @@ export default {
       "regular"
     ],
     "props": {
-      "sides": "is the number of sides as positive integer greater than 2, defaults to 5",
-      "offset": "is the amount to offset {x,y} by, defaults to calulated based on number of sides"
+      "sides": "is the number of sides as positive integer greater than 2, defaults to 5"
     }
   },
   "RightTriangle": {
@@ -421,8 +419,7 @@ export default {
     ],
     "props": {
       "legs": "is any whole number 3 or above, defaults to 5",
-      "indent": "is the distance up the leg to form inner corner between 0 and 1, defaults to 0.33",
-      "offset": "is the amount to offset by {x,y}, defaults to calulated based on number of legs"
+      "indent": "is the distance up the leg to form inner corner between 0 and 1, defaults to 0.33"
     }
   },
   "TiPi": {

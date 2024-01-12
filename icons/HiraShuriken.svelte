@@ -1,6 +1,6 @@
 <script>
-	import { Polygon, Transform, P45Util, P45RegPoly } from 'p45'
-	import { grid, SVG, zipArrays, offsetRegPoly } from './shared'
+	import { Polygon, P45Util, P45RegPoly } from 'p45'
+	import { grid, SVG, zipArrays } from './shared'
 
 	//[doc:name] Hira Shuriken
 	//[doc:alt] Hira Shuriken is a type of Japanese throwing star.
@@ -12,17 +12,12 @@
 	//[doc:prop] indent is the distance up the leg to form inner corner between 0 and 1, defaults to 0.3
 	export let indent = 0.3
 
-	//[doc:prop] offset is the amount to offset {x,y} by, defaults to calculated based on number of legs
-	export let offset = null
-
 	const makePoints = () => {
 		let _legs = P45Util.parseNumber(legs)
 		_legs = Math.round(_legs)
 
 		let _ind = P45Util.parseNumber(indent)
 		_ind = !!_ind && P45Util.within(_ind, 0, 1) ? _ind : 0.3
-
-		const _off = offset || offsetRegPoly('[P44:DynamicHiraShuriken]', _legs)
 
 		const len = grid.center.x
 		const tipCoords = P45RegPoly.points(_legs, len, {
@@ -35,14 +30,12 @@
 			rotate: 135 / _legs,
 		})
 
-		return [zipArrays(tipCoords, baseCoords), off]
+		return zipArrays(tipCoords, baseCoords)
 	}
 
-	$: [points, off] = makePoints(legs, indent, offset)
+	$: points = makePoints(legs, indent)
 </script>
 
 <SVG {...$$restProps} {grid}>
-	<Transform offset={off}>
-		<Polygon {points} />
-	</Transform>
+	<Polygon {points} />
 </SVG>

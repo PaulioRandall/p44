@@ -1,6 +1,6 @@
 <script>
-	import { Polygon, Transform, P45Util, P45RegPoly } from 'p45'
-	import { grid, SVG, zipArrays, offsetRegPoly } from './shared'
+	import { Polygon, P45Util, P45RegPoly } from 'p45'
+	import { grid, SVG, zipArrays } from './shared'
 
 	//[doc:name] Star
 	//[doc:alt] Star shape with a programmed number of legs and indent.
@@ -11,9 +11,6 @@
 
 	//[doc:prop] indent is the distance up the leg to form inner corner between 0 and 1, defaults to 0.33
 	export let indent = 0.33
-
-	//[doc:prop] offset is the amount to offset by {x,y}, defaults to calulated based on number of legs
-	export let offset = null
 
 	const makePoints = () => {
 		let _legs = P45Util.parseNumber(legs)
@@ -32,15 +29,12 @@
 			origin: grid.center,
 		})
 
-		const off = offset || offsetRegPoly('[P44:DynamicStar]', _legs)
-		return [zipArrays(tipCoords, baseCoords), off]
+		return zipArrays(tipCoords, baseCoords)
 	}
 
-	$: [points, off] = makePoints(legs, indent, offset)
+	$: points = makePoints(legs, indent)
 </script>
 
 <SVG {...$$restProps} {grid}>
-	<Transform offset={off}>
-		<Polygon {points} />
-	</Transform>
+	<Polygon {points} />
 </SVG>
