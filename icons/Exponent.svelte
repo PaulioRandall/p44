@@ -5,10 +5,10 @@
 	//[doc:name] Exponent
 	//[doc:keywords] maths, power, exponentiation
 
-	//[doc:prop] power = Exponent or power, defaults to 2
+	//[doc:prop] power is the exponent, defaults to 2
 	export let power = 2
 
-	//[doc:prop] base = Base value, defaults to 'n'
+	//[doc:prop] base value the exponent is applied too, defaults to 'n'
 	export let base = 'n'
 </script>
 

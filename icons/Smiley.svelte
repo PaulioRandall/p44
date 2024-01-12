@@ -38,7 +38,7 @@
 		},
 	}
 
-	//[doc:prop] type = One of [bigsmile, smile, neutral,  frown, bigfrown]
+	//[doc:prop] type must be one of [bigsmile, smile, neutral,  frown, bigfrown]
 	export let type = 'smile'
 	$: t = types[type.toLowerCase()]
 </script>

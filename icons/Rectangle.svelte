@@ -5,10 +5,10 @@
 	//[doc:name] Rectangle
 	//[doc:keywords] geometry, polygon, rect, rectangle, square, quadrilateral
 
-	//[doc:prop] wr = Width Radius (apothem), defaults to 8
+	//[doc:prop] wr is Width Radius (apothem), defaults to 8
 	export let wr = 8
 
-	//[doc:prop] hr = Height Radius (apothem), defaults to 5
+	//[doc:prop] hr is Height Radius (apothem), defaults to 5
 	export let hr = 5
 
 	$: _wr = Math.round(P45Util.parseNumber(wr))

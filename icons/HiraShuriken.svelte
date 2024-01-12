@@ -6,13 +6,13 @@
 	//[doc:alt] Hira Shuriken is a type of Japanese throwing star.
 	//[doc:keywords] geometry, polygon, hira shuriken, star, ninja, weapon, throw
 
-	//[doc:prop] legs = Any whole number 3 or above, defaults to 4
+	//[doc:prop] legs as any whole number 3 or above, defaults to 4
 	export let legs = 4
 
-	//[doc:prop] indent = Distance up the leg to form inner corner between 0 and 1, defaults to 0.3
+	//[doc:prop] indent is the distance up the leg to form inner corner between 0 and 1, defaults to 0.3
 	export let indent = 0.3
 
-	//[doc:prop] offset = amount to offset {x,y} by, defaults to calulated based on number of legs
+	//[doc:prop] offset is the amount to offset {x,y} by, defaults to calculated based on number of legs
 	export let offset = null
 
 	const makePoints = () => {

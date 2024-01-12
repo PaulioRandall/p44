@@ -6,13 +6,13 @@
 	//[doc:alt] Star shape with a programmed number of legs and indent.
 	//[doc:keywords] geometry, polygon, star
 
-	//[doc:prop] legs = Any whole number 3 or above, defaults to 5
+	//[doc:prop] legs is any whole number 3 or above, defaults to 5
 	export let legs = 5
 
-	//[doc:prop] indent = Distance up the leg to form inner corner between 0 and 1, defaults to 0.33
+	//[doc:prop] indent is the distance up the leg to form inner corner between 0 and 1, defaults to 0.33
 	export let indent = 0.33
 
-	//[doc:prop] offset = amount to offset {x,y} by, defaults to calulated based on number of legs
+	//[doc:prop] offset is the amount to offset by {x,y}, defaults to calulated based on number of legs
 	export let offset = null
 
 	const makePoints = () => {

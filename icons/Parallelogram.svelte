@@ -5,7 +5,7 @@
 	//[doc:name] Parallelogram
 	//[doc:keywords] geometry, polygon, parallelogram, quadrilateral
 
-	//[doc:prop] slope = Slope angle in degrees, negative for left leaning, defaults to 15
+	//[doc:prop] slope is the angle in degrees, negative for left leaning, defaults to 15
 	export let slope = 20
 
 	const halfGridLen = grid.UNIT * 8

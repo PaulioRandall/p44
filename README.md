@@ -110,7 +110,7 @@ import { Circle } from 'p44'
 - **Name**: Circle
 - **Keywords**: geometry, circle, dot, round
 - **Props**:
-  - **radius:** Radius from the center, defaults to 7
+  - **radius** from the center, defaults to 7
 
 ### Clock
 
@@ -206,8 +206,8 @@ import { Exponent } from 'p44'
 - **Name**: Exponent
 - **Keywords**: maths, power, exponentiation
 - **Props**:
-  - **power:** Exponent or power, defaults to 2
-  - **base:** Base value, defaults to 'n'
+  - **power** is the exponent, defaults to 2
+  - **base** value the exponent is applied too, defaults to 'n'
 
 ### Hexagram
 
@@ -226,9 +226,9 @@ import { HiraShuriken } from 'p44'
 - **Description**: Hira Shuriken is a type of Japanese throwing star.
 - **Keywords**: geometry, polygon, hira shuriken, star, ninja, weapon, throw
 - **Props**:
-  - **legs:** Any whole number 3 or above, defaults to 4
-  - **indent:** Distance up the leg to form inner corner between 0 and 1, defaults to 0.3
-  - **offset:** amount to offset {x,y} by, defaults to calulated based on number of legs
+  - **legs** as any whole number 3 or above, defaults to 4
+  - **indent** is the distance up the leg to form inner corner between 0 and 1, defaults to 0.3
+  - **offset** is the amount to offset {x,y} by, defaults to calculated based on number of legs
 
 ### HorseShoe
 
@@ -369,7 +369,7 @@ import { Parallelogram } from 'p44'
 - **Name**: Parallelogram
 - **Keywords**: geometry, polygon, parallelogram, quadrilateral
 - **Props**:
-  - **slope:** Slope angle in degrees, negative for left leaning, defaults to 15
+  - **slope** is the angle in degrees, negative for left leaning, defaults to 15
 
 ### Parenthesis
 
@@ -395,8 +395,8 @@ import { Rectangle } from 'p44'
 - **Name**: Rectangle
 - **Keywords**: geometry, polygon, rect, rectangle, square, quadrilateral
 - **Props**:
-  - **wr:** Width Radius (apothem), defaults to 8
-  - **hr:** Height Radius (apothem), defaults to 5
+  - **wr** is Width Radius (apothem), defaults to 8
+  - **hr** is Height Radius (apothem), defaults to 5
 
 ### RegularPolygon
 
@@ -406,8 +406,8 @@ import { RegularPolygon } from 'p44'
 - **Name**: Regular Polygon
 - **Keywords**: geometry, polygon, regular
 - **Props**:
-  - **sides:** number of sides as positive integer greater than 2, defaults to 5
-  - **offset:** amount to offset {x,y} by, defaults to calulated based on number of sides
+  - **sides** is the number of sides as positive integer greater than 2, defaults to 5
+  - **offset** is the amount to offset {x,y} by, defaults to calulated based on number of sides
 
 ### RightTriangle
 
@@ -425,8 +425,8 @@ import { Root } from 'p44'
 - **Name**: Root
 - **Keywords**: maths, root
 - **Props**:
-  - **power:** Exponent or power, defaults to 2
-  - **base:** Base value, defaults to 'n'
+  - **power** is the exponent, defaults to 2
+  - **base** value the exponent is applied too, defaults to 'n'
 
 ### Smiley
 
@@ -436,7 +436,7 @@ import { Smiley } from 'p44'
 - **Name**: Smiley
 - **Keywords**: smiley, face, smile, frown
 - **Props**:
-  - **type:** One of [bigsmile, smile, neutral,  frown, bigfrown]
+  - **type** must be one of [bigsmile, smile, neutral,  frown, bigfrown]
 
 ### SquareBrackets
 
@@ -456,9 +456,9 @@ import { Star } from 'p44'
 - **Description**: Star shape with a programmed number of legs and indent.
 - **Keywords**: geometry, polygon, star
 - **Props**:
-  - **legs:** Any whole number 3 or above, defaults to 5
-  - **indent:** Distance up the leg to form inner corner between 0 and 1, defaults to 0.33
-  - **offset:** amount to offset {x,y} by, defaults to calulated based on number of legs
+  - **legs** is any whole number 3 or above, defaults to 5
+  - **indent** is the distance up the leg to form inner corner between 0 and 1, defaults to 0.33
+  - **offset** is the amount to offset by {x,y}, defaults to calulated based on number of legs
 
 ### TiPi
 

@@ -64,8 +64,8 @@ function parseDocs(filename, absFilename) {
 	//[docs:name] Abc
 	//[docs:alt] Xyz
 	//[docs:keywords] alpha, beta, charlie
-	//[docs:prop] name = description
-	//[docs:slot] name = description
+	//[docs:prop] name description
+	//[docs:slot] name description
 
 	const docRegex = /\/\/\[doc:([a-z:]+)\](.*)/g
 	const text = readWholeFile(filename, absFilename)
@@ -104,14 +104,14 @@ function parseDocString(filename, docs, name, value) {
 
 		case 'prop':
 			//[docs:prop] name = description
-			const [pName, pDesc] = splitTrimFilter(value, '=')
+			const [pName, pDesc] = splitNameTrimFilter(value, filename)
 			docs.props = docs.props || {}
 			docs.props[pName] = pDesc
 			return
 
 		case 'slot':
 			//[docs:slot] name = description
-			const [sName, sDesc] = splitTrimFilter(value, '=')
+			const [sName, sDesc] = splitNameTrimFilter(value, filename)
 			docs.slots = docs.slots || {}
 			docs.slots[sName] = sDesc
 			return
@@ -128,6 +128,21 @@ function splitTrimFilter(s, delim) {
 		.split(delim) //
 		.map((v) => v.trim()) //
 		.filter((v) => !!v)
+}
+
+function splitNameTrimFilter(s, filename) {
+	const m = s.match(/^[A-z][A-z0-9_]*/)
+
+	if (!m || m.length === 0) {
+		throw new Error(
+			`${filename}:\n\tDoc property missing name or description: "${s}".`
+		)
+	}
+
+	return [
+		m[0].trim(), //
+		s.slice(m[0].length).trim(), //
+	]
 }
 
 function readWholeFile(filename, absFilename) {
@@ -190,7 +205,7 @@ function stringifyDocsImport(lines, name) {
 
 function stringifyDocsObject(lines, name, obj) {
 	lines.push(`- **${name}**:`)
-	Object.entries(obj).forEach(([name, value]) => {
-		lines.push(`  - **${name}:** ${value}`)
+	Object.entries(obj).forEach(([name, description]) => {
+		lines.push(`  - **${name}** ${description}`)
 	})
 }

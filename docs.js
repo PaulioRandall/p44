@@ -27,7 +27,7 @@ export default {
       "round"
     ],
     "props": {
-      "radius": "Radius from the center, defaults to 7"
+      "radius": "from the center, defaults to 7"
     }
   },
   "Clock": {
@@ -127,8 +127,8 @@ export default {
       "exponentiation"
     ],
     "props": {
-      "power": "Exponent or power, defaults to 2",
-      "base": "Base value, defaults to 'n'"
+      "power": "is the exponent, defaults to 2",
+      "base": "value the exponent is applied too, defaults to 'n'"
     }
   },
   "Hexagram": {
@@ -151,9 +151,9 @@ export default {
       "throw"
     ],
     "props": {
-      "legs": "Any whole number 3 or above, defaults to 4",
-      "indent": "Distance up the leg to form inner corner between 0 and 1, defaults to 0.3",
-      "offset": "amount to offset {x,y} by, defaults to calulated based on number of legs"
+      "legs": "as any whole number 3 or above, defaults to 4",
+      "indent": "is the distance up the leg to form inner corner between 0 and 1, defaults to 0.3",
+      "offset": "is the amount to offset {x,y} by, defaults to calculated based on number of legs"
     }
   },
   "HorseShoe": {
@@ -322,7 +322,7 @@ export default {
       "quadrilateral"
     ],
     "props": {
-      "slope": "Slope angle in degrees, negative for left leaning, defaults to 15"
+      "slope": "is the angle in degrees, negative for left leaning, defaults to 15"
     }
   },
   "Parenthesis": {
@@ -353,8 +353,8 @@ export default {
       "quadrilateral"
     ],
     "props": {
-      "wr": "Width Radius (apothem), defaults to 8",
-      "hr": "Height Radius (apothem), defaults to 5"
+      "wr": "is Width Radius (apothem), defaults to 8",
+      "hr": "is Height Radius (apothem), defaults to 5"
     }
   },
   "RegularPolygon": {
@@ -365,8 +365,8 @@ export default {
       "regular"
     ],
     "props": {
-      "sides": "number of sides as positive integer greater than 2, defaults to 5",
-      "offset": "amount to offset {x,y} by, defaults to calulated based on number of sides"
+      "sides": "is the number of sides as positive integer greater than 2, defaults to 5",
+      "offset": "is the amount to offset {x,y} by, defaults to calulated based on number of sides"
     }
   },
   "RightTriangle": {
@@ -385,8 +385,8 @@ export default {
       "root"
     ],
     "props": {
-      "power": "Exponent or power, defaults to 2",
-      "base": "Base value, defaults to 'n'"
+      "power": "is the exponent, defaults to 2",
+      "base": "value the exponent is applied too, defaults to 'n'"
     }
   },
   "Smiley": {
@@ -398,7 +398,7 @@ export default {
       "frown"
     ],
     "props": {
-      "type": "One of [bigsmile, smile, neutral,  frown, bigfrown]"
+      "type": "must be one of [bigsmile, smile, neutral,  frown, bigfrown]"
     }
   },
   "SquareBrackets": {
@@ -420,9 +420,9 @@ export default {
       "star"
     ],
     "props": {
-      "legs": "Any whole number 3 or above, defaults to 5",
-      "indent": "Distance up the leg to form inner corner between 0 and 1, defaults to 0.33",
-      "offset": "amount to offset {x,y} by, defaults to calulated based on number of legs"
+      "legs": "is any whole number 3 or above, defaults to 5",
+      "indent": "is the distance up the leg to form inner corner between 0 and 1, defaults to 0.33",
+      "offset": "is the amount to offset by {x,y}, defaults to calulated based on number of legs"
     }
   },
   "TiPi": {
