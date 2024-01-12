@@ -29,10 +29,11 @@ createOrReplaceFile(
 
 // README.md
 
+const placeholder = '+++(Do not remove: component docs are inserted here!!)+++'
 const stringDocs = stringifyDocs(docsMap)
 const readmeFile = path.resolve('./README.tmp.md')
 const tmpReadme = readWholeFile('README.tmp.md', readmeFile)
-const readme = tmpReadme.replace('+++(components)+++', stringDocs)
+const readme = tmpReadme.replace(placeholder, stringDocs)
 createOrReplaceFile('README.md', readme)
 
 // Functions
@@ -206,6 +207,6 @@ function stringifyDocsImport(lines, name) {
 function stringifyDocsObject(lines, name, obj) {
 	lines.push(`- **${name}**:`)
 	Object.entries(obj).forEach(([name, description]) => {
-		lines.push(`  - **${name}** ${description}`)
+		lines.push(`  - _${name}_ ${description}`)
 	})
 }

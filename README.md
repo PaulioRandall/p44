@@ -6,7 +6,7 @@
 
 Svelte package exposing SVG icons crafted using P45.
 
-The design some icons will very likely change before the first version so keep that in mind. Apply custom styles via CSS selectors.
+Icons will be added, removed, and modified before the first version so keep that in mind. Apply custom styles via CSS selectors.
 
 **Requires Svelte version 4.**
 
@@ -110,7 +110,7 @@ import { Circle } from 'p44'
 - **Name**: Circle
 - **Keywords**: geometry, circle, dot, round
 - **Props**:
-  - **radius** from the center, defaults to 7
+  - _radius_ from the center, defaults to 7
 
 ### Clock
 
@@ -206,8 +206,8 @@ import { Exponent } from 'p44'
 - **Name**: Exponent
 - **Keywords**: maths, power, exponentiation
 - **Props**:
-  - **power** is the exponent, defaults to 2
-  - **base** value the exponent is applied too, defaults to 'n'
+  - _power_ is the exponent, defaults to 2
+  - _base_ value the exponent is applied too, defaults to 'n'
 
 ### Hexagram
 
@@ -226,9 +226,9 @@ import { HiraShuriken } from 'p44'
 - **Description**: Hira Shuriken is a type of Japanese throwing star.
 - **Keywords**: geometry, polygon, hira shuriken, star, ninja, weapon, throw
 - **Props**:
-  - **legs** as any whole number 3 or above, defaults to 4
-  - **indent** is the distance up the leg to form inner corner between 0 and 1, defaults to 0.3
-  - **offset** is the amount to offset {x,y} by, defaults to calculated based on number of legs
+  - _legs_ as any whole number 3 or above, defaults to 4
+  - _indent_ is the distance up the leg to form inner corner between 0 and 1, defaults to 0.3
+  - _offset_ is the amount to offset {x,y} by, defaults to calculated based on number of legs
 
 ### HorseShoe
 
@@ -369,7 +369,7 @@ import { Parallelogram } from 'p44'
 - **Name**: Parallelogram
 - **Keywords**: geometry, polygon, parallelogram, quadrilateral
 - **Props**:
-  - **slope** is the angle in degrees, negative for left leaning, defaults to 15
+  - _slope_ is the angle in degrees, negative for left leaning, defaults to 15
 
 ### Parenthesis
 
@@ -395,8 +395,8 @@ import { Rectangle } from 'p44'
 - **Name**: Rectangle
 - **Keywords**: geometry, polygon, rect, rectangle, square, quadrilateral
 - **Props**:
-  - **wr** is Width Radius (apothem), defaults to 8
-  - **hr** is Height Radius (apothem), defaults to 5
+  - _wr_ is Width Radius (apothem), defaults to 8
+  - _hr_ is Height Radius (apothem), defaults to 5
 
 ### RegularPolygon
 
@@ -406,8 +406,8 @@ import { RegularPolygon } from 'p44'
 - **Name**: Regular Polygon
 - **Keywords**: geometry, polygon, regular
 - **Props**:
-  - **sides** is the number of sides as positive integer greater than 2, defaults to 5
-  - **offset** is the amount to offset {x,y} by, defaults to calulated based on number of sides
+  - _sides_ is the number of sides as positive integer greater than 2, defaults to 5
+  - _offset_ is the amount to offset {x,y} by, defaults to calulated based on number of sides
 
 ### RightTriangle
 
@@ -425,8 +425,8 @@ import { Root } from 'p44'
 - **Name**: Root
 - **Keywords**: maths, root
 - **Props**:
-  - **power** is the exponent, defaults to 2
-  - **base** value the exponent is applied too, defaults to 'n'
+  - _power_ is the exponent, defaults to 2
+  - _base_ value the exponent is applied too, defaults to 'n'
 
 ### Smiley
 
@@ -436,7 +436,7 @@ import { Smiley } from 'p44'
 - **Name**: Smiley
 - **Keywords**: smiley, face, smile, frown
 - **Props**:
-  - **type** must be one of [bigsmile, smile, neutral,  frown, bigfrown]
+  - _type_ must be one of [bigsmile, smile, neutral,  frown, bigfrown]
 
 ### SquareBrackets
 
@@ -456,9 +456,9 @@ import { Star } from 'p44'
 - **Description**: Star shape with a programmed number of legs and indent.
 - **Keywords**: geometry, polygon, star
 - **Props**:
-  - **legs** is any whole number 3 or above, defaults to 5
-  - **indent** is the distance up the leg to form inner corner between 0 and 1, defaults to 0.33
-  - **offset** is the amount to offset by {x,y}, defaults to calulated based on number of legs
+  - _legs_ is any whole number 3 or above, defaults to 5
+  - _indent_ is the distance up the leg to form inner corner between 0 and 1, defaults to 0.33
+  - _offset_ is the amount to offset by {x,y}, defaults to calulated based on number of legs
 
 ### TiPi
 

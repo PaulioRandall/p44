@@ -6,7 +6,7 @@
 
 Svelte package exposing SVG icons crafted using P45.
 
-The design some icons will very likely change before the first version so keep that in mind. Apply custom styles via CSS selectors.
+Icons will be added, removed, and modified before the first version so keep that in mind. Apply custom styles via CSS selectors.
 
 **Requires Svelte version 4.**
 
@@ -85,4 +85,4 @@ console.log(docs)
 
 ## Components
 
-+++(components)+++
++++(Do not remove: component docs are inserted here!!)+++
