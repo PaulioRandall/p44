@@ -10,7 +10,7 @@
 
 <SVG {...$$props} {grid}>
 	<filter id="p44-p69-glow" x="0" y="0">
-		<feGaussianBlur in="SourceGraphic" stdDeviation="0.2"> </feGaussianBlur>
+		<feGaussianBlur in="SourceGraphic" stdDeviation="0.25"> </feGaussianBlur>
 	</filter>
 	<BG />
 	<g filter="url(#p44-p69-glow)">
