@@ -10,11 +10,11 @@
 
 <SVG {...$$props} {grid}>
 	<filter id="p44-p69-glow" x="0" y="0">
-		<feGaussianBlur in="SourceGraphic" stdDeviation="0.2">
-		</feGaussianBlur></filter>
+		<feGaussianBlur in="SourceGraphic" stdDeviation="0.2"> </feGaussianBlur>
+	</filter>
 	<BG />
 	<g filter="url(#p44-p69-glow)">
-		<CrimsonEyes origin={grid.n(1, 5)} />
+		<CrimsonEyes origin={grid.n(1, 5)} fill="white" />
 		<Path
 			stroke-width="0"
 			fill="white"

@@ -6,9 +6,9 @@
 </script>
 
 <Path
+	fill="white"
 	{...$$props}
 	stroke-width="0"
-	fill="white"
 	transform="translate({origin.x}, {origin.y})"
 	d={[
 		M(grid.n(1, 0)),
@@ -24,10 +24,10 @@
 		),
 	]} />
 <Path
-	{...$$props}
-	stroke-width="1"
 	stroke="#050A23"
+	{...$$props}
 	fill="crimson"
+	stroke-width="1"
 	transform="translate({origin.x}, {origin.y})"
 	d={[
 		M(grid.n(3, 0, 2, 1)),

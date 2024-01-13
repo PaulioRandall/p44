@@ -6,7 +6,7 @@
 	export let origin = { x: 0, y: 0 }
 </script>
 
-<CrimsonEye {origin} />
+<CrimsonEye {...$$restProps} {origin} />
 <Transform flipX>
-	<CrimsonEye {origin} />
+	<CrimsonEye {...$$restProps} {origin} />
 </Transform>
