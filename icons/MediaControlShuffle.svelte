@@ -1,5 +1,5 @@
 <script>
-	import { Transform, Polygon, Path, M, L, C, S } from 'p45'
+	import { Transform, Path, M, L, C, S } from 'p45'
 	import { grid, SVG } from './shared'
 
 	//[doc:name] Media Control Shuffle

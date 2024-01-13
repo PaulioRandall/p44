@@ -1,5 +1,5 @@
 <script>
-	import { Transform, Circle, Path, M, C, L } from 'p45'
+	import { Circle, Path, M, C, L } from 'p45'
 	import { grid, SVG } from './shared'
 	import { BG, Four, Five, Horns, GaulHelm } from './parts'
 

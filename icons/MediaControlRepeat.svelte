@@ -33,7 +33,7 @@
 			]} />
 	</defs>
 	<use href="#p44-media-control-repeat-arrow" />
-	<Transform flipX flipY>
+	<Transform flipXY>
 		<use href="#p44-media-control-repeat-arrow" />
 	</Transform>
 </SVG>

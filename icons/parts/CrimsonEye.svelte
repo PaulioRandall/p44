@@ -1,5 +1,5 @@
 <script>
-	import { Path, M, C, L, Transform } from 'p45'
+	import { Path, M, C, L } from 'p45'
 	import { grid, SVG } from '../shared'
 
 	export let origin = { x: 0, y: 0 }

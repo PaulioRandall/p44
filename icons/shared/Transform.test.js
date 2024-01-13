@@ -1,3 +1,0 @@
-describe('Abc', () => {
-	test('Xyz', () => {})
-})
