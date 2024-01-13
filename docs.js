@@ -309,6 +309,14 @@ export default {
       "p44"
     ]
   },
+  "P45": {
+    "name": "P45",
+    "alt": "Logo of the P45 icon creation library.",
+    "keywords": [
+      "logo",
+      "p45"
+    ]
+  },
   "Parabola": {
     "name": "Parabola",
     "keywords": [

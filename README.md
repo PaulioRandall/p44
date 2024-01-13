@@ -375,6 +375,15 @@ import { P44 } from 'p44'
 
 **Keywords**: logo, p44
 
+### P45
+
+```svelte
+import { P45 } from 'p44'
+```
+**P45**: Logo of the P45 icon creation library.
+
+**Keywords**: logo, p45
+
 ### Parabola
 
 ```svelte
