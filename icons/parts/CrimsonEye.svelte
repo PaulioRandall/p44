@@ -7,7 +7,7 @@
 
 <Path
 	fill="white"
-	{...$$props}
+	{...$$restProps}
 	stroke-width="0"
 	transform="translate({origin.x}, {origin.y})"
 	d={[

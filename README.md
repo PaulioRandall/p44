@@ -4,6 +4,8 @@
 
 # P44
 
+<img src="/logo.svg" width="50" height="50" />
+
 Svelte package exposing SVG icons crafted using P45.
 
 Icons will be added, removed, and modified before the first version so keep that in mind. Apply custom styles via CSS selectors.
