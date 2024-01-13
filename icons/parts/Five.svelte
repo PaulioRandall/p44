@@ -6,6 +6,7 @@
 </script>
 
 <Path
+	stroke-linecap="round"
 	stroke-width="3"
 	stroke="#DAA520"
 	transform="translate({origin.x}, {origin.y})"

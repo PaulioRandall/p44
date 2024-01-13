@@ -317,6 +317,14 @@ export default {
       "p45"
     ]
   },
+  "P69": {
+    "name": "P69",
+    "alt": "Logo of the P69 CSS compile time token library.",
+    "keywords": [
+      "logo",
+      "p69"
+    ]
+  },
   "Parabola": {
     "name": "Parabola",
     "keywords": [

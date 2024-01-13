@@ -384,6 +384,15 @@ import { P45 } from 'p44'
 
 **Keywords**: logo, p45
 
+### P69
+
+```svelte
+import { P69 } from 'p44'
+```
+**P69**: Logo of the P69 CSS compile time token library.
+
+**Keywords**: logo, p69
+
 ### Parabola
 
 ```svelte
