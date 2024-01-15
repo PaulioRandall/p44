@@ -10,6 +10,30 @@ export default {
       "snowflake"
     ]
   },
+  "Chart": {
+    "name": "Chart",
+    "alt": "Represents a data chart, graph, plot, or data analytics.",
+    "keywords": [
+      "chart",
+      "graph",
+      "plot",
+      "data",
+      "analytics",
+      "analysis"
+    ]
+  },
+  "Chart2": {
+    "name": "Chart",
+    "alt": "Represents a coloured data chart, graph, plot, or data analytics.",
+    "keywords": [
+      "chart",
+      "graph",
+      "plot",
+      "data",
+      "analytics",
+      "analysis"
+    ]
+  },
   "Chopsticks": {
     "name": "Chopsticks",
     "alt": "Two lines crossing to form an image of chopsticks.",

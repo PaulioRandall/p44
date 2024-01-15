@@ -11,7 +11,7 @@
 <SVG {...$$props} {grid}>
 	<Path
 		stroke-linecap="square"
-		stroke-width="1"
+		stroke-width="1.5"
 		stroke="forestgreen"
 		d={[
 			// Vertical

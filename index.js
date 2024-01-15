@@ -1,4 +1,6 @@
 export { default as Asterisk } from './icons/Asterisk.svelte'
+export { default as Chart } from './icons/Chart.svelte'
+export { default as Chart2 } from './icons/Chart2.svelte'
 export { default as Chopsticks } from './icons/Chopsticks.svelte'
 export { default as Circle } from './icons/Circle.svelte'
 export { default as Clock } from './icons/Clock.svelte'

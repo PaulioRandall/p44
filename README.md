@@ -94,6 +94,24 @@ import { Asterisk } from 'p44'
 
 **Keywords**: maths, multiply, asterisk, star, snow, snowflake
 
+### Chart
+
+```svelte
+import { Chart } from 'p44'
+```
+**Chart**: Represents a data chart, graph, plot, or data analytics.
+
+**Keywords**: chart, graph, plot, data, analytics, analysis
+
+### Chart2
+
+```svelte
+import { Chart2 } from 'p44'
+```
+**Chart**: Represents a coloured data chart, graph, plot, or data analytics.
+
+**Keywords**: chart, graph, plot, data, analytics, analysis
+
 ### Chopsticks
 
 ```svelte
