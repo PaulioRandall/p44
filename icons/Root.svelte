@@ -20,21 +20,8 @@
 			L(grid.n(8, 3)), //
 			L(grid.n(15, 3)), //
 		]} />
-	<Text class="p44-sqrt base" origin={grid.n(8, 13, grid.HALF)}>{base}</Text>
-	<Text class="p44-sqrt power" origin={grid.n(1, 6, grid.HALF)}>{power}</Text>
+	<g font-family="Verdana" stroke-width="1" fill="currentColor">
+		<Text font-size="42" origin={grid.n(8, 13, grid.HALF)}>{base}</Text>
+		<Text font-size="24" origin={grid.n(1, 6, grid.HALF)}>{power}</Text>
+	</g>
 </SVG>
-
-<style>
-	:global(.p44-sqrt) {
-		stroke-width: 1;
-		fill: currentColor;
-	}
-
-	:global(.p44-sqrt.base) {
-		font-size: 48px;
-	}
-
-	:global(.p44-sqrt.power) {
-		font-size: 24px;
-	}
-</style>

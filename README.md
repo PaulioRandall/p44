@@ -4,8 +4,6 @@
 
 # P44
 
-<img src="/logo.svg" width="50" height="50" />
-
 Svelte package exposing SVG icons crafted using P45.
 
 Icons will be added, removed, and modified before the first version so keep that in mind. Apply custom styles via CSS selectors.
@@ -501,6 +499,15 @@ import { Smiley } from 'p44'
 
 **Props**:
   - _type_ must be one of [bigsmile, smile, neutral,  frown, bigfrown]
+
+### Spreadsheet
+
+```svelte
+import { Spreadsheet } from 'p44'
+```
+**Spreadsheet**: Represents a spreadsheet or table based statistics.
+
+**Keywords**: spreadsheet, excel, table, grid
 
 ### SquareBrackets
 

@@ -12,22 +12,12 @@
 	export let base = 'n'
 </script>
 
-<SVG {...$$restProps} {grid}>
-	<Text class="p44-expo base" origin={grid.n(2, 14, grid.HALF)}>{base}</Text>
-	<Text class="p44-expo power" origin={grid.n(10, 7, grid.HALF)}>{power}</Text>
+<SVG
+	font-family="Verdana"
+	stroke-width="1"
+	fill="currentColor"
+	{...$$restProps}
+	{grid}>
+	<Text font-size="56" origin={grid.n(2, 14, grid.HALF)}>{base}</Text>
+	<Text font-size="24" origin={grid.n(10, 7, grid.HALF)}>{power}</Text>
 </SVG>
-
-<style>
-	:global(.p44-expo) {
-		stroke-width: 1;
-		fill: currentColor;
-	}
-
-	:global(.p44-expo.base) {
-		font-size: 56px;
-	}
-
-	:global(.p44-expo.power) {
-		font-size: 24px;
-	}
-</style>

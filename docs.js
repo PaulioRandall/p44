@@ -430,6 +430,16 @@ export default {
       "type": "must be one of [bigsmile, smile, neutral,  frown, bigfrown]"
     }
   },
+  "Spreadsheet": {
+    "name": "Spreadsheet",
+    "alt": "Represents a spreadsheet or table based statistics.",
+    "keywords": [
+      "spreadsheet",
+      "excel",
+      "table",
+      "grid"
+    ]
+  },
   "SquareBrackets": {
     "name": "Square Brackets",
     "alt": "Pair of square brackets used in maths and programming.",
