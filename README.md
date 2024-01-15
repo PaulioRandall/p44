@@ -103,15 +103,6 @@ import { Chart } from 'p44'
 
 **Keywords**: chart, graph, plot, data, analytics, analysis
 
-### Chart2
-
-```svelte
-import { Chart2 } from 'p44'
-```
-**Chart**: Represents a coloured data chart, graph, plot, or data analytics.
-
-**Keywords**: chart, graph, plot, data, analytics, analysis
-
 ### Chopsticks
 
 ```svelte
@@ -141,6 +132,15 @@ import { Clock } from 'p44'
 **Clock**: A clock set to approximately ten past ten.
 
 **Keywords**: clock, time
+
+### ColouredChart
+
+```svelte
+import { ColouredChart } from 'p44'
+```
+**Coloured Chart**: Represents a coloured data chart, graph, plot, or data analytics.
+
+**Keywords**: chart, graph, plot, data, analytics, analysis
 
 ### ConicalFlask
 
@@ -505,6 +505,15 @@ import { Root } from 'p44'
 **Props**:
   - _power_ is the exponent, defaults to 2
   - _base_ value the exponent is applied too, defaults to 'n'
+
+### SQL
+
+```svelte
+import { SQL } from 'p44'
+```
+**SQL**: Custom SQL logo.
+
+**Keywords**: sql, database, db, query, data
 
 ### Smiley
 

@@ -10,3 +10,5 @@ export { default as Horns } from './Horns.svelte'
 export { default as GaulHelm } from './GaulHelm.svelte'
 export { default as CrimsonEye } from './CrimsonEye.svelte'
 export { default as CrimsonEyes } from './CrimsonEyes.svelte'
+
+export { default as Brick } from './Brick.svelte'

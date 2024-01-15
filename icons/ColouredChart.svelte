@@ -2,7 +2,7 @@
 	import { Polygon, Circle, Path, M, L } from 'p45'
 	import { grid, SVG } from './shared'
 
-	//[doc:name] Chart
+	//[doc:name] Coloured Chart
 	//[doc:alt] Represents a coloured data chart, graph, plot, or data analytics.
 	//[doc:keywords] chart, graph, plot, data, analytics, analysis
 </script>
