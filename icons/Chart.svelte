@@ -8,7 +8,7 @@
 </script>
 
 <SVG {...$$props} {grid}>
-	<g stroke-width="0" fill="grey">
+	<g stroke-width="0" fill="currentColor">
 		<Polygon
 			points={[
 				grid.n(1, 15), //
@@ -38,14 +38,14 @@
 				grid.n(15, 15), //
 			]} />
 	</g>
-	<g stroke-width="0" fill="grey">
+	<g stroke-width="0" fill="currentColor">
 		<Circle radius="1" origin={grid.n(2, 6, 1)} />
 		<Circle radius="1" origin={grid.n(6, 3, 0.5)} />
 		<Circle radius="1" origin={grid.n(10, 5, -0.5)} />
 		<Circle radius="1" origin={grid.n(14, 2, -1)} />
 		<Path
 			stroke-width="1.5"
-			stroke="grey"
+			stroke="currentColor"
 			fill="transparent"
 			d={[
 				M(grid.n(2, 6, 1)),

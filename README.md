@@ -317,7 +317,7 @@ import { MediaControlPlay } from 'p44'
 ```svelte
 import { MediaControlRecord } from 'p44'
 ```
-**Record icon as defined by ISO 7000 / IEC 60417.**
+**Media Control Record**: Record icon as defined by ISO 7000 / IEC 60417.
 
 **Keywords**: media control, iso, video, audio, record
 
@@ -335,7 +335,7 @@ import { MediaControlRepeat } from 'p44'
 ```svelte
 import { MediaControlReplay } from 'p44'
 ```
-**Replay icon.**
+**Media Control Replay**: Replay icon.
 
 **Keywords**: media control, video, audio, replay
 

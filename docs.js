@@ -242,7 +242,8 @@ export default {
     ]
   },
   "MediaControlRecord": {
-    "name": "Record icon as defined by ISO 7000 / IEC 60417.",
+    "name": "Media Control Record",
+    "alt": "Record icon as defined by ISO 7000 / IEC 60417.",
     "keywords": [
       "media control",
       "iso",
@@ -263,7 +264,8 @@ export default {
     ]
   },
   "MediaControlReplay": {
-    "name": "Replay icon.",
+    "name": "Media Control Replay",
+    "alt": "Replay icon.",
     "keywords": [
       "media control",
       "video",
