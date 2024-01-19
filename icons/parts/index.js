@@ -12,3 +12,5 @@ export { default as CrimsonEye } from './CrimsonEye.svelte'
 export { default as CrimsonEyes } from './CrimsonEyes.svelte'
 
 export { default as Brick } from './Brick.svelte'
+export { default as LoopArrow } from './LoopArrow.svelte'
+export { default as CenterChar } from './CenterChar.svelte'

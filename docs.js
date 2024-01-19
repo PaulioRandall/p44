@@ -1,4 +1,24 @@
 export default {
+  "AnticlockwiseBalancingLoop": {
+    "name": "Anticlockwise Balancing Loop",
+    "alt": "Anticlockwise balancing loop symbol used in causal loop diagrams.",
+    "keywords": [
+      "loop",
+      "arrow",
+      "balancing",
+      "causal loop diagram"
+    ]
+  },
+  "AnticlockwiseReinforcingLoop": {
+    "name": "Anticlockwise Reinforcing Loop",
+    "alt": "Anticlockwise reinforcing loop symbol used in causal loop diagrams.",
+    "keywords": [
+      "loop",
+      "arrow",
+      "reinforcing",
+      "causal loop diagram"
+    ]
+  },
   "Asterisk": {
     "name": "Asterisk",
     "keywords": [
@@ -50,6 +70,26 @@ export default {
       "time"
     ]
   },
+  "ClockwiseBalancingLoop": {
+    "name": "Clockwise Balancing Loop",
+    "alt": "Clockwise balancing loop symbol used in causal loop diagrams.",
+    "keywords": [
+      "loop",
+      "arrow",
+      "balancing",
+      "causal loop diagram"
+    ]
+  },
+  "ClockwiseReinforcingLoop": {
+    "name": "Clockwise Reinforcing Loop",
+    "alt": "Clockwise reinforcing loop symbol used in causal loop diagrams.",
+    "keywords": [
+      "loop",
+      "arrow",
+      "reinforcing",
+      "causal loop diagram"
+    ]
+  },
   "ColouredChart": {
     "name": "Coloured Chart",
     "alt": "Represents a coloured data chart, graph, plot, or data analytics.",
@@ -70,14 +110,6 @@ export default {
       "erlenmeyer flask",
       "science",
       "chemistry"
-    ]
-  },
-  "Crescent": {
-    "name": "Crescent",
-    "keywords": [
-      "geometry",
-      "crescent",
-      "moon"
     ]
   },
   "Crucifix": {
@@ -327,6 +359,16 @@ export default {
       "pipe"
     ]
   },
+  "NegativeBubble": {
+    "name": "Negative Bubble",
+    "alt": "Minus symbol within a bubble.",
+    "keywords": [
+      "minus",
+      "bubble",
+      "negative",
+      "causal loop diagram"
+    ]
+  },
   "P44": {
     "name": "P44",
     "alt": "Logo of the P44 icon library.",
@@ -396,6 +438,16 @@ export default {
       "cross",
       "plus",
       "addition"
+    ]
+  },
+  "PositiveBubble": {
+    "name": "Positive Bubble",
+    "alt": "Plus symbol within a bubble.",
+    "keywords": [
+      "plus",
+      "bubble",
+      "positive",
+      "causal loop diagram"
     ]
   },
   "Rectangle": {

@@ -85,6 +85,24 @@ console.log(docs)
 
 ## Components
 
+### AnticlockwiseBalancingLoop
+
+```svelte
+import { AnticlockwiseBalancingLoop } from 'p44'
+```
+**Anticlockwise Balancing Loop**: Anticlockwise balancing loop symbol used in causal loop diagrams.
+
+**Keywords**: loop, arrow, balancing, causal loop diagram
+
+### AnticlockwiseReinforcingLoop
+
+```svelte
+import { AnticlockwiseReinforcingLoop } from 'p44'
+```
+**Anticlockwise Reinforcing Loop**: Anticlockwise reinforcing loop symbol used in causal loop diagrams.
+
+**Keywords**: loop, arrow, reinforcing, causal loop diagram
+
 ### Asterisk
 
 ```svelte
@@ -133,6 +151,24 @@ import { Clock } from 'p44'
 
 **Keywords**: clock, time
 
+### ClockwiseBalancingLoop
+
+```svelte
+import { ClockwiseBalancingLoop } from 'p44'
+```
+**Clockwise Balancing Loop**: Clockwise balancing loop symbol used in causal loop diagrams.
+
+**Keywords**: loop, arrow, balancing, causal loop diagram
+
+### ClockwiseReinforcingLoop
+
+```svelte
+import { ClockwiseReinforcingLoop } from 'p44'
+```
+**Clockwise Reinforcing Loop**: Clockwise reinforcing loop symbol used in causal loop diagrams.
+
+**Keywords**: loop, arrow, reinforcing, causal loop diagram
+
 ### ColouredChart
 
 ```svelte
@@ -150,15 +186,6 @@ import { ConicalFlask } from 'p44'
 **Conical Flask**: Conical flask like those used in chemistry.
 
 **Keywords**: conical flask, erlenmeyer flask, science, chemistry
-
-### Crescent
-
-```svelte
-import { Crescent } from 'p44'
-```
-**Crescent**
-
-**Keywords**: geometry, crescent, moon
 
 ### Crucifix
 
@@ -384,6 +411,15 @@ import { Minus } from 'p44'
 
 **Keywords**: maths, minus, subtraction, pipe
 
+### NegativeBubble
+
+```svelte
+import { NegativeBubble } from 'p44'
+```
+**Negative Bubble**: Minus symbol within a bubble.
+
+**Keywords**: minus, bubble, negative, causal loop diagram
+
 ### P44
 
 ```svelte
@@ -458,6 +494,15 @@ import { Plus } from 'p44'
 **Plus**
 
 **Keywords**: maths, cross, plus, addition
+
+### PositiveBubble
+
+```svelte
+import { PositiveBubble } from 'p44'
+```
+**Positive Bubble**: Plus symbol within a bubble.
+
+**Keywords**: plus, bubble, positive, causal loop diagram
 
 ### Rectangle
 
