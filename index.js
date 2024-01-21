@@ -9,6 +9,7 @@ export { default as ClockwiseBalancingLoop } from './icons/ClockwiseBalancingLoo
 export { default as ClockwiseReinforcingLoop } from './icons/ClockwiseReinforcingLoop.svelte'
 export { default as ColouredChart } from './icons/ColouredChart.svelte'
 export { default as ConicalFlask } from './icons/ConicalFlask.svelte'
+export { default as Copy } from './icons/Copy.svelte'
 export { default as Crucifix } from './icons/Crucifix.svelte'
 export { default as CurlyBraces } from './icons/CurlyBraces.svelte'
 export { default as DivergingLines } from './icons/DivergingLines.svelte'

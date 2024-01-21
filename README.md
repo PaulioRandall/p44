@@ -187,6 +187,15 @@ import { ConicalFlask } from 'p44'
 
 **Keywords**: conical flask, erlenmeyer flask, science, chemistry
 
+### Copy
+
+```svelte
+import { Copy } from 'p44'
+```
+**Copy**: Indicates clipboard copyable content.
+
+**Keywords**: copy, clipboard, files
+
 ### Crucifix
 
 ```svelte

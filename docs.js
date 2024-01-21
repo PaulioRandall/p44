@@ -112,6 +112,15 @@ export default {
       "chemistry"
     ]
   },
+  "Copy": {
+    "name": "Copy",
+    "alt": "Indicates clipboard copyable content.",
+    "keywords": [
+      "copy",
+      "clipboard",
+      "files"
+    ]
+  },
   "Crucifix": {
     "name": "Crucifix",
     "keywords": [
