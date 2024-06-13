@@ -51,12 +51,68 @@ Good old fashioned diamond shape.
 <Diamond />
 ```
 
+### `<Divide>`
+
+Division symbol.
+
+```svelte
+<Divide />
+```
+
 ### `<EdgedHeart>`
 
 Heart shape without using curves.
 
 ```svelte
 <EdgedHeart />
+```
+
+### `<Equal>`
+
+Equals symbol.
+
+```svelte
+<Equal />
+```
+
+### `<Exclamation>`
+
+Exclamation symbol.
+
+```svelte
+<Exclamation />
+```
+
+### `<Minus>`
+
+Minus or dash symbol.
+
+```svelte
+<Minus />
+```
+
+### `<Multiply>`
+
+Multiply or cross symbol.
+
+```svelte
+<Multiply />
+```
+
+### `<NotEqual>`
+
+Not equal symbol.
+
+```svelte
+<NotEqual />
+```
+
+### `<Plus>`
+
+Plus or cross symbol.
+
+```svelte
+<Plus />
 ```
 
 ### `<Predator>`
