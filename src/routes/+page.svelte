@@ -13,6 +13,19 @@
 	import Equal from '$lib/Equal.svelte'
 	import NotEqual from '$lib/NotEqual.svelte'
 	import Exclamation from '$lib/Exclamation.svelte'
+
+	import TheLongDark from '$lib/TheLongDark.svelte'
+	import TheFollowingDark from '$lib/TheFollowingDark.svelte'
+	import TheClosingDark from '$lib/TheClosingDark.svelte'
+	import TheOpeningDark from '$lib/TheOpeningDark.svelte'
+	import TheCallingDark from '$lib/TheCallingDark.svelte'
+	import TheWaitingDark from '$lib/TheWaitingDark.svelte'
+	import TheBreathingDark from '$lib/TheBreathingDark.svelte'
+	import TheSpeakingDark from '$lib/TheSpeakingDark.svelte'
+	import TheCatchingDark from '$lib/TheCatchingDark.svelte'
+	import TheSecretDark from '$lib/TheSecretDark.svelte'
+	import TheGuardingDark from '$lib/TheGuardingDark.svelte'
+	import TheSummoningDark from '$lib/TheSummoningDark.svelte'
 </script>
 
 <main>
@@ -29,6 +42,20 @@
 		<Equal />
 		<NotEqual />
 		<Exclamation />
+
+		<!-- Mine signs -->
+		<TheLongDark />
+		<TheFollowingDark />
+		<TheClosingDark />
+		<TheOpeningDark />
+		<TheCallingDark />
+		<TheWaitingDark />
+		<TheBreathingDark />
+		<TheSpeakingDark />
+		<TheCatchingDark />
+		<TheSecretDark />
+		<TheGuardingDark />
+		<TheSummoningDark />
 	</FlexGrid>
 </main>
 

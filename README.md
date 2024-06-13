@@ -122,3 +122,99 @@ Generic predator animal face using simple straight lines.
 ```svelte
 <Predator />
 ```
+
+### `<TheBreathingDark>`
+
+Mine sign: The Breathing Dark.
+
+```svelte
+<TheBreathingDark />
+```
+
+### `<TheCallingDark>`
+
+Mine sign: The Calling Dark.
+
+```svelte
+<TheCallingDark />
+```
+
+### `<TheCatchingDark>`
+
+Mine sign: The Catching Dark.
+
+```svelte
+<TheCatchingDark />
+```
+
+### `<TheClosingDark>`
+
+Mine sign: The Closing Dark.
+
+```svelte
+<TheClosingDark />
+```
+
+### `<TheFollowingDark>`
+
+Mine sign: The Following Dark.
+
+```svelte
+<TheFollowingDark />
+```
+
+### `<TheGuardingDark>`
+
+Mine sign: The Long Dark.
+
+```svelte
+<TheGuardingDark />
+```
+
+### `<TheLongDark>`
+
+Mine sign: The Long Dark.
+
+```svelte
+<TheLongDark />
+```
+
+### `<TheOpeningDark>`
+
+Mine sign: The Opening Dark.
+
+```svelte
+<TheOpeningDark />
+```
+
+### `<TheSecretDark>`
+
+Mine sign: The Secret Dark.
+
+```svelte
+<TheSecretDark />
+```
+
+### `<TheSpeakingDark>`
+
+Mine sign: The Speaking Dark.
+
+```svelte
+<TheSpeakingDark />
+```
+
+### `<TheSummoningDark>`
+
+Mine sign: The Summoning Dark.
+
+```svelte
+<TheSummoningDark />
+```
+
+### `<TheWaitingDark>`
+
+Mine sign: The Waiting Dark.
+
+```svelte
+<TheWaitingDark />
+```
