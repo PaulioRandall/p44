@@ -6,13 +6,15 @@
 	import Diamond from '$lib/Diamond.svelte'
 	import EdgedHeart from '$lib/EdgedHeart.svelte'
 	import Predator from '$lib/Predator.svelte'
+	import Exclamation from '$lib/Exclamation.svelte'
+	import Clock from '$lib/Clock.svelte'
+
 	import Plus from '$lib/Plus.svelte'
 	import Minus from '$lib/Minus.svelte'
 	import Multiply from '$lib/Multiply.svelte'
 	import Divide from '$lib/Divide.svelte'
 	import Equal from '$lib/Equal.svelte'
 	import NotEqual from '$lib/NotEqual.svelte'
-	import Exclamation from '$lib/Exclamation.svelte'
 
 	import TheLongDark from '$lib/TheLongDark.svelte'
 	import TheFollowingDark from '$lib/TheFollowingDark.svelte'
@@ -29,21 +31,29 @@
 </script>
 
 <main>
+	<h1>Misc</h1>
 	<FlexGrid>
 		<Circle />
 		<CutDiamond />
 		<Diamond />
 		<EdgedHeart />
 		<Predator />
+		<Exclamation />
+		<Clock />
+	</FlexGrid>
+
+	<h1>Math</h1>
+	<FlexGrid>
 		<Plus />
 		<Minus />
 		<Multiply />
 		<Divide />
 		<Equal />
 		<NotEqual />
-		<Exclamation />
+	</FlexGrid>
 
-		<!-- Mine signs -->
+	<h1>Mine Signs</h1>
+	<FlexGrid>
 		<TheLongDark />
 		<TheFollowingDark />
 		<TheClosingDark />

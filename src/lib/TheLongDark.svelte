@@ -3,10 +3,10 @@
 	import SVG from './private/SVG.svelte'
 
 	//@component
-	// Mine sign: The Long Dark.
+	// The Long Dark.
 </script>
 
-<SVG title="Mine sign: The Long Dark" {...$$restProps}>
+<SVG title="The Long Dark" {...$$restProps}>
 	<Circle r="8" />
 	<Line p="C12, W12" />
 </SVG>

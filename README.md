@@ -35,6 +35,14 @@ Good old fashioned circle.
 />
 ```
 
+### `<Clock>`
+
+Analogue clock face.
+
+```svelte
+<Clock />
+```
+
 ### `<CutDiamond>`
 
 Good old fashioned cut diamond shape.
@@ -125,7 +133,7 @@ Generic predator animal face using simple straight lines.
 
 ### `<TheBreathingDark>`
 
-Mine sign: The Breathing Dark.
+The Breathing Dark.
 
 ```svelte
 <TheBreathingDark />
@@ -133,7 +141,7 @@ Mine sign: The Breathing Dark.
 
 ### `<TheCallingDark>`
 
-Mine sign: The Calling Dark.
+The Calling Dark.
 
 ```svelte
 <TheCallingDark />
@@ -141,7 +149,7 @@ Mine sign: The Calling Dark.
 
 ### `<TheCatchingDark>`
 
-Mine sign: The Catching Dark.
+The Catching Dark.
 
 ```svelte
 <TheCatchingDark />
@@ -149,7 +157,7 @@ Mine sign: The Catching Dark.
 
 ### `<TheClosingDark>`
 
-Mine sign: The Closing Dark.
+The Closing Dark.
 
 ```svelte
 <TheClosingDark />
@@ -157,7 +165,7 @@ Mine sign: The Closing Dark.
 
 ### `<TheFollowingDark>`
 
-Mine sign: The Following Dark.
+The Following Dark.
 
 ```svelte
 <TheFollowingDark />
@@ -165,7 +173,7 @@ Mine sign: The Following Dark.
 
 ### `<TheGuardingDark>`
 
-Mine sign: The Long Dark.
+The Long Dark.
 
 ```svelte
 <TheGuardingDark />
@@ -173,7 +181,7 @@ Mine sign: The Long Dark.
 
 ### `<TheLongDark>`
 
-Mine sign: The Long Dark.
+The Long Dark.
 
 ```svelte
 <TheLongDark />
@@ -181,7 +189,7 @@ Mine sign: The Long Dark.
 
 ### `<TheOpeningDark>`
 
-Mine sign: The Opening Dark.
+The Opening Dark.
 
 ```svelte
 <TheOpeningDark />
@@ -189,7 +197,7 @@ Mine sign: The Opening Dark.
 
 ### `<TheSecretDark>`
 
-Mine sign: The Secret Dark.
+The Secret Dark.
 
 ```svelte
 <TheSecretDark />
@@ -197,7 +205,7 @@ Mine sign: The Secret Dark.
 
 ### `<TheSpeakingDark>`
 
-Mine sign: The Speaking Dark.
+The Speaking Dark.
 
 ```svelte
 <TheSpeakingDark />
@@ -205,7 +213,7 @@ Mine sign: The Speaking Dark.
 
 ### `<TheSummoningDark>`
 
-Mine sign: The Summoning Dark.
+The Summoning Dark.
 
 ```svelte
 <TheSummoningDark />
@@ -213,7 +221,7 @@ Mine sign: The Summoning Dark.
 
 ### `<TheWaitingDark>`
 
-Mine sign: The Waiting Dark.
+The Waiting Dark.
 
 ```svelte
 <TheWaitingDark />

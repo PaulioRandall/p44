@@ -4,6 +4,6 @@
 	const grid = new Grid(24)
 </script>
 
-<Icon {grid} {...$$restProps}>
+<Icon {grid} stroke="currentColor" {...$$restProps}>
 	<slot />
 </Icon>

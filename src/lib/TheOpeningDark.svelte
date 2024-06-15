@@ -3,16 +3,17 @@
 	import SVG from './private/SVG.svelte'
 
 	//@component
-	// Mine sign: The Opening Dark.
+	// The Opening Dark.
 </script>
 
-<SVG title="Mine sign: The Opening Dark" {...$$restProps}>
+<SVG title="The Opening Dark" {...$$restProps}>
 	<mask id="the-opening-dark-mask">
-		<Circle r="8" fill="white" />
+		<Circle r="8.5" fill="white" />
 		<Polygon p="K4, O4, O20, K20" fill="black" />
 	</mask>
 
 	<Line p="K2, K22" />
 	<Line p="O2, O22" />
-	<Circle r="8" fill="currentColor" mask="url(#the-opening-dark-mask)" />
+	<Circle r="8" />
+	<Circle r="7.5" fill="currentColor" mask="url(#the-opening-dark-mask)" />
 </SVG>
