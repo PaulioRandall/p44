@@ -7,5 +7,5 @@
 </script>
 
 <SVG title="The Waiting Dark" {...$$restProps}>
-	<Circle r="8" />
+	<Circle radius="8" />
 </SVG>

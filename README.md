@@ -20,18 +20,18 @@ Good old fashioned circle.
 
 ```svelte
 <script>
-	// Circle center point.
-	export let origin = "M12"
+  // Circle center point.
+  export let origin = "M12"
 
-	// Radius from the center
-	export let radius = 10
+  // Radius from the center
+  export let radius = 10
 </script>
 ```
 
 ```svelte
 <Circle
-	origin="M12"
-	radius={10}
+  origin="M12"
+  radius={10}
 />
 ```
 
@@ -41,6 +41,14 @@ Analogue clock face.
 
 ```svelte
 <Clock />
+```
+
+### `<ConicalFlask>`
+
+Conical Flask.
+
+```svelte
+<ConicalFlask />
 ```
 
 ### `<CutDiamond>`

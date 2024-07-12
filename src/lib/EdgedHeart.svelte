@@ -1,5 +1,5 @@
 <script>
-	import { Polygon } from 'p45'
+	import { Shape } from 'p45'
 	import SVG from './private/SVG.svelte'
 
 	//@component
@@ -7,5 +7,14 @@
 </script>
 
 <SVG title="Edged Heart" {...$$restProps}>
-	<Polygon p="C8, G2, M6, S2, W8, M22" />
+	<Shape
+		draw="
+		move to C8
+		line to G2
+		line to M6
+		line to S2
+		line to W8
+		line to M22
+		close
+	" />
 </SVG>

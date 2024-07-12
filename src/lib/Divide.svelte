@@ -1,13 +1,14 @@
 <script>
-	import { Line, Circle } from 'p45'
+	import { Circle } from 'p45'
 	import SVG from './private/SVG.svelte'
+	import Line from './private/Line.svelte'
 
 	//@component
 	// Division symbol.
 </script>
 
 <SVG title="Divide" {...$$restProps}>
-	<Line p="C12, W12" />
-	<Circle o="M6" r="3" />
-	<Circle o="M18" r="3" />
+	<Line nodes="C12,W12" />
+	<Circle origin="M6" radius="3" />
+	<Circle origin="M18" radius="3" />
 </SVG>

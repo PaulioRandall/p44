@@ -7,5 +7,5 @@
 </script>
 
 <SVG title="The Secret Dark" {...$$restProps}>
-	<Circle r="8" fill="currentColor" />
+	<Circle radius="8" fill="currentColor" />
 </SVG>

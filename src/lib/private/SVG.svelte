@@ -1,9 +1,9 @@
 <script context="module">
-	import { Icon, Grid } from 'p45'
+	import { Icon, P45 } from 'p45'
 
-	const grid = new Grid(24)
+	const p45 = new P45(24)
 </script>
 
-<Icon {grid} stroke="currentColor" {...$$restProps}>
+<Icon {p45} stroke="currentColor" {...$$restProps}>
 	<slot />
 </Icon>

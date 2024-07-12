@@ -1,14 +1,15 @@
 <script>
-	import { Line, Circle } from 'p45'
+	import { Circle } from 'p45'
 	import SVG from './private/SVG.svelte'
+	import Line from './private/Line.svelte'
 
 	//@component
 	// Analogue clock face.
 </script>
 
 <SVG title="Clock" {...$$restProps}>
-	<Circle r="10" />
-	<Circle r="1" />
-	<Line p="L11, H8" />
-	<Line p="N11, S6" />
+	<Circle radius="10" />
+	<Circle radius="1" />
+	<Line nodes="L11,H8" />
+	<Line nodes="N11,S6" />
 </SVG>

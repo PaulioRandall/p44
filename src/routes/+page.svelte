@@ -2,12 +2,13 @@
 	import FlexGrid from './FlexGrid.svelte'
 
 	import Circle from '$lib/Circle.svelte'
+	import Clock from '$lib/Clock.svelte'
+	import ConicalFlask from '$lib/ConicalFlask.svelte'
 	import CutDiamond from '$lib/CutDiamond.svelte'
 	import Diamond from '$lib/Diamond.svelte'
 	import EdgedHeart from '$lib/EdgedHeart.svelte'
-	import Predator from '$lib/Predator.svelte'
 	import Exclamation from '$lib/Exclamation.svelte'
-	import Clock from '$lib/Clock.svelte'
+	import Predator from '$lib/Predator.svelte'
 
 	import Plus from '$lib/Plus.svelte'
 	import Minus from '$lib/Minus.svelte'
@@ -34,12 +35,13 @@
 	<h1>Misc</h1>
 	<FlexGrid>
 		<Circle />
+		<Clock />
+		<ConicalFlask />
 		<CutDiamond />
 		<Diamond />
 		<EdgedHeart />
-		<Predator />
 		<Exclamation />
-		<Clock />
+		<Predator />
 	</FlexGrid>
 
 	<h1>Math</h1>

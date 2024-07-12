@@ -7,6 +7,6 @@
 </script>
 
 <SVG title="The Catching Dark" {...$$restProps}>
-	<Circle o="I12" r="6" />
-	<Circle o="Q12" r="6" />
+	<Circle origin="I12" radius="6" />
+	<Circle origin="Q12" radius="6" />
 </SVG>

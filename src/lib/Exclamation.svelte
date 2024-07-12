@@ -7,6 +7,14 @@
 </script>
 
 <SVG title="Exclamation" {...$$restProps}>
-	<Shape p="K14, J3 L, P3 Q M2, O14 L, K14 Q M16" />
-	<Circle o="M20" r="2" />
+	<Shape
+		draw="
+		move to K14
+		line to J3
+		quad curve to P3 control with M2
+		line to O14
+		quad curve to K14 control with M16
+		close
+	" />
+	<Circle origin="M20" radius="2" />
 </SVG>

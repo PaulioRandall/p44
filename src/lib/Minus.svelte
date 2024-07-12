@@ -1,11 +1,12 @@
 <script>
-	import { Line } from 'p45'
+	import { Shape } from 'p45'
 	import SVG from './private/SVG.svelte'
+	import Line from './private/Line.svelte'
 
 	//@component
 	// Minus or dash symbol.
 </script>
 
 <SVG title="Minus" {...$$restProps}>
-	<Line p="C12, W12" />
+	<Line nodes="C12,W12" />
 </SVG>

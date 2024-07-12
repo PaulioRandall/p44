@@ -1,5 +1,5 @@
 <script>
-	import { Polygon } from 'p45'
+	import { Shape } from 'p45'
 	import SVG from './private/SVG.svelte'
 
 	//@component
@@ -7,5 +7,11 @@
 </script>
 
 <SVG title="Diamond" {...$$restProps}>
-	<Polygon p="C12, M2, W12, M22" />
+	<Shape
+		draw="
+		move to C12
+		line to M2
+		line to W12
+		line to M22
+		close" />
 </SVG>
