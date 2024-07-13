@@ -123,6 +123,14 @@ Media control eject symbol, Unicode U+23CF (ISO 7000 / IEC 60417).
 <MediaControlEject />
 ```
 
+### `<MediaControlFastBackward>`
+
+Media control fast backward (rewind) symbol, Unicode U+23EA (ISO/IEC 18035).
+
+```svelte
+<MediaControlFastBackward />
+```
+
 ### `<MediaControlFastForward>`
 
 Media control fast forward symbol, Unicode U+23E9 (ISO/IEC 18035).
@@ -147,12 +155,36 @@ Media control play symbol, Unicode U+23F5 (ISO 7000 / IEC 60417).
 <MediaControlPlay />
 ```
 
+### `<MediaControlPlayPause>`
+
+Media control play pause symbol, Unicode U+23EF (ISO/IEC 18035).
+
+```svelte
+<MediaControlPlayPause />
+```
+
 ### `<MediaControlRecord>`
 
 Media control record symbol, Unicode U+23FA (ISO 7000 / IEC 60417).
 
 ```svelte
 <MediaControlRecord />
+```
+
+### `<MediaControlReverse>`
+
+Media control reverse symbol, Unicode U+23F4 (ISO 7000 / IEC 60417).
+
+```svelte
+<MediaControlReverse />
+```
+
+### `<MediaControlSkipBackward>`
+
+Media control skip backward symbol, U+23EE (ISO 7000 / IEC 60417).
+
+```svelte
+<MediaControlSkipBackward />
 ```
 
 ### `<MediaControlSkipForward>`

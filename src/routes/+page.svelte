@@ -37,10 +37,14 @@
 	import TheSummoningDark from '$lib/TheSummoningDark.svelte'
 
 	import MediaControlEject from '$lib/MediaControlEject.svelte'
+	import MediaControlFastBackward from '$lib/MediaControlFastBackward.svelte'
 	import MediaControlFastForward from '$lib/MediaControlFastForward.svelte'
 	import MediaControlPause from '$lib/MediaControlPause.svelte'
 	import MediaControlPlay from '$lib/MediaControlPlay.svelte'
+	import MediaControlPlayPause from '$lib/MediaControlPlayPause.svelte'
 	import MediaControlRecord from '$lib/MediaControlRecord.svelte'
+	import MediaControlReverse from '$lib/MediaControlReverse.svelte'
+	import MediaControlSkipBackward from '$lib/MediaControlSkipBackward.svelte'
 	import MediaControlSkipForward from '$lib/MediaControlSkipForward.svelte'
 	import MediaControlStop from '$lib/MediaControlStop.svelte'
 </script>
@@ -85,10 +89,14 @@
 
 	<IconSet title="Media Controls">
 		<MediaControlEject />
+		<MediaControlFastBackward />
 		<MediaControlFastForward />
 		<MediaControlPause />
 		<MediaControlPlay />
+		<MediaControlPlayPause />
 		<MediaControlRecord />
+		<MediaControlReverse />
+		<MediaControlSkipBackward />
 		<MediaControlSkipForward />
 		<MediaControlStop />
 	</IconSet>
