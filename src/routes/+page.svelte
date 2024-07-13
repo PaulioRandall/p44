@@ -36,10 +36,13 @@
 	import TheGuardingDark from '$lib/TheGuardingDark.svelte'
 	import TheSummoningDark from '$lib/TheSummoningDark.svelte'
 
-	import MediaControlPlay from '$lib/MediaControlPlay.svelte'
+	import MediaControlEject from '$lib/MediaControlEject.svelte'
+	import MediaControlFastForward from '$lib/MediaControlFastForward.svelte'
 	import MediaControlPause from '$lib/MediaControlPause.svelte'
-	import MediaControlStop from '$lib/MediaControlStop.svelte'
+	import MediaControlPlay from '$lib/MediaControlPlay.svelte'
 	import MediaControlRecord from '$lib/MediaControlRecord.svelte'
+	import MediaControlSkipForward from '$lib/MediaControlSkipForward.svelte'
+	import MediaControlStop from '$lib/MediaControlStop.svelte'
 </script>
 
 <main>
@@ -81,10 +84,13 @@
 	</IconSet>
 
 	<IconSet title="Media Controls">
-		<MediaControlPlay />
+		<MediaControlEject />
+		<MediaControlFastForward />
 		<MediaControlPause />
-		<MediaControlStop />
+		<MediaControlPlay />
 		<MediaControlRecord />
+		<MediaControlSkipForward />
+		<MediaControlStop />
 	</IconSet>
 
 	<IconSet title="Theatre Masks">

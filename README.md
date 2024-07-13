@@ -115,9 +115,25 @@ Hexagram or Star of David.
 <Hexagram />
 ```
 
+### `<MediaControlEject>`
+
+Media control eject symbol, Unicode U+23CF (ISO 7000 / IEC 60417).
+
+```svelte
+<MediaControlEject />
+```
+
+### `<MediaControlFastForward>`
+
+Media control fast forward symbol, Unicode U+23E9 (ISO/IEC 18035).
+
+```svelte
+<MediaControlFastForward />
+```
+
 ### `<MediaControlPause>`
 
-Media control pause symbol, Unicode U+23F8 (ISO/IEC 18035).
+Media control pause symbol, Unicode U+23F8 (ISO 7000 / IEC 60417).
 
 ```svelte
 <MediaControlPause />
@@ -125,7 +141,7 @@ Media control pause symbol, Unicode U+23F8 (ISO/IEC 18035).
 
 ### `<MediaControlPlay>`
 
-Media control play symbol, Unicode U+23F5 (ISO/IEC 18035).
+Media control play symbol, Unicode U+23F5 (ISO 7000 / IEC 60417).
 
 ```svelte
 <MediaControlPlay />
@@ -133,15 +149,23 @@ Media control play symbol, Unicode U+23F5 (ISO/IEC 18035).
 
 ### `<MediaControlRecord>`
 
-Media control record symbol, Unicode U+23FA (ISO/IEC 18035).
+Media control record symbol, Unicode U+23FA (ISO 7000 / IEC 60417).
 
 ```svelte
 <MediaControlRecord />
 ```
 
+### `<MediaControlSkipForward>`
+
+Media control skip forward symbol, U+23ED (ISO 7000 / IEC 60417).
+
+```svelte
+<MediaControlSkipForward />
+```
+
 ### `<MediaControlStop>`
 
-Media control stop symbol, Unicode U+23F9 (ISO/IEC 18035).
+Media control stop symbol, Unicode U+23F9 (ISO 7000 / IEC 60417).
 
 ```svelte
 <MediaControlStop />
