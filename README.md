@@ -14,6 +14,14 @@ Do whatever as long as you adhere to the permissive MIT license found within.
 
 ## Components
 
+### `<Asterisk>`
+
+Asterisk or multiplication symbol.
+
+```svelte
+<Asterisk />
+```
+
 ### `<Circle>`
 
 Good old fashioned circle.
@@ -97,6 +105,46 @@ Exclamation symbol.
 
 ```svelte
 <Exclamation />
+```
+
+### `<Hexagram>`
+
+Hexagram or Star of David.
+
+```svelte
+<Hexagram />
+```
+
+### `<MediaControlPause>`
+
+Media control pause symbol, Unicode U+23F8 (ISO/IEC 18035).
+
+```svelte
+<MediaControlPause />
+```
+
+### `<MediaControlPlay>`
+
+Media control play symbol, Unicode U+23F5 (ISO/IEC 18035).
+
+```svelte
+<MediaControlPlay />
+```
+
+### `<MediaControlRecord>`
+
+Media control record symbol, Unicode U+23FA (ISO/IEC 18035).
+
+```svelte
+<MediaControlRecord />
+```
+
+### `<MediaControlStop>`
+
+Media control stop symbol, Unicode U+23F9 (ISO/IEC 18035).
+
+```svelte
+<MediaControlStop />
 ```
 
 ### `<Minus>`

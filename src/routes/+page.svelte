@@ -1,5 +1,5 @@
 <script>
-	import FlexGrid from './FlexGrid.svelte'
+	import IconSet from './IconSet.svelte'
 
 	import Circle from '$lib/Circle.svelte'
 	import Clock from '$lib/Clock.svelte'
@@ -8,14 +8,16 @@
 	import Diamond from '$lib/Diamond.svelte'
 	import EdgedHeart from '$lib/EdgedHeart.svelte'
 	import Exclamation from '$lib/Exclamation.svelte'
+	import Hexagram from '$lib/Hexagram.svelte'
 	import Predator from '$lib/Predator.svelte'
 
-	import Plus from '$lib/Plus.svelte'
-	import Minus from '$lib/Minus.svelte'
-	import Multiply from '$lib/Multiply.svelte'
+	import Asterisk from '$lib/Asterisk.svelte'
 	import Divide from '$lib/Divide.svelte'
 	import Equal from '$lib/Equal.svelte'
+	import Minus from '$lib/Minus.svelte'
+	import Multiply from '$lib/Multiply.svelte'
 	import NotEqual from '$lib/NotEqual.svelte'
+	import Plus from '$lib/Plus.svelte'
 
 	import TheLongDark from '$lib/TheLongDark.svelte'
 	import TheFollowingDark from '$lib/TheFollowingDark.svelte'
@@ -29,11 +31,15 @@
 	import TheSecretDark from '$lib/TheSecretDark.svelte'
 	import TheGuardingDark from '$lib/TheGuardingDark.svelte'
 	import TheSummoningDark from '$lib/TheSummoningDark.svelte'
+
+	import MediaControlPlay from '$lib/MediaControlPlay.svelte'
+	import MediaControlPause from '$lib/MediaControlPause.svelte'
+	import MediaControlStop from '$lib/MediaControlStop.svelte'
+	import MediaControlRecord from '$lib/MediaControlRecord.svelte'
 </script>
 
 <main>
-	<h1>Misc</h1>
-	<FlexGrid>
+	<IconSet title="Misc">
 		<Circle />
 		<Clock />
 		<ConicalFlask />
@@ -41,21 +47,21 @@
 		<Diamond />
 		<EdgedHeart />
 		<Exclamation />
+		<Hexagram />
 		<Predator />
-	</FlexGrid>
+	</IconSet>
 
-	<h1>Math</h1>
-	<FlexGrid>
-		<Plus />
-		<Minus />
-		<Multiply />
+	<IconSet title="Math">
+		<Asterisk />
 		<Divide />
 		<Equal />
+		<Minus />
+		<Multiply />
 		<NotEqual />
-	</FlexGrid>
+		<Plus />
+	</IconSet>
 
-	<h1>Mine Signs</h1>
-	<FlexGrid>
+	<IconSet title="Mine Signs">
 		<TheLongDark />
 		<TheFollowingDark />
 		<TheClosingDark />
@@ -68,7 +74,14 @@
 		<TheSecretDark />
 		<TheGuardingDark />
 		<TheSummoningDark />
-	</FlexGrid>
+	</IconSet>
+
+	<IconSet title="Media Controls">
+		<MediaControlPlay />
+		<MediaControlPause />
+		<MediaControlStop />
+		<MediaControlRecord />
+	</IconSet>
 </main>
 
 <style>
