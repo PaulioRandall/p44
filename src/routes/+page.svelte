@@ -11,6 +11,10 @@
 	import Hexagram from '$lib/Hexagram.svelte'
 	import Predator from '$lib/Predator.svelte'
 
+	import TheatreMaskEvil from '$lib/TheatreMaskEvil.svelte'
+	import TheatreMaskSad from '$lib/TheatreMaskSad.svelte'
+	import TheatreMaskHappy from '$lib/TheatreMaskHappy.svelte'
+
 	import Asterisk from '$lib/Asterisk.svelte'
 	import Divide from '$lib/Divide.svelte'
 	import Equal from '$lib/Equal.svelte'
@@ -81,6 +85,12 @@
 		<MediaControlPause />
 		<MediaControlStop />
 		<MediaControlRecord />
+	</IconSet>
+
+	<IconSet title="Theatre Masks">
+		<TheatreMaskEvil />
+		<TheatreMaskSad />
+		<TheatreMaskHappy />
 	</IconSet>
 </main>
 

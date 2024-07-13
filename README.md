@@ -282,3 +282,27 @@ The Waiting Dark.
 ```svelte
 <TheWaitingDark />
 ```
+
+### `<TheatreMaskEvil>`
+
+Evil smiling theatre mask.
+
+```svelte
+<TheatreMaskEvil />
+```
+
+### `<TheatreMaskHappy>`
+
+Happy theatre mask.
+
+```svelte
+<TheatreMaskHappy />
+```
+
+### `<TheatreMaskSad>`
+
+Sad theatre mask.
+
+```svelte
+<TheatreMaskSad />
+```
