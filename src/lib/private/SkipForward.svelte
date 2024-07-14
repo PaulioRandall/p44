@@ -1,8 +1,8 @@
 <script>
-	import { Shape } from 'p45'
+	import { Shape, Transform } from 'p45'
 </script>
 
-<g {...$$restProps}>
+<Transform {...$$restProps}>
 	<Shape
 		draw="
 		move to B1
@@ -26,4 +26,4 @@ line to X23
 line to X1
 close
 	" />
-</g>
+</Transform>

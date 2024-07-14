@@ -43,7 +43,10 @@
 	import MediaControlPlay from '$lib/MediaControlPlay.svelte'
 	import MediaControlPlayPause from '$lib/MediaControlPlayPause.svelte'
 	import MediaControlRecord from '$lib/MediaControlRecord.svelte'
+	import MediaControlRefresh from '$lib/MediaControlRefresh.svelte'
+	import MediaControlRepeat from '$lib/MediaControlRepeat.svelte'
 	import MediaControlReverse from '$lib/MediaControlReverse.svelte'
+	import MediaControlShuffle from '$lib/MediaControlShuffle.svelte'
 	import MediaControlSkipBackward from '$lib/MediaControlSkipBackward.svelte'
 	import MediaControlSkipForward from '$lib/MediaControlSkipForward.svelte'
 	import MediaControlStop from '$lib/MediaControlStop.svelte'
@@ -95,7 +98,10 @@
 		<MediaControlPlay />
 		<MediaControlPlayPause />
 		<MediaControlRecord />
+		<MediaControlRefresh />
+		<MediaControlRepeat />
 		<MediaControlReverse />
+		<MediaControlShuffle />
 		<MediaControlSkipBackward />
 		<MediaControlSkipForward />
 		<MediaControlStop />

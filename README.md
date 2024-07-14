@@ -171,12 +171,36 @@ Media control record symbol, Unicode U+23FA (ISO 7000 / IEC 60417).
 <MediaControlRecord />
 ```
 
+### `<MediaControlRefresh>`
+
+Media control refresh symbol, Unicode U+1F504 (ISO/IEC 18035).
+
+```svelte
+<MediaControlRefresh />
+```
+
+### `<MediaControlRepeat>`
+
+Media control repeat symbol, Unicode U+1F501 (ISO/IEC 18035).
+
+```svelte
+<MediaControlRepeat />
+```
+
 ### `<MediaControlReverse>`
 
 Media control reverse symbol, Unicode U+23F4 (ISO 7000 / IEC 60417).
 
 ```svelte
 <MediaControlReverse />
+```
+
+### `<MediaControlShuffle>`
+
+Media control shuffle symbol, Unicode U+1F500 (ISO/IEC 18035).
+
+```svelte
+<MediaControlShuffle />
 ```
 
 ### `<MediaControlSkipBackward>`
