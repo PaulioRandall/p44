@@ -251,6 +251,14 @@ Not equal symbol.
 <NotEqual />
 ```
 
+### `<Parallelogram>`
+
+Simple parallelogram.
+
+```svelte
+<Parallelogram />
+```
+
 ### `<Plus>`
 
 Plus or cross symbol.

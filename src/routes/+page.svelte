@@ -9,6 +9,7 @@
 	import EdgedHeart from '$lib/EdgedHeart.svelte'
 	import Exclamation from '$lib/Exclamation.svelte'
 	import Hexagram from '$lib/Hexagram.svelte'
+	import Parallelogram from '$lib/Parallelogram.svelte'
 	import Predator from '$lib/Predator.svelte'
 
 	import TheatreMaskEvil from '$lib/TheatreMaskEvil.svelte'
@@ -62,6 +63,7 @@
 		<EdgedHeart />
 		<Exclamation />
 		<Hexagram />
+		<Parallelogram />
 		<Predator />
 	</IconSet>
 
