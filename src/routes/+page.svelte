@@ -1,6 +1,7 @@
 <script>
 	import IconSet from './IconSet.svelte'
 
+	import Chart from '$lib/Chart.svelte'
 	import Circle from '$lib/Circle.svelte'
 	import Clock from '$lib/Clock.svelte'
 	import ConicalFlask from '$lib/ConicalFlask.svelte'
@@ -55,6 +56,7 @@
 
 <main>
 	<IconSet title="Misc">
+		<Chart />
 		<Circle />
 		<Clock />
 		<ConicalFlask />

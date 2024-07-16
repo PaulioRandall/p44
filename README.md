@@ -22,6 +22,14 @@ Asterisk or multiplication symbol.
 <Asterisk />
 ```
 
+### `<Chart>`
+
+Data chart or graph.
+
+```svelte
+<Chart />
+```
+
 ### `<Circle>`
 
 Good old fashioned circle.
